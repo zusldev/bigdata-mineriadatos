@@ -1,0 +1,17 @@
+dish_cost_per_unit:
+  Tacos al Pastor: 48
+  Enchiladas Verdes: 44
+  Pozole Rojo: 52
+  Guacamole con Totopos: 25
+  Chiles en Nogada: 68
+  Mole Poblano: 64
+  Quesadillas: 28
+  Nachos Supremos: 36
+  Agua de Horchata: 12
+  Margarita Clásica: 18
+
+category_cost_ratio:
+  Entradas: 0.30
+  Platos Fuertes: 0.42
+  Postres: 0.27
+  Bebidas: 0.22

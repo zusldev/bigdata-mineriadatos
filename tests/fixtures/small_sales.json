@@ -1,0 +1,17 @@
+[
+  {
+    "Ticket_ID": "T1",
+    "Fecha": "2025-01-01",
+    "Hora": "13:15",
+    "Sucursal_ID": "S1",
+    "Sucursal_Nombre": "Centro",
+    "Ciudad": "CDMX",
+    "Platillo": "Tacos al Pastor",
+    "Categoria": "Platos Fuertes",
+    "Precio_Unitario": 120,
+    "Cantidad": 2,
+    "Total_Venta": 240,
+    "Costo_Ingredientes": 80,
+    "Metodo_Pago": "Tarjeta de Crédito"
+  }
+]

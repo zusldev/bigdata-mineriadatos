@@ -1,0 +1,152 @@
+datasets:
+  sales:
+    source_names: ["ventas", "ventascsv", "sales", "transactions"]
+    required_columns:
+      - ticket_id
+      - date
+      - branch_id
+      - dish
+      - quantity
+      - total_sale
+    columns:
+      ticket_id: ["Ticket_ID", "ticket_id", "id_ticket", "id_venta"]
+      date: ["Fecha", "fecha", "Date", "transaction_date"]
+      time: ["Hora", "hora", "Time", "transaction_time"]
+      day_of_week: ["Dia_Semana", "día_semana", "day_of_week", "weekday"]
+      month: ["Mes", "mes", "month"]
+      branch_id: ["Sucursal_ID", "sucursal_id", "branch_id", "store_id"]
+      branch_name: ["Sucursal_Nombre", "Nombre_Sucursal", "sucursal_nombre", "branch_name"]
+      city: ["Ciudad", "ciudad", "city"]
+      dish: ["Platillo", "platillo", "dish", "product_name"]
+      category: ["Categoria", "Categoría", "category", "product_category"]
+      unit_price: ["Precio_Unitario", "precio_unitario", "unit_price", "price"]
+      quantity: ["Cantidad", "cantidad", "qty", "quantity"]
+      total_sale: ["Total_Venta", "total_venta", "sale_total", "total_sale", "revenue"]
+      ingredient_cost: ["Costo_Ingredientes", "costo_ingredientes", "ingredient_cost", "food_cost"]
+      gross_margin: ["Margen_Bruto", "margen_bruto", "gross_margin"]
+      payment_method: ["Metodo_Pago", "Método_Pago", "payment_method", "pay_method"]
+      tip: ["Propina", "propina", "tip"]
+      total_with_tip: ["Total_con_Propina", "total_con_propina", "total_with_tip"]
+
+  customers:
+    source_names: ["clientes", "customers", "customer"]
+    required_columns:
+      - customer_id
+      - register_date
+      - visits_last_year
+      - avg_spend
+    columns:
+      customer_id: ["Cliente_ID", "cliente_id", "customer_id"]
+      name: ["Nombre", "nombre", "name"]
+      register_date: ["Fecha_Registro", "fecha_registro", "register_date"]
+      loyalty_member: ["Miembro_Lealtad", "miembro_lealtad", "loyalty_member"]
+      customer_category: ["Categoria_Cliente", "Categoría_Cliente", "customer_category"]
+      preferred_branch: ["Sucursal_Preferida", "sucursal_preferida", "preferred_branch"]
+      preferred_city: ["Ciudad_Preferida", "ciudad_preferida", "preferred_city"]
+      visits_last_year: ["Visitas_Ultimo_Año", "Visitas_Ultimo_Anio", "visits_last_year"]
+      avg_spend: ["Gasto_Promedio", "gasto_promedio", "avg_spend"]
+      estimated_total_spend: ["Gasto_Total_Estimado", "gasto_total_estimado", "estimated_total_spend"]
+      loyalty_points: ["Puntos_Lealtad", "puntos_lealtad", "loyalty_points"]
+      last_visit: ["Ultima_Visita", "Última_Visita", "last_visit"]
+      satisfaction_score: ["Calificacion_Satisfaccion", "calificacion_satisfaccion", "satisfaction_score"]
+      nps_score: ["NPS_Score", "nps_score"]
+      survey_comment: ["Comentario_Encuesta", "comentario_encuesta", "survey_comment"]
+      acquisition_channel: ["Canal_Adquisicion", "canal_adquisicion", "acquisition_channel"]
+      accepts_promotions: ["Acepta_Promociones", "acepta_promociones", "accepts_promotions"]
+
+  branches:
+    source_names: ["sucursales", "branches", "stores"]
+    required_columns:
+      - branch_id
+      - branch_name
+      - city
+      - operational_cost_total
+    columns:
+      branch_id: ["Sucursal_ID", "branch_id", "store_id"]
+      branch_name: ["Nombre_Sucursal", "Sucursal_Nombre", "branch_name"]
+      city: ["Ciudad", "city"]
+      address: ["Direccion", "Dirección", "address"]
+      postal_code: ["Codigo_Postal", "postal_code", "zip_code"]
+      zone: ["Zona", "zone"]
+      socioeconomic_level: ["Nivel_Socioeconomico", "socioeconomic_level"]
+      capacity_people: ["Capacidad_Personas", "capacity_people"]
+      num_employees: ["Numero_Empleados", "num_employees"]
+      open_time: ["Horario_Apertura", "open_time"]
+      close_time: ["Horario_Cierre", "close_time"]
+      peak_hours: ["Horarios_Pico", "peak_hours"]
+      rent_monthly: ["Renta_Mensual", "rent_monthly"]
+      utilities_monthly: ["Servicios_Mensual", "utilities_monthly"]
+      payroll_monthly: ["Nomina_Mensual", "Nómina_Mensual", "payroll_monthly"]
+      operational_cost_total: ["Costos_Operativos_Total", "operational_cost_total"]
+      avg_monthly_income: ["Ingresos_Promedio_Mensual", "avg_monthly_income"]
+      operating_margin: ["Margen_Operativo", "operating_margin"]
+      profitability_pct: ["Rentabilidad_Porcentaje", "profitability_pct"]
+      nearby_poi: ["Cercania_Puntos_Interes", "nearby_poi"]
+      nearby_competitors: ["Competencia_Cercana", "nearby_competitors"]
+      parking: ["Estacionamiento", "parking"]
+      opening_year: ["Año_Apertura", "Anio_Apertura", "opening_year"]
+      years_operating: ["Años_Operacion", "Anios_Operacion", "years_operating"]
+
+  inventory:
+    source_names: ["inventarios", "inventory", "stock"]
+    required_columns:
+      - record_id
+      - date
+      - branch_id
+      - ingredient
+      - qty_ordered
+      - total_purchase_cost
+    columns:
+      record_id: ["Registro_ID", "record_id", "inventory_id"]
+      date: ["Fecha", "date"]
+      month: ["Mes", "month"]
+      branch_id: ["Sucursal_ID", "branch_id"]
+      branch_name: ["Sucursal_Nombre", "Nombre_Sucursal", "branch_name"]
+      city: ["Ciudad", "city"]
+      ingredient: ["Ingrediente", "ingredient"]
+      ingredient_category: ["Categoria_Ingrediente", "Categoría_Ingrediente", "ingredient_category"]
+      unit: ["Unidad", "unit"]
+      supplier: ["Proveedor", "supplier"]
+      qty_ordered: ["Cantidad_Pedida", "qty_ordered", "ordered_qty"]
+      unit_price: ["Precio_Unitario", "unit_price"]
+      total_purchase_cost: ["Costo_Total_Compra", "total_purchase_cost"]
+      qty_wasted: ["Cantidad_Desperdiciada", "qty_wasted"]
+      waste_cost: ["Costo_Desperdicio", "waste_cost"]
+      waste_pct: ["Porcentaje_Desperdicio", "waste_pct"]
+      waste_reason: ["Motivo_Desperdicio", "waste_reason"]
+      current_stock: ["Stock_Actual", "current_stock"]
+      min_stock: ["Stock_Minimo", "min_stock"]
+      stock_status: ["Estado_Stock", "stock_status"]
+      needs_reorder: ["Necesita_Reorden", "needs_reorder"]
+      reorder_frequency: ["Frecuencia_Reabastecimiento", "reorder_frequency"]
+      shelf_life_days: ["Vida_Util_Dias", "Vida_Util_Días", "shelf_life_days"]
+
+  digital:
+    source_names: ["canales_digitales", "digital", "social", "marketing"]
+    required_columns:
+      - record_id
+      - date
+      - branch_id
+      - platform
+      - sentiment
+    columns:
+      record_id: ["Registro_ID", "record_id", "digital_id"]
+      date: ["Fecha", "date"]
+      month: ["Mes", "month"]
+      day_of_week: ["Dia_Semana", "day_of_week"]
+      branch_id: ["Sucursal_ID", "branch_id"]
+      branch_name: ["Sucursal_Nombre", "Nombre_Sucursal", "branch_name"]
+      city: ["Ciudad", "city"]
+      platform: ["Plataforma", "platform"]
+      interaction_type: ["Tipo_Interaccion", "interaction_type"]
+      content: ["Contenido", "content"]
+      sentiment: ["Sentimiento", "sentiment"]
+      rating: ["Calificacion", "Calificación", "rating"]
+      reach: ["Alcance", "reach"]
+      engagement: ["Engagement", "engagement"]
+      engagement_rate: ["Tasa_Engagement", "engagement_rate"]
+      campaign: ["Campaña_Asociada", "Campana_Asociada", "campaign"]
+      campaign_cost: ["Costo_Campaña", "Costo_Campana", "campaign_cost"]
+      responded: ["Respondido", "responded"]
+      response_hours: ["Tiempo_Respuesta_Horas", "response_hours"]
+      conversion: ["Conversion", "Conversión", "conversion"]

@@ -1,0 +1,20 @@
+[
+  {
+    "Cliente_ID": "C1",
+    "Nombre": "Cliente Uno",
+    "Fecha_Registro": "2025-01-01",
+    "Miembro_Lealtad": "Sí",
+    "Categoria_Cliente": "Frecuente",
+    "Sucursal_Preferida": "Centro",
+    "Ciudad_Preferida": "CDMX",
+    "Visitas_Ultimo_Año": 12,
+    "Gasto_Promedio": 250,
+    "Gasto_Total_Estimado": 3000,
+    "Puntos_Lealtad": 300,
+    "Ultima_Visita": "2025-12-15",
+    "Calificacion_Satisfaccion": 5,
+    "NPS_Score": 9,
+    "Canal_Adquisicion": "Redes Sociales",
+    "Acepta_Promociones": "Sí"
+  }
+]

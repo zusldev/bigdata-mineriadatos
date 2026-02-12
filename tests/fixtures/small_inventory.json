@@ -1,0 +1,18 @@
+[
+  {
+    "Registro_ID": "I1",
+    "Fecha": "2025-01-01",
+    "Sucursal_ID": "S1",
+    "Sucursal_Nombre": "Centro",
+    "Ingrediente": "Tomate",
+    "Categoria_Ingrediente": "Verduras",
+    "Cantidad_Pedida": 50,
+    "Costo_Total_Compra": 500,
+    "Cantidad_Desperdiciada": 3,
+    "Costo_Desperdicio": 30,
+    "Stock_Actual": 10,
+    "Stock_Minimo": 12,
+    "Necesita_Reorden": "Sí",
+    "Frecuencia_Reabastecimiento": "Semanal"
+  }
+]

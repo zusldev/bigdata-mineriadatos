@@ -1,0 +1,37 @@
+project:
+  name: "Sabor Mexicano - Data Mining y Big Data Style"
+  locale: "es_MX"
+
+runtime:
+  seed: 42
+  forecast_horizon: 6
+  top_ingredients: 12
+  use_polars: false
+  allow_csv_fallback: true
+
+paths:
+  raw_json: "data/raw/json"
+  raw_csv: "data/raw/csv"
+  raw_xlsx: "data/raw/xlsx"
+  processed: "data/processed"
+  outputs_charts: "outputs/charts"
+  outputs_tables: "outputs/tables"
+  outputs_models: "outputs/models"
+  outputs_manifests: "outputs/manifests"
+  reports: "reports"
+  docs: "docs"
+
+analysis:
+  response_time_default_hours: 24
+  safety_stock_z_value: 1.65
+  sentiment_score_map:
+    positivo: 1.0
+    neutro: 0.0
+    negativo: -1.0
+
+forecast:
+  min_points_for_model: 3
+  model_priority:
+    - "exp_smoothing"
+    - "rolling_mean"
+  clip_negative_to_zero: true

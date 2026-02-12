@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Streamlit cache
+.streamlit/
+
+# Local env
+.env
+
+# Generated artifacts
+data/processed/*
+outputs/charts/*
+outputs/tables/*
+outputs/models/*
+outputs/manifests/*
+outputs/logs/*
+!data/processed/.gitkeep
+!outputs/charts/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/models/.gitkeep
+!outputs/manifests/.gitkeep
+!outputs/logs/.gitkeep
