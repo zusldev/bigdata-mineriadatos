@@ -1,0 +1,57 @@
+name: Bug report
+description: Reporta un problema funcional o técnico del proyecto.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Describe el bug de forma breve y clara.
+      placeholder: El pipeline falla en la fase de forecasting cuando...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Enumera los pasos exactos.
+      placeholder: |
+        1. Ejecutar `make pipeline`
+        2. Abrir `outputs/logs/run_summary.md`
+        3. Ver error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+      placeholder: El pipeline debería terminar sin error y generar...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado actual
+      placeholder: Mensaje de error, comportamiento incorrecto, etc.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Entorno
+      description: SO, versión de Python, comando ejecutado.
+      placeholder: Windows 11, Python 3.12, `python -m src.pipeline.run_all ...`
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / evidencia
+      description: Pega stacktrace, links o capturas relevantes.
+      render: shell

@@ -1208,3 +1208,105 @@ Diario de aprendizaje técnico del proyecto Sabor Mexicano.
 2. Confirmar `outputs/tables/*.csv` para tablas de negocio.
 3. Ejecutar dashboard y validar pestaña 'Aprender / Study Mode'.
 
+---
+
+## Run ID: 2026-02-12-github-ci-release-v0.1.1
+
+### Mini-lección 20: CI + plantillas + release para colaboración profesional
+- Contexto:
+  - El proyecto ya tenía pipeline y dashboard funcionales, pero faltaba cerrar el ciclo de colaboración en GitHub: validación automática en cada push/PR, plantillas para estandarizar incidencias y un release nuevo para versionar los cambios.
+- Conceptos:
+  - `CI (Integración Continua)`: proceso automático que ejecuta validaciones técnicas (lint, tests, smoke) cuando alguien sube cambios.
+  - `Issue template`: formulario guiado para reportar bugs o solicitar mejoras con datos mínimos necesarios.
+  - `PR template`: checklist estándar para que cada pull request tenga contexto, validación y trazabilidad.
+  - `Release con notas automáticas`: versión etiquetada (`tag`) que resume cambios con `--generate-notes` para facilitar comunicación y auditoría.
+- Implementación:
+  - Archivos creados:
+    - `.github/workflows/ci.yml`
+    - `.github/ISSUE_TEMPLATE/bug_report.yml`
+    - `.github/ISSUE_TEMPLATE/feature_request.yml`
+    - `.github/ISSUE_TEMPLATE/config.yml`
+    - `.github/pull_request_template.md`
+  - Ajustes de documentación:
+    - `README.md` (sección de colaboración y CI).
+    - `docs/DECISIONS.md`, `docs/GLOSSARY.md`, `docs/CHECKPOINTS.md`.
+  - Pseudocódigo de la ejecución CI:
+    1. Checkout del repo.
+    2. Setup Python 3.11.
+    3. Instalar `requirements.txt`.
+    4. Ejecutar `make lint`.
+    5. Ejecutar `make test`.
+    6. Ejecutar `make pipeline` (smoke end-to-end).
+- Validación:
+  - Verificar estado local:
+    - `git status --short`
+  - Verificar autenticación GitHub:
+    - `gh auth status -h github.com`
+  - Verificar release:
+    - `gh release view v0.1.1 --repo zusldev/bigdata-mineriadatos`
+  - Resultado esperado:
+    - Workflow visible en pestaña Actions, templates disponibles al crear Issue/PR y release `v0.1.1` publicado con notas automáticas.
+- Errores comunes:
+  - No estar autenticado en `gh` al crear release.
+  - Definir comandos de CI diferentes a los que usa el equipo local (`make` vs comandos ad-hoc).
+  - No documentar el run en Study Log y luego fallar en el guard documental al correr pipeline.
+- Próximos pasos:
+  - Añadir badge de estado CI en README.
+  - Extender workflow con matriz de versiones Python si se requiere compatibilidad adicional.
+
+
+
+---
+
+### Resumen automático del run `2026-02-11-quickcheck-01` (2026-02-12T00:51:08.839656+00:00)
+
+# Run Summary - 2026-02-11-quickcheck-01
+
+## Metadatos
+- Inicio UTC: 2026-02-12T00:51:04.390765+00:00
+- Fin UTC: 2026-02-12T00:51:08.837614+00:00
+- Duración total (s): 4.45
+
+## Datasets cargados
+- sales: fuente=json filas_raw=5000 columnas=18
+- customers: fuente=json filas_raw=1500 columnas=17
+- branches: fuente=json filas_raw=10 columnas=24
+- inventory: fuente=json filas_raw=2000 columnas=23
+- digital: fuente=json filas_raw=1200 columnas=20
+
+## Filas después de limpieza
+- sales: 5000 filas limpias
+- customers: 1500 filas limpias
+- branches: 10 filas limpias
+- inventory: 2000 filas limpias
+- digital: 1200 filas limpias
+
+## Artefactos generados
+- Total: 50
+- chart: 9
+- document: 6
+- feature_table: 2
+- model: 2
+- processed_table: 5
+- table: 25
+- validation_report: 1
+
+## Tiempo por etapa (segundos)
+- fase_1_ingesta_limpieza_eda: 1.312
+- fase_2_analisis_negocio: 0.172
+- fase_3_modelado: 2.857
+- fase_4_recomendaciones_reportes: 0.089
+
+## Key warnings
+- Sin warnings relevantes.
+
+## What changed in this run? (diff-style)
++ Se generaron 50 artefactos nuevos/actualizados.
++ Se completaron 4 etapas del pipeline.
++ No se detectaron warnings.
+
+## Verificación rápida
+1. Confirmar `reports/final_report.md` actualizado.
+2. Confirmar `outputs/tables/*.csv` para tablas de negocio.
+3. Ejecutar dashboard y validar pestaña 'Aprender / Study Mode'.
+

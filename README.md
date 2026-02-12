@@ -178,3 +178,15 @@ docker run --rm -p 8501:8501 sabor-mexicano streamlit run apps/dashboard/app.py 
   - outputs columnares parquet,
   - agregaciones partition-friendly.
 - La segmentación RFM se construye en modo proxy con `clientes` (no hay llave transaccional cliente-venta).
+
+## 12) Colaboración y gobierno en GitHub
+
+- CI automática en `.github/workflows/ci.yml`:
+  - `make lint`
+  - `make test`
+  - `make pipeline` (smoke end-to-end)
+- Plantillas:
+  - Issues: `.github/ISSUE_TEMPLATE/`
+  - Pull Request: `.github/pull_request_template.md`
+- Versionado:
+  - Releases publicadas en GitHub con notas automáticas (`gh release create ... --generate-notes`).

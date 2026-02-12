@@ -112,3 +112,23 @@ Reduce tiempo de navegación en documentos largos y mejora la exploración orien
 ## Command Palette de estudio
 Panel flotante de búsqueda rápida activado por atajo de teclado.  
 En este proyecto se usa para consultar definiciones al instante sin abandonar la lectura del documento actual.
+
+## CI (Integración Continua)
+Práctica donde cada cambio de código se valida automáticamente en un servidor (por ejemplo GitHub Actions).  
+En este proyecto, la CI ejecuta `make lint`, `make test` y `make pipeline` para asegurar calidad y ejecutabilidad completa.
+
+## Workflow de GitHub Actions
+Archivo YAML dentro de `.github/workflows/` que define jobs, pasos, variables de entorno y disparadores (`push`, `pull_request`, etc.).  
+Permite automatizar verificaciones repetibles sin depender del entorno local de cada desarrollador.
+
+## Issue Template
+Formulario estructurado para abrir incidencias con campos obligatorios (contexto, pasos de reproducción, impacto).  
+Mejora calidad de los reportes y acelera el diagnóstico técnico.
+
+## PR Template
+Plantilla que aparece al abrir una Pull Request para obligar contexto, checklist y evidencia de pruebas.  
+Ayuda a que las revisiones sean consistentes y con criterios de calidad homogéneos.
+
+## Release Notes Automáticas
+Resumen de cambios generado por GitHub al crear un release con `--generate-notes`.  
+Reduce trabajo manual y deja una bitácora versionada de lo que cambió entre tags.

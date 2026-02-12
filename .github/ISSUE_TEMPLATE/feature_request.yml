@@ -1,0 +1,49 @@
+name: Feature request
+description: Propón una mejora funcional o técnica para el proyecto.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema u oportunidad
+      description: ¿Qué necesidad quieres resolver?
+      placeholder: Actualmente no podemos...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta de solución
+      description: Explica qué cambio propones.
+      placeholder: Agregar módulo X para...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Otras opciones que evaluaste y por qué no.
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto esperado
+      description: Beneficio técnico/negocio esperado.
+      placeholder: Mejoraría tiempo de ejecución en...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Revisé que no exista un issue similar abierto.
+          required: true
+        - label: Esta propuesta mantiene la reproducibilidad del pipeline.
+          required: true
+        - label: Consideré impacto en documentación y tests.
+          required: true

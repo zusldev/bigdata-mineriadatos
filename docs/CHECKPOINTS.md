@@ -41,9 +41,13 @@ Checklist de hitos del pipeline y documentación.
 - [x] Dashboard Study Mode con índice lateral derecho por encabezados.
 - [x] Índice Study con búsqueda en tiempo real y scroll interno.
 - [x] Paleta global de conceptos con atajo `/` + búsqueda instantánea sin Enter.
+- [x] Workflow CI en GitHub Actions (`.github/workflows/ci.yml`) con lint + test + pipeline smoke.
+- [x] Plantillas de Issue y PR habilitadas en `.github/`.
+- [x] Documentación README actualizada para flujo de colaboración y CI.
 
 - [x] Pipeline completado para Run ID: 2026-02-11-quickcheck-01
 
 - [x] Pipeline completado para Run ID: 2026-02-11-hardening-make-pytest
 
 - [x] Pipeline completado para Run ID: 2026-02-11-mi-run
+- [x] Run ID de automatización GitHub/release: `2026-02-12-github-ci-release-v0.1.1`

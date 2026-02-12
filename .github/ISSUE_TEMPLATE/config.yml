@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentación del proyecto
+    url: https://github.com/zusldev/bigdata-mineriadatos/blob/main/README.md
+    about: Revisa primero la guía de uso y troubleshooting.

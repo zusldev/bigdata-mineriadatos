@@ -184,3 +184,30 @@ Registro de decisiones arquitectónicas y de modelado.
 - Alternativas rechazadas:
   - Mantener solo diccionario en panel lateral: requiere desplazamiento y cambio de foco.
   - Forzar navegación al glosario: interrumpe flujo cognitivo.
+
+## D-022 Integrar CI de calidad y smoke pipeline en GitHub Actions
+- Decisión:
+  - Crear workflow `.github/workflows/ci.yml` con `make lint`, `make test` y `make pipeline`.
+- Razón:
+  - Asegurar que cada push/PR mantenga calidad de código y ejecutabilidad end-to-end.
+- Alternativas rechazadas:
+  - Ejecutar solo tests unitarios: no detecta regresiones de orquestación completa.
+  - CI parcial sin lint: degrada consistencia de estilo y calidad.
+
+## D-023 Estandarizar colaboración con plantillas de Issue y PR
+- Decisión:
+  - Añadir plantillas para bug, feature y PR con checklist de validación.
+- Razón:
+  - Reducir ambigüedad en reportes/cambios y mejorar trazabilidad de decisiones técnicas.
+- Alternativas rechazadas:
+  - Dejar Issues/PR libres: menor estructura y más retrabajo en revisión.
+  - Plantilla única para todo: baja precisión para casos de bug vs mejora.
+
+## D-024 Versionado explícito con release `v0.1.1` y notas automáticas
+- Decisión:
+  - Publicar release incremental con `gh release create ... --generate-notes`.
+- Razón:
+  - Comunicar cambios de forma auditable y facilitar consumo externo del estado del proyecto.
+- Alternativas rechazadas:
+  - No versionar: dificulta reproducibilidad histórica.
+  - Escribir notas manuales siempre: mayor costo operativo y riesgo de omisiones.
