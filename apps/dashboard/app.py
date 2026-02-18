@@ -990,7 +990,7 @@ def _render_study_tab() -> None:
 
 
 def main() -> None:
-    st.title("Dashboard Ejecutivo - Cadena Sabor Mexicano")
+    st.title("Dashboard - Cadena Sabor Mexicano")
     st.caption(
         "Filtros globales y análisis integrado de ventas, clientes, inventario, digital y pronósticos."
     )
