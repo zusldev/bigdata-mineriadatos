@@ -1,0 +1,177 @@
+city,daypart,dish,total_qty,total_revenue
+Cancún,Comida,Mole Poblano,69,12075
+Cancún,Comida,Enchiladas Verdes,54,7290
+Cancún,Comida,Margarita,70,6650
+Cancún,Comida,Tacos al Pastor (3 pzas),75,6375
+Cancún,Comida,Fajitas de Res,28,6300
+Cancún,Mañana,Mole Poblano,2,350
+Cancún,Mañana,Burrito Grande,2,290
+Cancún,Mañana,Churros con Chocolate,3,195
+Cancún,Mañana,Agua de Horchata,3,105
+Cancún,Mañana,Margarita,1,95
+Cancún,Noche,Mole Poblano,12,2100
+Cancún,Noche,Enchiladas Verdes,8,1080
+Cancún,Noche,Tacos al Pastor (3 pzas),10,850
+Cancún,Noche,Chiles Rellenos,4,620
+Cancún,Noche,Pozole Rojo,4,500
+Cancún,Tarde,Mole Poblano,32,5600
+Cancún,Tarde,Enchiladas Verdes,28,3780
+Cancún,Tarde,Tacos al Pastor (3 pzas),27,2295
+Cancún,Tarde,Margarita,21,1995
+Cancún,Tarde,Birria de Res,10,1850
+Ciudad de México,Comida,Mole Poblano,95,16625
+Ciudad de México,Comida,Enchiladas Verdes,88,11880
+Ciudad de México,Comida,Margarita,106,10070
+Ciudad de México,Comida,Tacos al Pastor (3 pzas),116,9860
+Ciudad de México,Comida,Guacamole con Totopos,107,9523
+Ciudad de México,Mañana,Birria de Res,3,555
+Ciudad de México,Mañana,Enchiladas Verdes,2,270
+Ciudad de México,Mañana,Tacos al Pastor (3 pzas),3,255
+Ciudad de México,Mañana,Agua de Horchata,6,210
+Ciudad de México,Mañana,Guacamole con Totopos,2,178
+Ciudad de México,Noche,Enchiladas Verdes,36,4860
+Ciudad de México,Noche,Mole Poblano,20,3500
+Ciudad de México,Noche,Tacos al Pastor (3 pzas),16,1360
+Ciudad de México,Noche,Guacamole con Totopos,14,1246
+Ciudad de México,Noche,Margarita,13,1235
+Ciudad de México,Tarde,Mole Poblano,45,7875
+Ciudad de México,Tarde,Margarita,53,5035
+Ciudad de México,Tarde,Enchiladas Verdes,34,4590
+Ciudad de México,Tarde,Tacos al Pastor (3 pzas),38,3230
+Ciudad de México,Tarde,Guacamole con Totopos,31,2759
+Guadalajara,Comida,Enchiladas Verdes,67,9045
+Guadalajara,Comida,Mole Poblano,49,8575
+Guadalajara,Comida,Margarita,49,4655
+Guadalajara,Comida,Guacamole con Totopos,49,4361
+Guadalajara,Comida,Tacos al Pastor (3 pzas),39,3315
+Guadalajara,Mañana,Carnitas Michoacanas,2,350
+Guadalajara,Mañana,Chiles Rellenos,2,310
+Guadalajara,Mañana,Margarita,3,285
+Guadalajara,Mañana,Nachos con Carne,2,250
+Guadalajara,Mañana,Quesadilla de Flor de Calabaza,2,190
+Guadalajara,Noche,Mole Poblano,9,1575
+Guadalajara,Noche,Enchiladas Verdes,9,1215
+Guadalajara,Noche,Margarita,8,760
+Guadalajara,Noche,Burrito Grande,5,725
+Guadalajara,Noche,Guacamole con Totopos,6,534
+Guadalajara,Tarde,Mole Poblano,32,5600
+Guadalajara,Tarde,Enchiladas Verdes,22,2970
+Guadalajara,Tarde,Margarita,21,1995
+Guadalajara,Tarde,Chiles Rellenos,9,1395
+Guadalajara,Tarde,Fajitas de Pollo,6,1170
+León,Comida,Mole Poblano,37,6475
+León,Comida,Enchiladas Verdes,42,5670
+León,Comida,Fajitas de Res,15,3375
+León,Comida,Chiles Rellenos,19,2945
+León,Comida,Margarita,28,2660
+León,Mañana,Enchiladas Verdes,6,810
+León,Mañana,Burrito Grande,2,290
+León,Mañana,Guacamole con Totopos,1,89
+León,Noche,Mole Poblano,7,1225
+León,Noche,Pozole Rojo,7,875
+León,Noche,Nachos con Carne,6,750
+León,Noche,Guacamole con Totopos,7,623
+León,Noche,Enchiladas Rojas,4,540
+León,Tarde,Mole Poblano,21,3675
+León,Tarde,Margarita,23,2185
+León,Tarde,Cochinita Pibil,9,1485
+León,Tarde,Guacamole con Totopos,12,1068
+León,Tarde,Tacos al Pastor (3 pzas),12,1020
+Monterrey,Comida,Mole Poblano,63,11025
+Monterrey,Comida,Guacamole con Totopos,73,6497
+Monterrey,Comida,Enchiladas Verdes,40,5400
+Monterrey,Comida,Margarita,54,5130
+Monterrey,Comida,Tacos al Pastor (3 pzas),44,3740
+Monterrey,Mañana,Birria de Res,3,555
+Monterrey,Mañana,Margarita,5,475
+Monterrey,Mañana,Fajitas de Pollo,2,390
+Monterrey,Mañana,Tacos al Pastor (3 pzas),4,340
+Monterrey,Mañana,Guacamole con Totopos,2,178
+Monterrey,Noche,Mole Poblano,10,1750
+Monterrey,Noche,Margarita,8,760
+Monterrey,Noche,Burrito Grande,5,725
+Monterrey,Noche,Carnitas Michoacanas,4,700
+Monterrey,Noche,Tacos al Pastor (3 pzas),8,680
+Monterrey,Tarde,Margarita,30,2850
+Monterrey,Tarde,Enchiladas Verdes,19,2565
+Monterrey,Tarde,Mole Poblano,12,2100
+Monterrey,Tarde,Guacamole con Totopos,23,2047
+Monterrey,Tarde,Tacos de Barbacoa (3 pzas),17,1615
+Mérida,Comida,Mole Poblano,39,6825
+Mérida,Comida,Enchiladas Verdes,45,6075
+Mérida,Comida,Guacamole con Totopos,33,2937
+Mérida,Comida,Tacos al Pastor (3 pzas),34,2890
+Mérida,Comida,Margarita,30,2850
+Mérida,Mañana,Fajitas de Pollo,2,390
+Mérida,Mañana,Tacos al Pastor (3 pzas),3,255
+Mérida,Mañana,Mole Poblano,1,175
+Mérida,Mañana,Agua de Horchata,4,140
+Mérida,Mañana,Agua de Tamarindo,1,35
+Mérida,Noche,Fajitas de Res,5,1125
+Mérida,Noche,Margarita,9,855
+Mérida,Noche,Cochinita Pibil,5,825
+Mérida,Noche,Mole Poblano,3,525
+Mérida,Noche,Tacos al Pastor (3 pzas),6,510
+Mérida,Tarde,Mole Poblano,21,3675
+Mérida,Tarde,Margarita,20,1900
+Mérida,Tarde,Guacamole con Totopos,21,1869
+Mérida,Tarde,Fajitas de Res,7,1575
+Mérida,Tarde,Enchiladas Verdes,9,1215
+Puebla,Comida,Mole Poblano,42,7350
+Puebla,Comida,Enchiladas Verdes,28,3780
+Puebla,Comida,Guacamole con Totopos,39,3471
+Puebla,Comida,Tacos al Pastor (3 pzas),38,3230
+Puebla,Comida,Cochinita Pibil,16,2640
+Puebla,Mañana,Enchiladas Rojas,4,540
+Puebla,Mañana,Tacos al Pastor (3 pzas),3,255
+Puebla,Mañana,Nachos con Carne,1,125
+Puebla,Mañana,Cerveza Nacional,2,110
+Puebla,Mañana,Agua de Horchata,3,105
+Puebla,Noche,Cochinita Pibil,4,660
+Puebla,Noche,Tacos al Pastor (3 pzas),7,595
+Puebla,Noche,Burrito Grande,4,580
+Puebla,Noche,Enchiladas Verdes,4,540
+Puebla,Noche,Mole Poblano,3,525
+Puebla,Tarde,Enchiladas Verdes,20,2700
+Puebla,Tarde,Tacos al Pastor (3 pzas),16,1360
+Puebla,Tarde,Cochinita Pibil,8,1320
+Puebla,Tarde,Mole Poblano,7,1225
+Puebla,Tarde,Fajitas de Pollo,6,1170
+Querétaro,Comida,Enchiladas Verdes,56,7560
+Querétaro,Comida,Mole Poblano,41,7175
+Querétaro,Comida,Guacamole con Totopos,38,3382
+Querétaro,Comida,Chiles Rellenos,20,3100
+Querétaro,Comida,Tacos al Pastor (3 pzas),36,3060
+Querétaro,Mañana,Mole Poblano,3,525
+Querétaro,Mañana,Chiles Rellenos,3,465
+Querétaro,Mañana,Enchiladas Verdes,3,405
+Querétaro,Mañana,Churros con Chocolate,3,195
+Querétaro,Mañana,Margarita,2,190
+Querétaro,Noche,Enchiladas Verdes,11,1485
+Querétaro,Noche,Mole Poblano,5,875
+Querétaro,Noche,Chiles Rellenos,5,775
+Querétaro,Noche,Cochinita Pibil,4,660
+Querétaro,Noche,Nachos con Carne,5,625
+Querétaro,Tarde,Mole Poblano,28,4900
+Querétaro,Tarde,Tacos al Pastor (3 pzas),21,1785
+Querétaro,Tarde,Enchiladas Verdes,13,1755
+Querétaro,Tarde,Margarita,16,1520
+Querétaro,Tarde,Carnitas Michoacanas,6,1050
+Tijuana,Comida,Enchiladas Verdes,45,6075
+Tijuana,Comida,Mole Poblano,34,5950
+Tijuana,Comida,Fajitas de Res,18,4050
+Tijuana,Comida,Tacos al Pastor (3 pzas),47,3995
+Tijuana,Comida,Margarita,41,3895
+Tijuana,Mañana,Enchiladas Verdes,1,135
+Tijuana,Mañana,Sopa de Tortilla,1,75
+Tijuana,Mañana,Helado de Vainilla,1,45
+Tijuana,Noche,Mole Poblano,4,700
+Tijuana,Noche,Enchiladas Verdes,5,675
+Tijuana,Noche,Tacos al Pastor (3 pzas),7,595
+Tijuana,Noche,Carnitas Michoacanas,3,525
+Tijuana,Noche,Fajitas de Res,2,450
+Tijuana,Tarde,Mole Poblano,22,3850
+Tijuana,Tarde,Margarita,17,1615
+Tijuana,Tarde,Tacos al Pastor (3 pzas),19,1615
+Tijuana,Tarde,Guacamole con Totopos,16,1424
+Tijuana,Tarde,Enchiladas Verdes,7,945

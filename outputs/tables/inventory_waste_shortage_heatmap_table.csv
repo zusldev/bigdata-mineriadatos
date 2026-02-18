@@ -1,0 +1,241 @@
+branch_name,ingredient,total_waste_cost,shortage_rate
+Cancún,Aceite,1781.91,0.1
+Cancún,Aguacate,6183.0,0.08333333333333333
+Cancún,Arroz,1035.2,0.09090909090909091
+Cancún,Carne de Cerdo,5544.33,0.18181818181818182
+Cancún,Carne de Res,9688.42,0.07692307692307693
+Cancún,Cebolla,169.67,0.5
+Cancún,Cerveza,4983.88,0.0
+Cancún,Chile Jalapeño,581.65,0.0
+Cancún,Chile Poblano,2036.3400000000001,0.0
+Cancún,Cilantro,152.3,0.0
+Cancún,Crema,1101.69,0.125
+Cancún,Frijoles,847.5899999999999,0.0
+Cancún,Limón,1383.45,0.07692307692307693
+Cancún,Mole,2895.15,0.0
+Cancún,Pollo,3955.88,0.0
+Cancún,Queso Fresco,2131.87,0.0
+Cancún,Queso Oaxaca,4243.86,0.125
+Cancún,Refrescos,4323.61,0.0
+Cancún,Salsa Roja,2138.18,0.0
+Cancún,Salsa Verde,3341.45,0.08333333333333333
+Cancún,Tequila,3060.55,0.0
+Cancún,Tomate,1437.28,0.0
+Cancún,Tortillas de Harina,322.3,0.0
+Cancún,Tortillas de Maíz,658.87,0.16666666666666666
+Ciudad de México Centro,Aceite,915.02,0.18181818181818182
+Ciudad de México Centro,Aguacate,2763.14,0.1
+Ciudad de México Centro,Arroz,709.46,0.09090909090909091
+Ciudad de México Centro,Carne de Cerdo,3101.29,0.1111111111111111
+Ciudad de México Centro,Carne de Res,6610.6900000000005,0.125
+Ciudad de México Centro,Cebolla,893.56,0.125
+Ciudad de México Centro,Cerveza,5499.36,0.0
+Ciudad de México Centro,Chile Jalapeño,806.3199999999999,0.0
+Ciudad de México Centro,Chile Poblano,603.49,0.0
+Ciudad de México Centro,Cilantro,60.36,0.0
+Ciudad de México Centro,Crema,1191.34,0.15384615384615385
+Ciudad de México Centro,Frijoles,1392.83,0.0625
+Ciudad de México Centro,Limón,778.29,0.0
+Ciudad de México Centro,Mole,1131.49,0.16666666666666666
+Ciudad de México Centro,Pollo,942.06,0.0
+Ciudad de México Centro,Queso Fresco,2210.95,0.1
+Ciudad de México Centro,Queso Oaxaca,1214.73,0.0
+Ciudad de México Centro,Refrescos,4909.92,0.0
+Ciudad de México Centro,Salsa Roja,1796.57,0.0
+Ciudad de México Centro,Salsa Verde,1159.42,0.5
+Ciudad de México Centro,Tequila,9203.77,0.0
+Ciudad de México Centro,Tomate,1055.33,0.08333333333333333
+Ciudad de México Centro,Tortillas de Harina,1418.02,0.125
+Ciudad de México Centro,Tortillas de Maíz,322.15,0.0
+Ciudad de México Sur,Aceite,1254.24,0.0
+Ciudad de México Sur,Aguacate,1781.54,0.0
+Ciudad de México Sur,Arroz,496.38,0.0
+Ciudad de México Sur,Carne de Cerdo,3325.02,0.0
+Ciudad de México Sur,Carne de Res,8820.470000000001,0.0
+Ciudad de México Sur,Cebolla,448.41999999999996,0.2
+Ciudad de México Sur,Cerveza,2513.11,0.0
+Ciudad de México Sur,Chile Jalapeño,617.45,0.0
+Ciudad de México Sur,Chile Poblano,1362.49,0.125
+Ciudad de México Sur,Cilantro,324.99,0.0
+Ciudad de México Sur,Crema,461.79999999999995,0.0
+Ciudad de México Sur,Frijoles,926.59,0.09090909090909091
+Ciudad de México Sur,Limón,1272.8999999999999,0.15384615384615385
+Ciudad de México Sur,Mole,4045.19,0.0
+Ciudad de México Sur,Pollo,5117.360000000001,0.18181818181818182
+Ciudad de México Sur,Queso Fresco,1518.55,0.125
+Ciudad de México Sur,Queso Oaxaca,5749.6900000000005,0.08333333333333333
+Ciudad de México Sur,Refrescos,4204.72,0.0
+Ciudad de México Sur,Salsa Roja,3161.51,0.07142857142857142
+Ciudad de México Sur,Salsa Verde,628.95,0.25
+Ciudad de México Sur,Tequila,13235.59,0.0
+Ciudad de México Sur,Tomate,822.78,0.0
+Ciudad de México Sur,Tortillas de Harina,1079.45,0.0
+Ciudad de México Sur,Tortillas de Maíz,1219.0,0.1111111111111111
+Guadalajara,Aceite,361.35,0.0
+Guadalajara,Aguacate,2255.8199999999997,0.0
+Guadalajara,Arroz,253.43,0.14285714285714285
+Guadalajara,Carne de Cerdo,3781.11,0.07692307692307693
+Guadalajara,Carne de Res,4151.0,0.0
+Guadalajara,Cebolla,353.73,0.0
+Guadalajara,Cerveza,7742.49,0.18181818181818182
+Guadalajara,Chile Jalapeño,669.0799999999999,0.0
+Guadalajara,Chile Poblano,1265.25,0.0
+Guadalajara,Cilantro,363.43,0.13333333333333333
+Guadalajara,Crema,525.01,0.0
+Guadalajara,Frijoles,907.63,0.0
+Guadalajara,Limón,299.11,0.0
+Guadalajara,Mole,1455.12,0.16666666666666666
+Guadalajara,Pollo,1780.3,0.42857142857142855
+Guadalajara,Queso Fresco,2708.2599999999998,0.18181818181818182
+Guadalajara,Queso Oaxaca,1938.13,0.2
+Guadalajara,Refrescos,1788.94,0.2
+Guadalajara,Salsa Roja,1377.6299999999999,0.0
+Guadalajara,Salsa Verde,732.79,0.0
+Guadalajara,Tequila,3381.5699999999997,0.0
+Guadalajara,Tomate,565.75,0.0
+Guadalajara,Tortillas de Harina,1493.1,0.09090909090909091
+Guadalajara,Tortillas de Maíz,945.06,0.2222222222222222
+León,Aceite,1157.33,0.16666666666666666
+León,Aguacate,2891.69,0.14285714285714285
+León,Arroz,1634.42,0.08333333333333333
+León,Carne de Cerdo,4231.89,0.16666666666666666
+León,Carne de Res,5151.62,0.0
+León,Cebolla,805.6600000000001,0.0
+León,Cerveza,9966.32,0.0
+León,Chile Jalapeño,1175.5800000000002,0.0
+León,Chile Poblano,431.86,0.0
+León,Cilantro,636.6899999999999,0.0
+León,Crema,2083.85,0.0
+León,Frijoles,873.84,0.0
+León,Limón,1035.21,0.2
+León,Mole,4699.22,0.16666666666666666
+León,Pollo,3559.87,0.0
+León,Queso Fresco,4056.6,0.0
+León,Queso Oaxaca,5731.09,0.0
+León,Refrescos,1415.6399999999999,0.0
+León,Salsa Roja,3627.44,0.09090909090909091
+León,Salsa Verde,5460.77,0.0
+León,Tequila,11314.7,0.0
+León,Tomate,436.9,0.0
+León,Tortillas de Harina,778.45,0.0
+León,Tortillas de Maíz,2644.37,0.0
+Monterrey,Aceite,579.9300000000001,0.125
+Monterrey,Aguacate,1306.3799999999999,0.16666666666666666
+Monterrey,Arroz,233.58999999999997,0.0
+Monterrey,Carne de Cerdo,3579.5,0.0
+Monterrey,Carne de Res,4987.68,0.0
+Monterrey,Cebolla,327.28,0.25
+Monterrey,Cerveza,7041.79,0.07692307692307693
+Monterrey,Chile Jalapeño,710.84,0.0
+Monterrey,Chile Poblano,831.53,0.125
+Monterrey,Cilantro,288.03000000000003,0.2
+Monterrey,Crema,160.26,0.0
+Monterrey,Frijoles,369.86,0.0
+Monterrey,Limón,711.87,0.09090909090909091
+Monterrey,Mole,980.21,0.14285714285714285
+Monterrey,Pollo,911.87,0.0
+Monterrey,Queso Fresco,1556.22,0.0
+Monterrey,Queso Oaxaca,2644.44,0.09090909090909091
+Monterrey,Refrescos,4568.42,0.0
+Monterrey,Salsa Roja,1611.4099999999999,0.4
+Monterrey,Salsa Verde,1650.32,0.0
+Monterrey,Tequila,7036.17,0.16666666666666666
+Monterrey,Tomate,670.97,0.14285714285714285
+Monterrey,Tortillas de Harina,616.83,0.1111111111111111
+Monterrey,Tortillas de Maíz,269.7,0.0
+Mérida,Aceite,1714.23,0.09090909090909091
+Mérida,Aguacate,4579.7,0.1
+Mérida,Arroz,1005.59,0.0
+Mérida,Carne de Cerdo,4698.88,0.1
+Mérida,Carne de Res,12593.47,0.1
+Mérida,Cebolla,1064.87,0.0
+Mérida,Cerveza,6231.610000000001,0.3333333333333333
+Mérida,Chile Jalapeño,495.38,0.0
+Mérida,Chile Poblano,1501.09,0.14285714285714285
+Mérida,Cilantro,628.63,0.0
+Mérida,Crema,1505.22,0.0
+Mérida,Frijoles,1918.1,0.25
+Mérida,Limón,765.5,0.25
+Mérida,Mole,3167.71,0.0
+Mérida,Pollo,4960.88,0.0
+Mérida,Queso Fresco,5455.69,0.07692307692307693
+Mérida,Queso Oaxaca,1817.6,0.0
+Mérida,Refrescos,8095.3,0.0
+Mérida,Salsa Roja,2914.33,0.125
+Mérida,Salsa Verde,2882.71,0.14285714285714285
+Mérida,Tequila,11826.19,0.125
+Mérida,Tomate,2337.59,0.09090909090909091
+Mérida,Tortillas de Harina,2176.51,0.1111111111111111
+Mérida,Tortillas de Maíz,948.25,0.0
+Puebla,Aceite,1679.62,0.0
+Puebla,Aguacate,3514.9700000000003,0.25
+Puebla,Arroz,663.02,0.0
+Puebla,Carne de Cerdo,6614.42,0.0
+Puebla,Carne de Res,15616.57,0.0
+Puebla,Cebolla,626.84,0.14285714285714285
+Puebla,Cerveza,11656.37,0.15384615384615385
+Puebla,Chile Jalapeño,2069.5,0.08333333333333333
+Puebla,Chile Poblano,4383.93,0.06666666666666667
+Puebla,Cilantro,397.95000000000005,0.0
+Puebla,Crema,762.24,0.0
+Puebla,Frijoles,1119.43,0.0
+Puebla,Limón,1071.53,0.0
+Puebla,Mole,2560.41,0.0
+Puebla,Pollo,4719.29,0.0
+Puebla,Queso Fresco,2053.52,0.0
+Puebla,Queso Oaxaca,4876.01,0.0
+Puebla,Refrescos,4856.99,0.0
+Puebla,Salsa Roja,3268.95,0.0
+Puebla,Salsa Verde,2733.88,0.125
+Puebla,Tequila,12410.6,0.3333333333333333
+Puebla,Tomate,1506.77,0.125
+Puebla,Tortillas de Harina,1663.82,0.2727272727272727
+Puebla,Tortillas de Maíz,1136.48,0.0
+Querétaro,Aceite,501.85,0.16666666666666666
+Querétaro,Aguacate,1166.57,0.0
+Querétaro,Arroz,803.6700000000001,0.07142857142857142
+Querétaro,Carne de Cerdo,2240.8,0.2
+Querétaro,Carne de Res,6609.44,0.2222222222222222
+Querétaro,Cebolla,570.14,0.0
+Querétaro,Cerveza,7555.25,0.09090909090909091
+Querétaro,Chile Jalapeño,726.74,0.0
+Querétaro,Chile Poblano,2908.84,0.0
+Querétaro,Cilantro,324.94,0.0
+Querétaro,Crema,1323.58,0.18181818181818182
+Querétaro,Frijoles,390.3,0.2
+Querétaro,Limón,566.38,0.0
+Querétaro,Mole,2694.7400000000002,0.125
+Querétaro,Pollo,2713.93,0.125
+Querétaro,Queso Fresco,1739.17,0.0
+Querétaro,Queso Oaxaca,2655.49,0.2
+Querétaro,Refrescos,3960.16,0.2222222222222222
+Querétaro,Salsa Roja,1747.01,0.125
+Querétaro,Salsa Verde,2178.4100000000003,0.09090909090909091
+Querétaro,Tequila,7230.91,0.0
+Querétaro,Tomate,1035.71,0.0
+Querétaro,Tortillas de Harina,1259.66,0.0
+Querétaro,Tortillas de Maíz,700.05,0.1111111111111111
+Tijuana,Aceite,1495.24,0.0
+Tijuana,Aguacate,1783.96,0.25
+Tijuana,Arroz,1044.32,0.08333333333333333
+Tijuana,Carne de Cerdo,6975.98,0.0
+Tijuana,Carne de Res,6197.46,0.0
+Tijuana,Cebolla,616.9300000000001,0.125
+Tijuana,Cerveza,7160.05,0.2
+Tijuana,Chile Jalapeño,1199.1100000000001,0.1111111111111111
+Tijuana,Chile Poblano,1766.69,0.2857142857142857
+Tijuana,Cilantro,465.35,0.2
+Tijuana,Crema,1018.1700000000001,0.0
+Tijuana,Frijoles,1315.69,0.1
+Tijuana,Limón,1289.61,0.0
+Tijuana,Mole,3898.14,0.0
+Tijuana,Pollo,2074.92,0.16666666666666666
+Tijuana,Queso Fresco,3483.07,0.0
+Tijuana,Queso Oaxaca,1196.27,0.0
+Tijuana,Refrescos,2690.4,0.2
+Tijuana,Salsa Roja,1563.15,0.2
+Tijuana,Salsa Verde,2414.1,0.0
+Tijuana,Tequila,5069.09,0.0
+Tijuana,Tomate,647.52,0.0
+Tijuana,Tortillas de Harina,970.09,0.0
+Tijuana,Tortillas de Maíz,744.55,0.2857142857142857

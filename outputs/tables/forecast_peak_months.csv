@@ -1,0 +1,121 @@
+branch_id,branch_name,ingredient,peak_month,peak_forecast_qty,model_method,history_points
+SUC005,Puebla,Carne de Res,2026-03,394.56,exp_smoothing,8
+SUC004,Monterrey,Tequila,2026-07,376.73,exp_smoothing,12
+SUC006,Querétaro,Frijoles,2026-04,259.0,exp_smoothing,9
+SUC010,León,Cilantro,2026-06,258.33,exp_smoothing,11
+SUC006,Querétaro,Tequila,2026-05,178.77,exp_smoothing,9
+SUC009,Tijuana,Tequila,2026-07,167.59,exp_smoothing,8
+SUC002,Ciudad de México Sur,Frijoles,2026-07,145.83,exp_smoothing,12
+SUC009,Tijuana,Frijoles,2026-07,113.4,exp_smoothing,8
+SUC003,Guadalajara,Queso Fresco,2026-04,107.39,exp_smoothing,8
+SUC009,Tijuana,Queso Fresco,2026-05,103.43,exp_smoothing,7
+SUC002,Ciudad de México Sur,Limón,2026-06,98.21,exp_smoothing,11
+SUC004,Monterrey,Cilantro,2026-07,97.37,exp_smoothing,12
+SUC004,Monterrey,Queso Fresco,2026-07,95.99,exp_smoothing,12
+SUC007,Cancún,Tequila,2026-07,90.22,exp_smoothing,8
+SUC004,Monterrey,Refrescos,2026-04,86.67,exp_smoothing,9
+SUC003,Guadalajara,Carne de Cerdo,2026-07,81.09,exp_smoothing,12
+SUC006,Querétaro,Refrescos,2026-05,78.82,exp_smoothing,10
+SUC007,Cancún,Limón,2026-07,75.34,exp_smoothing,12
+SUC004,Monterrey,Limón,2026-06,73.95,exp_smoothing,11
+SUC004,Monterrey,Carne de Res,2026-07,73.72,exp_smoothing,12
+SUC007,Cancún,Salsa Roja,2026-07,69.89,exp_smoothing,12
+SUC005,Puebla,Salsa Verde,2026-04,69.22,exp_smoothing,9
+SUC005,Puebla,Queso Fresco,2026-06,66.6,exp_smoothing,5
+SUC001,Ciudad de México Centro,Carne de Cerdo,2026-07,65.11,exp_smoothing,9
+SUC010,León,Queso Fresco,2026-04,64.74,exp_smoothing,8
+SUC010,León,Refrescos,2026-07,62.09,exp_smoothing,9
+SUC006,Querétaro,Cilantro,2026-07,60.94,exp_smoothing,12
+SUC004,Monterrey,Carne de Cerdo,2026-07,59.01,exp_smoothing,12
+SUC009,Tijuana,Aceite,2026-06,58.83,exp_smoothing,10
+SUC002,Ciudad de México Sur,Salsa Roja,2026-07,57.72,exp_smoothing,11
+SUC005,Puebla,Tequila,2026-07,56.27,exp_smoothing,10
+SUC008,Mérida,Cerveza,2026-02,53.0,exp_smoothing,4
+SUC001,Ciudad de México Centro,Refrescos,2026-03,51.91,exp_smoothing,6
+SUC009,Tijuana,Refrescos,2026-07,50.11,exp_smoothing,11
+SUC003,Guadalajara,Tequila,2026-04,50.11,exp_smoothing,7
+SUC010,León,Cerveza,2026-07,47.55,exp_smoothing,12
+SUC001,Ciudad de México Centro,Cerveza,2026-05,46.51,exp_smoothing,10
+SUC002,Ciudad de México Sur,Refrescos,2026-06,46.28,exp_smoothing,10
+SUC001,Ciudad de México Centro,Frijoles,2026-07,45.12,exp_smoothing,12
+SUC003,Guadalajara,Salsa Verde,2026-02,44.46,exp_smoothing,7
+SUC008,Mérida,Tequila,2026-07,44.11,exp_smoothing,9
+SUC001,Ciudad de México Centro,Carne de Res,2026-07,42.25,exp_smoothing,11
+SUC004,Monterrey,Salsa Verde,2026-07,41.6,exp_smoothing,12
+SUC008,Mérida,Salsa Roja,2026-06,40.84,exp_smoothing,11
+SUC002,Ciudad de México Sur,Aceite,2026-07,40.14,exp_smoothing,11
+SUC009,Tijuana,Carne de Cerdo,2026-04,38.28,exp_smoothing,9
+SUC008,Mérida,Limón,2026-07,38.21,exp_smoothing,12
+SUC007,Cancún,Cilantro,2026-02,38.14,exp_smoothing,7
+SUC006,Querétaro,Carne de Res,2026-07,37.55,exp_smoothing,10
+SUC010,León,Salsa Roja,2026-07,37.23,exp_smoothing,11
+SUC010,León,Limón,2026-07,35.3,exp_smoothing,11
+SUC008,Mérida,Queso Fresco,2026-02,35.13,exp_smoothing,11
+SUC006,Querétaro,Cerveza,2026-07,35.09,exp_smoothing,12
+SUC006,Querétaro,Aceite,2026-06,34.37,exp_smoothing,8
+SUC004,Monterrey,Salsa Roja,2026-07,34.36,exp_smoothing,12
+SUC002,Ciudad de México Sur,Cerveza,2026-07,32.15,exp_smoothing,11
+SUC009,Tijuana,Limón,2025-12,29.86,exp_smoothing,9
+SUC003,Guadalajara,Frijoles,2026-02,29.25,exp_smoothing,11
+SUC002,Ciudad de México Sur,Carne de Cerdo,2026-07,28.37,exp_smoothing,12
+SUC008,Mérida,Frijoles,2026-02,28.29,exp_smoothing,11
+SUC001,Ciudad de México Centro,Queso Fresco,2026-07,28.18,exp_smoothing,12
+SUC008,Mérida,Salsa Verde,2026-06,26.83,exp_smoothing,9
+SUC006,Querétaro,Limón,2026-07,26.33,exp_smoothing,10
+SUC001,Ciudad de México Centro,Tequila,2026-02,25.93,exp_smoothing,10
+SUC006,Querétaro,Salsa Verde,2026-02,25.23,exp_smoothing,12
+SUC005,Puebla,Aceite,2026-06,24.78,exp_smoothing,11
+SUC009,Tijuana,Salsa Verde,2026-07,24.64,exp_smoothing,12
+SUC009,Tijuana,Cerveza,2026-07,24.3,exp_smoothing,11
+SUC005,Puebla,Limón,2025-12,24.27,exp_smoothing,10
+SUC010,León,Salsa Verde,2026-02,23.8,exp_smoothing,12
+SUC002,Ciudad de México Sur,Tequila,2026-02,23.08,exp_smoothing,9
+SUC007,Cancún,Aceite,2026-02,22.45,exp_smoothing,11
+SUC002,Ciudad de México Sur,Cilantro,2026-01,21.93,exp_smoothing,10
+SUC010,León,Carne de Cerdo,2026-06,21.79,exp_smoothing,7
+SUC007,Cancún,Salsa Verde,2026-02,21.54,exp_smoothing,8
+SUC003,Guadalajara,Cilantro,2026-02,21.47,exp_smoothing,12
+SUC008,Mérida,Aceite,2026-01,21.33,exp_smoothing,11
+SUC005,Puebla,Carne de Cerdo,2026-02,21.13,exp_smoothing,10
+SUC010,León,Carne de Res,2026-06,20.09,exp_smoothing,10
+SUC004,Monterrey,Cerveza,2026-02,20.0,exp_smoothing,11
+SUC002,Ciudad de México Sur,Salsa Verde,2026-07,19.8,exp_smoothing,6
+SUC007,Cancún,Carne de Res,2026-02,19.3,exp_smoothing,12
+SUC002,Ciudad de México Sur,Queso Fresco,2026-02,18.97,exp_smoothing,9
+SUC008,Mérida,Refrescos,2025-12,18.89,exp_smoothing,9
+SUC001,Ciudad de México Centro,Salsa Roja,2026-02,18.36,exp_smoothing,11
+SUC007,Cancún,Carne de Cerdo,2026-02,18.22,exp_smoothing,11
+SUC003,Guadalajara,Refrescos,2025-12,18.14,exp_smoothing,7
+SUC001,Ciudad de México Centro,Cilantro,2026-05,18.13,exp_smoothing,10
+SUC001,Ciudad de México Centro,Limón,2026-01,17.89,exp_smoothing,11
+SUC010,León,Aceite,2026-02,17.5,exp_smoothing,8
+SUC003,Guadalajara,Limón,2026-07,16.36,exp_smoothing,11
+SUC005,Puebla,Cilantro,2026-02,16.19,exp_smoothing,10
+SUC009,Tijuana,Salsa Roja,2026-07,15.98,exp_smoothing,12
+SUC006,Querétaro,Carne de Cerdo,2026-01,13.93,exp_smoothing,10
+SUC007,Cancún,Queso Fresco,2026-02,12.49,exp_smoothing,11
+SUC008,Mérida,Cilantro,2026-02,12.19,exp_smoothing,11
+SUC003,Guadalajara,Salsa Roja,2025-11,11.28,exp_smoothing,8
+SUC010,León,Tequila,2026-02,11.18,exp_smoothing,12
+SUC006,Querétaro,Queso Fresco,2026-02,9.15,exp_smoothing,12
+SUC007,Cancún,Refrescos,2026-01,8.47,exp_smoothing,10
+SUC005,Puebla,Cerveza,2026-02,8.36,exp_smoothing,11
+SUC003,Guadalajara,Cerveza,2026-02,8.14,exp_smoothing,12
+SUC008,Mérida,Carne de Cerdo,2026-02,7.73,exp_smoothing,12
+SUC001,Ciudad de México Centro,Aceite,2026-01,7.47,exp_smoothing,11
+SUC003,Guadalajara,Aceite,2025-12,6.58,exp_smoothing,9
+SUC005,Puebla,Salsa Roja,2025-12,6.44,exp_smoothing,9
+SUC004,Monterrey,Aceite,2026-02,5.89,exp_smoothing,11
+SUC002,Ciudad de México Sur,Carne de Res,2026-02,4.9,exp_smoothing,12
+SUC006,Querétaro,Salsa Roja,2026-01,3.43,exp_smoothing,7
+SUC003,Guadalajara,Carne de Res,2026-02,3.36,exp_smoothing,12
+SUC004,Monterrey,Frijoles,2026-01,2.33,exp_smoothing,9
+SUC005,Puebla,Refrescos,2025-12,1.14,exp_smoothing,7
+SUC001,Ciudad de México Centro,Salsa Verde,2026-01,0.6,exp_smoothing,10
+SUC007,Cancún,Cerveza,2026-02,0.0,exp_smoothing,4
+SUC008,Mérida,Carne de Res,2025-12,0.0,exp_smoothing,9
+SUC010,León,Frijoles,2026-04,0.0,exp_smoothing,12
+SUC005,Puebla,Frijoles,2026-01,0.0,exp_smoothing,5
+SUC009,Tijuana,Cilantro,2026-03,0.0,exp_smoothing,10
+SUC007,Cancún,Frijoles,2026-02,0.0,exp_smoothing,10
+SUC009,Tijuana,Carne de Res,2026-07,0.0,exp_smoothing,11

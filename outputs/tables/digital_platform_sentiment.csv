@@ -1,0 +1,22 @@
+platform,sentiment,records
+Facebook,negativo,44
+Facebook,neutro,47
+Facebook,positivo,145
+Google Reviews,negativo,25
+Google Reviews,neutro,43
+Google Reviews,positivo,125
+Instagram,negativo,57
+Instagram,neutro,51
+Instagram,positivo,204
+TikTok,negativo,33
+TikTok,neutro,36
+TikTok,positivo,116
+TripAdvisor,negativo,21
+TripAdvisor,neutro,24
+TripAdvisor,positivo,87
+Twitter/X,negativo,19
+Twitter/X,neutro,14
+Twitter/X,positivo,54
+Yelp,negativo,12
+Yelp,neutro,12
+Yelp,positivo,31

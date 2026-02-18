@@ -1,0 +1,881 @@
+branch_id,branch_name,ingredient,ingredient_category,waste_reason,total_waste_qty,total_waste_cost,avg_waste_ratio
+SUC008,Mérida,Carne de Res,Carnes,Caducidad,58.0,10470.17,0.2505823825675815
+SUC002,Ciudad de México Sur,Tequila,Bebidas,Caducidad,21.58,7812.780000000001,0.12364813664596273
+SUC005,Puebla,Cerveza,Bebidas,Daño en almacenamiento,26.16,7496.55,0.13963782487289536
+SUC005,Puebla,Carne de Res,Carnes,Error de preparación,34.68,6678.4,0.27614814814814814
+SUC005,Puebla,Tequila,Bebidas,Exceso de pedido,17.9,6355.35,0.19286805555555558
+SUC008,Mérida,Tequila,Bebidas,Daño en almacenamiento,17.04,6168.4400000000005,0.18138049853372432
+SUC010,León,Cerveza,Bebidas,Caducidad,19.75,5309.1900000000005,0.1700952380952381
+SUC005,Puebla,Carne de Res,Carnes,Caducidad,26.83,5094.93,0.2279591836734694
+SUC005,Puebla,Carne de Cerdo,Carnes,Caducidad,39.53,5056.26,0.2324195237546062
+SUC005,Puebla,Tequila,Bebidas,Caducidad,13.16,4873.5,0.19094017094017093
+SUC010,León,Tequila,Bebidas,Devolución cliente,13.76,4862.58,0.194265873015873
+SUC007,Cancún,Carne de Res,Carnes,Caducidad,25.34,4705.63,0.15667894308320637
+SUC001,Ciudad de México Centro,Tequila,Bebidas,Caducidad,13.919999999999998,4658.99,0.07339007074796548
+SUC010,León,Cerveza,Bebidas,Exceso de pedido,15.92,4657.13,0.19054572713643178
+SUC008,Mérida,Refrescos,Bebidas,Daño en almacenamiento,25.42,4580.01,0.14392074829931972
+SUC006,Querétaro,Tequila,Bebidas,Exceso de pedido,13.15,4535.85,0.10196732409845269
+SUC004,Monterrey,Cerveza,Bebidas,Daño en almacenamiento,12.97,3940.29,0.06352978162756147
+SUC005,Puebla,Cerveza,Bebidas,Caducidad,14.870000000000001,3929.6,0.12425368533905119
+SUC006,Querétaro,Cerveza,Bebidas,Daño en almacenamiento,13.709999999999999,3776.0699999999997,0.08304111610288936
+SUC006,Querétaro,Carne de Res,Carnes,Caducidad,19.58,3671.55,0.13153157181571815
+SUC010,León,Carne de Res,Carnes,Caducidad,19.21,3572.39,0.292625
+SUC009,Tijuana,Carne de Cerdo,Carnes,Caducidad,28.27,3507.64,0.14930081016494726
+SUC005,Puebla,Carne de Res,Carnes,Daño en almacenamiento,18.23,3365.1,0.27868581710686974
+SUC008,Mérida,Carne de Cerdo,Carnes,Caducidad,26.23,3272.16,0.19965232683982684
+SUC008,Mérida,Cerveza,Bebidas,Exceso de pedido,11.58,3218.41,0.14190702947845804
+SUC002,Ciudad de México Sur,Carne de Res,Carnes,Exceso de pedido,17.5,3157.1600000000003,0.16496102497846685
+SUC009,Tijuana,Cerveza,Bebidas,Daño en almacenamiento,10.43,3098.25,0.11598765432098766
+SUC004,Monterrey,Tequila,Bebidas,Exceso de pedido,8.39,3092.14,0.06756349206349206
+SUC010,León,Tequila,Bebidas,Daño en almacenamiento,8.879999999999999,3089.63,0.1415645282503245
+SUC008,Mérida,Aguacate,Verduras,Caducidad,41.93,3055.01,0.21164761480349714
+SUC008,Mérida,Tequila,Bebidas,Caducidad,8.96,3050.26,0.1896025641025641
+SUC002,Ciudad de México Sur,Tequila,Bebidas,Exceso de pedido,8.44,3030.9,0.10117611100923041
+SUC004,Monterrey,Carne de Res,Carnes,Caducidad,16.36,2929.36,0.07982140022675736
+SUC003,Guadalajara,Cerveza,Bebidas,Daño en almacenamiento,9.8,2824.19,0.10097446808510638
+SUC009,Tijuana,Cerveza,Bebidas,Exceso de pedido,9.98,2821.61,0.10840259740259742
+SUC007,Cancún,Aguacate,Verduras,Caducidad,36.88,2805.62,0.19411631205673757
+SUC001,Ciudad de México Centro,Carne de Res,Carnes,Exceso de pedido,15.829999999999998,2742.44,0.13620257795789711
+SUC001,Ciudad de México Centro,Cerveza,Bebidas,Daño en almacenamiento,9.469999999999999,2728.0299999999997,0.08544613821138211
+SUC002,Ciudad de México Sur,Carne de Res,Carnes,Caducidad,14.059999999999999,2716.41,0.16663541092112522
+SUC001,Ciudad de México Centro,Tequila,Bebidas,Daño en almacenamiento,7.64,2699.26,0.10111111111111111
+SUC007,Cancún,Carne de Res,Carnes,Exceso de pedido,15.7,2651.71,0.21086461251167132
+SUC010,León,Queso Oaxaca,Lácteos,Caducidad,16.26,2651.29,0.1432014453477868
+SUC008,Mérida,Refrescos,Bebidas,Exceso de pedido,14.24,2643.81,0.13938095238095238
+SUC004,Monterrey,Carne de Cerdo,Carnes,Caducidad,22.4,2631.82,0.09570530324015153
+SUC008,Mérida,Tequila,Bebidas,Exceso de pedido,7.17,2607.4900000000002,0.10157900432900434
+SUC002,Ciudad de México Sur,Refrescos,Bebidas,Daño en almacenamiento,14.170000000000002,2597.7000000000003,0.11333744517543859
+SUC007,Cancún,Carne de Cerdo,Carnes,Caducidad,20.939999999999998,2583.21,0.1766580787633419
+SUC003,Guadalajara,Carne de Cerdo,Carnes,Caducidad,20.89,2577.41,0.11942508417508417
+SUC001,Ciudad de México Centro,Carne de Res,Carnes,Caducidad,12.670000000000002,2414.86,0.14789473684210527
+SUC010,León,Queso Fresco,Lácteos,Exceso de pedido,22.68,2380.62,0.15414320625222336
+SUC009,Tijuana,Carne de Res,Carnes,Caducidad,12.709999999999999,2354.61,0.16367424242424242
+SUC010,León,Carne de Cerdo,Carnes,Caducidad,20.58,2346.83,0.19895127748068928
+SUC008,Mérida,Cerveza,Bebidas,Caducidad,8.7,2316.83,0.1568080357142857
+SUC007,Cancún,Refrescos,Bebidas,Daño en almacenamiento,12.41,2307.97,0.1357519539284245
+SUC002,Ciudad de México Sur,Pollo,Carnes,Daño en almacenamiento,26.09,2304.87,0.15407658125946302
+SUC005,Puebla,Chile Poblano,Verduras,Caducidad,49.29,2285.39,0.23924421106245822
+SUC009,Tijuana,Carne de Res,Carnes,Exceso de pedido,12.61,2277.02,0.14932717569786536
+SUC007,Cancún,Cerveza,Bebidas,Exceso de pedido,7.67,2265.41,0.15979166666666667
+SUC005,Puebla,Salsa Verde,Salsas,Caducidad,37.73,2220.89,0.23276686507936506
+SUC006,Querétaro,Tequila,Bebidas,Daño en almacenamiento,6.08,2205.69,0.0836010101010101
+SUC010,León,Queso Oaxaca,Lácteos,Error de preparación,14.280000000000001,2122.52,0.21516666666666667
+SUC010,León,Pollo,Carnes,Caducidad,24.03,2102.33,0.25458333333333333
+SUC006,Querétaro,Cerveza,Bebidas,Error de preparación,7.73,2101.13,0.08662548449612403
+SUC005,Puebla,Pollo,Carnes,Caducidad,23.22,2083.29,0.29018973214285715
+SUC008,Mérida,Pollo,Carnes,Exceso de pedido,23.41,2043.98,0.21533227605727606
+SUC003,Guadalajara,Cerveza,Bebidas,Error de preparación,6.9799999999999995,2031.6799999999998,0.08586024720893141
+SUC010,León,Salsa Roja,Salsas,Caducidad,33.53,2010.37,0.2101064471243043
+SUC007,Cancún,Carne de Res,Carnes,Error de preparación,10.32,1982.04,0.19733766233766234
+SUC004,Monterrey,Refrescos,Bebidas,Daño en almacenamiento,10.96,1979.72,0.07421600091657175
+SUC002,Ciudad de México Sur,Queso Oaxaca,Lácteos,Daño en almacenamiento,12.98,1979.5900000000001,0.09475082742316783
+SUC002,Ciudad de México Sur,Salsa Roja,Salsas,Caducidad,34.79,1960.85,0.15079070017694807
+SUC010,León,Salsa Verde,Salsas,Caducidad,34.379999999999995,1955.4299999999998,0.2560453546453546
+SUC005,Puebla,Queso Oaxaca,Lácteos,Caducidad,12.43,1951.51,0.1476097670250896
+SUC008,Mérida,Queso Fresco,Lácteos,Error de preparación,20.43,1927.9499999999998,0.14409908700322233
+SUC009,Tijuana,Tequila,Bebidas,Error de preparación,5.23,1915.96,0.1216279069767442
+SUC006,Querétaro,Refrescos,Bebidas,Caducidad,10.71,1913.5099999999998,0.0979692760942761
+SUC007,Cancún,Carne de Cerdo,Carnes,Error de preparación,14.190000000000001,1883.97,0.1694969696969697
+SUC007,Cancún,Pollo,Carnes,Caducidad,23.009999999999998,1871.19,0.15868266612200435
+SUC005,Puebla,Queso Oaxaca,Lácteos,Daño en almacenamiento,12.45,1857.93,0.15711111111111112
+SUC005,Puebla,Pollo,Carnes,Daño en almacenamiento,20.13,1824.27,0.20512278603749193
+SUC009,Tijuana,Salsa Verde,Salsas,Caducidad,32.57,1816.33,0.20879783391989273
+SUC009,Tijuana,Mole,Salsas,Daño en almacenamiento,15.59,1800.1,0.14905925925925925
+SUC007,Cancún,Cerveza,Bebidas,Daño en almacenamiento,6.41,1796.6100000000001,0.09165849673202614
+SUC002,Ciudad de México Sur,Carne de Cerdo,Carnes,Caducidad,14.85,1788.8700000000001,0.1686059680451128
+SUC007,Cancún,Mole,Salsas,Exceso de pedido,15.0,1768.92,0.14439775910364147
+SUC007,Cancún,Queso Oaxaca,Lácteos,Daño en almacenamiento,12.61,1768.7,0.1565206508135169
+SUC008,Mérida,Salsa Verde,Salsas,Caducidad,30.3,1766.13,0.21840404589290757
+SUC005,Puebla,Salsa Roja,Salsas,Exceso de pedido,31.6,1764.23,0.27839798136645966
+SUC009,Tijuana,Queso Fresco,Lácteos,Caducidad,17.61,1762.38,0.11484443234610918
+SUC002,Ciudad de México Sur,Cerveza,Bebidas,Caducidad,6.109999999999999,1727.17,0.07915519399249062
+SUC010,León,Tequila,Bebidas,Caducidad,5.34,1720.28,0.12714285714285714
+SUC003,Guadalajara,Carne de Res,Carnes,Caducidad,8.86,1716.77,0.0873978494623656
+SUC009,Tijuana,Carne de Cerdo,Carnes,Error de preparación,14.149999999999999,1686.78,0.16019400352733684
+SUC009,Tijuana,Queso Fresco,Lácteos,Exceso de pedido,16.77,1686.31,0.13239430894308943
+SUC002,Ciudad de México Sur,Pollo,Carnes,Caducidad,20.580000000000002,1681.52,0.15937414965986396
+SUC002,Ciudad de México Sur,Queso Oaxaca,Lácteos,Error de preparación,11.1,1681.27,0.10775676937441643
+SUC005,Puebla,Refrescos,Bebidas,Caducidad,10.19,1676.28,0.14878759398496239
+SUC004,Monterrey,Queso Oaxaca,Lácteos,Exceso de pedido,10.2,1671.8300000000002,0.06758630490956072
+SUC005,Puebla,Refrescos,Bebidas,Devolución cliente,9.78,1659.96,0.22227272727272726
+SUC001,Ciudad de México Centro,Refrescos,Bebidas,Caducidad,9.11,1656.5900000000001,0.07491655941655942
+SUC004,Monterrey,Tequila,Bebidas,Devolución cliente,4.87,1645.35,0.05755519005847953
+SUC010,León,Tequila,Bebidas,Error de preparación,4.22,1642.21,0.08439999999999999
+SUC010,León,Salsa Verde,Salsas,Daño en almacenamiento,27.84,1639.14,0.22890243902439025
+SUC005,Puebla,Aguacate,Verduras,Caducidad,20.119999999999997,1609.99,0.28307692307692306
+SUC008,Mérida,Queso Oaxaca,Lácteos,Caducidad,10.74,1605.24,0.15535472972972975
+SUC009,Tijuana,Pollo,Carnes,Caducidad,18.83,1580.02,0.17513143749842836
+SUC002,Ciudad de México Sur,Carne de Res,Carnes,Daño en almacenamiento,8.67,1558.7,0.13691518467852257
+SUC005,Puebla,Carne de Cerdo,Carnes,Exceso de pedido,12.53,1558.16,0.14126724137931035
+SUC010,León,Mole,Salsas,Exceso de pedido,11.68,1543.5,0.15782061369000788
+SUC001,Ciudad de México Centro,Carne de Cerdo,Carnes,Caducidad,12.34,1541.78,0.11635336134453782
+SUC009,Tijuana,Tequila,Bebidas,Daño en almacenamiento,4.49,1528.73,0.09207894736842107
+SUC008,Mérida,Queso Fresco,Lácteos,Daño en almacenamiento,15.73,1512.9099999999999,0.13214223057644112
+SUC001,Ciudad de México Centro,Tequila,Bebidas,Error de preparación,4.1899999999999995,1508.3400000000001,0.05001418037436188
+SUC007,Cancún,Aguacate,Verduras,Exceso de pedido,19.24,1504.3400000000001,0.19081773879142302
+SUC010,León,Tortillas de Maíz,Básicos,Caducidad,57.93,1503.04,0.24997578841026827
+SUC008,Mérida,Salsa Roja,Salsas,Caducidad,25.7,1489.06,0.21644315768550773
+SUC006,Querétaro,Salsa Roja,Salsas,Caducidad,26.75,1487.06,0.14856764997044247
+SUC003,Guadalajara,Tequila,Bebidas,Caducidad,4.38,1480.82,0.06871666666666666
+SUC001,Ciudad de México Centro,Carne de Res,Carnes,Devolución cliente,8.08,1453.3899999999999,0.12564814814814815
+SUC010,León,Aguacate,Verduras,Caducidad,21.0,1442.4099999999999,0.2357638888888889
+SUC001,Ciudad de México Centro,Refrescos,Bebidas,Error de preparación,7.890000000000001,1431.15,0.0965297619047619
+SUC006,Querétaro,Pollo,Carnes,Caducidad,16.59,1416.6599999999999,0.12739476495726496
+SUC002,Ciudad de México Sur,Tequila,Bebidas,Daño en almacenamiento,3.7,1414.66,0.14800000000000002
+SUC010,León,Salsa Roja,Salsas,Error de preparación,26.33,1411.26,0.28959302325581393
+SUC010,León,Mole,Salsas,Error de preparación,11.38,1401.22,0.23224489795918368
+SUC007,Cancún,Salsa Roja,Salsas,Caducidad,24.02,1391.35,0.1576219089390142
+SUC002,Ciudad de México Sur,Carne de Res,Carnes,Error de preparación,7.52,1388.1999999999998,0.2036015325670498
+SUC008,Mérida,Tomate,Verduras,Caducidad,49.61,1375.65,0.2275839285714286
+SUC001,Ciudad de México Centro,Aguacate,Verduras,Caducidad,17.35,1373.24,0.14233117372823256
+SUC007,Cancún,Salsa Verde,Salsas,Daño en almacenamiento,23.2,1372.56,0.17550177887246854
+SUC009,Tijuana,Tequila,Bebidas,Caducidad,3.72,1344.33,0.13285714285714287
+SUC008,Mérida,Pollo,Carnes,Daño en almacenamiento,15.46,1342.23,0.25004807692307696
+SUC005,Puebla,Salsa Roja,Salsas,Caducidad,24.54,1318.66,0.24205106621773287
+SUC007,Cancún,Refrescos,Bebidas,Devolución cliente,7.12,1315.99,0.16952380952380952
+SUC008,Mérida,Pollo,Carnes,Caducidad,14.329999999999998,1311.18,0.22786437908496732
+SUC003,Guadalajara,Carne de Res,Carnes,Exceso de pedido,7.1899999999999995,1293.63,0.133020979020979
+SUC006,Querétaro,Carne de Cerdo,Carnes,Caducidad,10.35,1286.92,0.12999654934437543
+SUC002,Ciudad de México Sur,Mole,Salsas,Exceso de pedido,10.47,1280.41,0.07812350653826412
+SUC003,Guadalajara,Queso Fresco,Lácteos,Error de preparación,12.41,1272.3,0.08467329058077289
+SUC010,León,Carne de Cerdo,Carnes,Exceso de pedido,9.9,1259.24,0.30000000000000004
+SUC009,Tijuana,Aguacate,Verduras,Caducidad,16.59,1257.33,0.13581116427432216
+SUC010,León,Salsa Verde,Salsas,Exceso de pedido,22.26,1251.1200000000001,0.219
+SUC004,Monterrey,Tequila,Bebidas,Caducidad,3.2800000000000002,1241.5900000000001,0.06571316614420063
+SUC010,León,Carne de Res,Carnes,Exceso de pedido,6.140000000000001,1230.6100000000001,0.2423529411764706
+SUC008,Mérida,Mole,Salsas,Exceso de pedido,10.84,1227.78,0.19555555555555554
+SUC007,Cancún,Chile Poblano,Verduras,Caducidad,25.8,1222.0,0.1925625739184563
+SUC004,Monterrey,Refrescos,Bebidas,Caducidad,6.87,1200.47,0.06210757744832351
+SUC009,Tijuana,Queso Oaxaca,Lácteos,Error de preparación,8.16,1196.27,0.12180926216640502
+SUC009,Tijuana,Carne de Res,Carnes,Devolución cliente,6.34,1192.62,0.18114285714285713
+SUC005,Puebla,Tequila,Bebidas,Devolución cliente,3.15,1181.75,0.08076923076923077
+SUC002,Ciudad de México Sur,Carne de Cerdo,Carnes,Daño en almacenamiento,10.51,1172.3200000000002,0.1408405315614618
+SUC007,Cancún,Tequila,Bebidas,Error de preparación,2.99,1172.08,0.09966666666666667
+SUC001,Ciudad de México Centro,Cerveza,Bebidas,Exceso de pedido,3.9299999999999997,1172.06,0.07358974358974359
+SUC003,Guadalajara,Aguacate,Verduras,Caducidad,14.920000000000002,1166.6399999999999,0.145332969881501
+SUC004,Monterrey,Cerveza,Bebidas,Caducidad,4.18,1165.07,0.059891472868217055
+SUC001,Ciudad de México Centro,Carne de Cerdo,Carnes,Error de preparación,10.280000000000001,1148.9,0.13643429487179487
+SUC007,Cancún,Tequila,Bebidas,Exceso de pedido,3.52,1142.13,0.07652173913043478
+SUC003,Guadalajara,Tequila,Bebidas,Exceso de pedido,3.1799999999999997,1133.17,0.04673611111111111
+SUC006,Querétaro,Carne de Res,Carnes,Daño en almacenamiento,6.23,1130.81,0.1246
+SUC003,Guadalajara,Queso Oaxaca,Lácteos,Exceso de pedido,7.109999999999999,1118.43,0.078425
+SUC008,Mérida,Salsa Verde,Salsas,Daño en almacenamiento,19.85,1116.58,0.2308139534883721
+SUC006,Querétaro,Queso Oaxaca,Lácteos,Caducidad,6.92,1115.42,0.08371759514616658
+SUC008,Mérida,Mole,Salsas,Caducidad,8.21,1113.4099999999999,0.13941017316017315
+SUC002,Ciudad de México Sur,Queso Oaxaca,Lácteos,Caducidad,7.16,1113.17,0.10054460864805692
+SUC001,Ciudad de México Centro,Salsa Roja,Salsas,Caducidad,19.92,1111.56,0.11032768652915712
+SUC009,Tijuana,Cerveza,Bebidas,Devolución cliente,3.66,1110.74,0.13071428571428573
+SUC009,Tijuana,Carne de Cerdo,Carnes,Devolución cliente,9.350000000000001,1106.33,0.22362500000000002
+SUC003,Guadalajara,Tortillas de Harina,Básicos,Caducidad,29.72,1104.98,0.10175427735356381
+SUC005,Puebla,Chile Jalapeño,Verduras,Daño en almacenamiento,31.39,1097.92,0.20111597144456886
+SUC001,Ciudad de México Centro,Refrescos,Bebidas,Exceso de pedido,5.69,1091.46,0.11612244897959184
+SUC006,Querétaro,Carne de Res,Carnes,Exceso de pedido,6.05,1088.86,0.16972222222222222
+SUC004,Monterrey,Carne de Res,Carnes,Daño en almacenamiento,6.029999999999999,1088.79,0.09961049284578695
+SUC002,Ciudad de México Sur,Tortillas de Harina,Básicos,Caducidad,29.99,1079.45,0.13350422357594038
+SUC007,Cancún,Queso Fresco,Lácteos,Daño en almacenamiento,10.8,1072.93,0.13403780743066457
+SUC003,Guadalajara,Chile Poblano,Verduras,Caducidad,22.96,1069.41,0.11359392097264438
+SUC003,Guadalajara,Cerveza,Bebidas,Exceso de pedido,3.57,1057.37,0.05694099378881988
+SUC003,Guadalajara,Cerveza,Bebidas,Devolución cliente,3.9,1055.4099999999999,0.06247586872586873
+SUC006,Querétaro,Salsa Verde,Salsas,Caducidad,20.24,1052.69,0.10501488095238094
+SUC001,Ciudad de México Centro,Tortillas de Harina,Básicos,Caducidad,28.17,1035.03,0.13944150108409262
+SUC007,Cancún,Salsa Verde,Salsas,Exceso de pedido,18.259999999999998,1028.19,0.21251623376623374
+SUC007,Cancún,Queso Oaxaca,Lácteos,Error de preparación,6.58,1023.4699999999999,0.1331111111111111
+SUC001,Ciudad de México Centro,Cerveza,Bebidas,Devolución cliente,3.67,1021.03,0.0782930402930403
+SUC006,Querétaro,Refrescos,Bebidas,Exceso de pedido,5.72,1015.98,0.08267715617715617
+SUC008,Mérida,Aguacate,Verduras,Exceso de pedido,12.08,1011.64,0.21458204334365327
+SUC002,Ciudad de México Sur,Mole,Salsas,Caducidad,8.45,1009.6800000000001,0.1291438703140831
+SUC005,Puebla,Mole,Salsas,Error de preparación,8.44,1003.26,0.1758333333333333
+SUC006,Querétaro,Pollo,Carnes,Exceso de pedido,11.23,998.27,0.17943382352941176
+SUC008,Mérida,Tortillas de Harina,Básicos,Exceso de pedido,25.58,982.4300000000001,0.2633333333333333
+SUC002,Ciudad de México Sur,Tequila,Bebidas,Devolución cliente,2.6100000000000003,977.25,0.07977777777777778
+SUC006,Querétaro,Chile Poblano,Verduras,Exceso de pedido,22.259999999999998,975.75,0.16027850669618962
+SUC009,Tijuana,Refrescos,Bebidas,Error de preparación,4.96,974.51,0.08632754342431762
+SUC005,Puebla,Queso Oaxaca,Lácteos,Devolución cliente,6.47,959.76,0.14065217391304347
+SUC010,León,Queso Oaxaca,Lácteos,Exceso de pedido,6.01,957.28,0.12247727272727273
+SUC002,Ciudad de México Sur,Salsa Roja,Salsas,Daño en almacenamiento,15.64,926.5699999999999,0.13736457569087798
+SUC006,Querétaro,Mole,Salsas,Caducidad,7.98,924.9200000000001,0.09975
+SUC005,Puebla,Tomate,Verduras,Caducidad,32.44,923.3399999999999,0.24943735933983496
+SUC007,Cancún,Cerveza,Bebidas,Devolución cliente,3.56,921.86,0.09888888888888889
+SUC007,Cancún,Carne de Cerdo,Carnes,Exceso de pedido,7.1899999999999995,920.3800000000001,0.16028696741854637
+SUC006,Querétaro,Queso Fresco,Lácteos,Exceso de pedido,10.26,919.85,0.10520974658869396
+SUC006,Querétaro,Queso Oaxaca,Lácteos,Exceso de pedido,6.67,902.12,0.1334
+SUC010,León,Mole,Salsas,Daño en almacenamiento,7.78,898.75,0.12404761904761905
+SUC005,Puebla,Refrescos,Bebidas,Daño en almacenamiento,4.44,888.27,0.16444444444444445
+SUC004,Monterrey,Cerveza,Bebidas,Exceso de pedido,2.92,885.96,0.03960774410774411
+SUC006,Querétaro,Chile Poblano,Verduras,Error de preparación,19.509999999999998,884.1899999999999,0.1636661788434838
+SUC008,Mérida,Carne de Res,Carnes,Devolución cliente,4.98,880.86,0.2165217391304348
+SUC005,Puebla,Queso Fresco,Lácteos,Error de preparación,8.6,879.8100000000001,0.15886222910216719
+SUC010,León,Pollo,Carnes,Error de preparación,10.05,876.66,0.26447368421052636
+SUC008,Mérida,Tortillas de Harina,Básicos,Caducidad,24.05,875.29,0.20480040173964326
+SUC008,Mérida,Refrescos,Bebidas,Devolución cliente,5.22,871.48,0.20879999999999999
+SUC008,Mérida,Carne de Res,Carnes,Daño en almacenamiento,4.9,870.8699999999999,0.29108333333333336
+SUC007,Cancún,Salsa Verde,Salsas,Caducidad,15.24,862.28,0.15921904761904765
+SUC010,León,Mole,Salsas,Caducidad,7.42,855.75,0.18097560975609756
+SUC010,León,Crema,Lácteos,Exceso de pedido,19.59,849.5899999999999,0.18662408963585433
+SUC006,Querétaro,Cerveza,Bebidas,Caducidad,3.02,843.98,0.11066666666666666
+SUC003,Guadalajara,Queso Fresco,Lácteos,Exceso de pedido,8.16,842.79,0.08869985569985571
+SUC003,Guadalajara,Salsa Roja,Salsas,Caducidad,16.080000000000002,842.44,0.12120241292380513
+SUC007,Cancún,Queso Oaxaca,Lácteos,Caducidad,5.13,842.3599999999999,0.135
+SUC008,Mérida,Frijoles,Básicos,Exceso de pedido,24.46,835.72,0.16203919116114238
+SUC006,Querétaro,Cerveza,Bebidas,Devolución cliente,2.85,834.0699999999999,0.09080555555555554
+SUC008,Mérida,Mole,Salsas,Daño en almacenamiento,6.68,826.52,0.18054054054054053
+SUC006,Querétaro,Salsa Verde,Salsas,Daño en almacenamiento,13.950000000000001,825.3100000000001,0.13116477272727273
+SUC007,Cancún,Aguacate,Verduras,Error de preparación,10.989999999999998,818.64,0.1388095238095238
+SUC003,Guadalajara,Refrescos,Bebidas,Daño en almacenamiento,4.45,817.21,0.05883814102564103
+SUC010,León,Queso Fresco,Lácteos,Devolución cliente,8.92,813.49,0.1863690476190476
+SUC006,Querétaro,Mole,Salsas,Error de preparación,6.15,804.36,0.11024444444444445
+SUC001,Ciudad de México Centro,Queso Oaxaca,Lácteos,Exceso de pedido,5.25,798.7099999999999,0.08188095238095239
+SUC005,Puebla,Chile Poblano,Verduras,Daño en almacenamiento,17.69,794.09,0.22044117647058822
+SUC009,Tijuana,Mole,Salsas,Caducidad,6.42,790.04,0.11738461538461539
+SUC007,Cancún,Aguacate,Verduras,Daño en almacenamiento,10.8,786.24,0.2571428571428572
+SUC010,León,Crema,Lácteos,Caducidad,15.45,779.5699999999999,0.19212962962962962
+SUC006,Querétaro,Refrescos,Bebidas,Devolución cliente,3.9,776.57,0.09069767441860464
+SUC002,Ciudad de México Sur,Mole,Salsas,Error de preparación,6.6899999999999995,776.14,0.08158536585365854
+SUC004,Monterrey,Carne de Res,Carnes,Error de preparación,4.15,774.52,0.08850000000000001
+SUC003,Guadalajara,Cerveza,Bebidas,Caducidad,2.46,773.84,0.06982258064516128
+SUC003,Guadalajara,Tequila,Bebidas,Devolución cliente,2.11,767.58,0.062058823529411763
+SUC007,Cancún,Pollo,Carnes,Exceso de pedido,8.57,764.66,0.17585
+SUC002,Ciudad de México Sur,Queso Oaxaca,Lácteos,Devolución cliente,4.779999999999999,751.79,0.10391304347826086
+SUC008,Mérida,Queso Fresco,Lácteos,Devolución cliente,8.31,747.5999999999999,0.12909649122807018
+SUC007,Cancún,Tequila,Bebidas,Caducidad,2.0,746.34,0.08
+SUC001,Ciudad de México Centro,Refrescos,Bebidas,Devolución cliente,3.66,730.72,0.10764705882352942
+SUC001,Ciudad de México Centro,Mole,Salsas,Exceso de pedido,6.21,730.36,0.08788888888888889
+SUC001,Ciudad de México Centro,Aguacate,Verduras,Daño en almacenamiento,9.06,728.06,0.15611190817790532
+SUC005,Puebla,Mole,Salsas,Devolución cliente,6.3,724.18,0.1575
+SUC006,Querétaro,Chile Poblano,Verduras,Caducidad,14.870000000000001,723.87,0.13453258547008548
+SUC006,Querétaro,Carne de Res,Carnes,Error de preparación,3.72,718.22,0.14880000000000002
+SUC002,Ciudad de México Sur,Queso Fresco,Lácteos,Exceso de pedido,7.61,714.0799999999999,0.09381738881738881
+SUC004,Monterrey,Refrescos,Bebidas,Exceso de pedido,4.03,710.93,0.08955555555555555
+SUC010,León,Refrescos,Bebidas,Devolución cliente,4.15,710.07,0.09651162790697675
+SUC003,Guadalajara,Mole,Salsas,Devolución cliente,5.49,706.86,0.04607912457912458
+SUC010,León,Refrescos,Bebidas,Error de preparación,4.02,705.5699999999999,0.12279761904761904
+SUC002,Ciudad de México Sur,Chile Poblano,Verduras,Caducidad,15.530000000000001,703.08,0.17735978835978838
+SUC002,Ciudad de México Sur,Tortillas de Maíz,Básicos,Caducidad,26.5,701.71,0.1497743964811784
+SUC009,Tijuana,Aceite,Básicos,Caducidad,16.09,701.22,0.10495433053943692
+SUC007,Cancún,Refrescos,Bebidas,Exceso de pedido,3.7199999999999998,699.65,0.10860990860990861
+SUC005,Puebla,Mole,Salsas,Caducidad,5.3500000000000005,697.75,0.11467391304347826
+SUC008,Mérida,Cerveza,Bebidas,Error de preparación,2.43,696.37,0.151875
+SUC009,Tijuana,Chile Poblano,Verduras,Daño en almacenamiento,16.0,694.74,0.15057536678815064
+SUC005,Puebla,Chile Poblano,Verduras,Devolución cliente,14.47,692.87,0.21897727272727274
+SUC007,Cancún,Pollo,Carnes,Error de preparación,8.32,692.14,0.1664
+SUC005,Puebla,Aceite,Básicos,Exceso de pedido,15.56,689.21,0.1412920634920635
+SUC005,Puebla,Aguacate,Verduras,Exceso de pedido,8.91,686.1400000000001,0.15432478632478633
+SUC007,Cancún,Aceite,Básicos,Error de preparación,16.450000000000003,685.5,0.14274709883953582
+SUC005,Puebla,Tortillas de Harina,Básicos,Caducidad,19.439999999999998,678.88,0.20034840260545905
+SUC006,Querétaro,Tomate,Verduras,Caducidad,24.240000000000002,678.34,0.13593598997493733
+SUC009,Tijuana,Mole,Salsas,Exceso de pedido,5.88,678.2,0.1589189189189189
+SUC009,Tijuana,Carne de Cerdo,Carnes,Daño en almacenamiento,4.95,675.23,0.165
+SUC008,Mérida,Queso Fresco,Lácteos,Exceso de pedido,7.29,669.31,0.09987154150197627
+SUC002,Ciudad de México Sur,Mole,Salsas,Devolución cliente,5.59,664.53,0.09006666666666666
+SUC010,León,Arroz,Básicos,Daño en almacenamiento,22.3,660.37,0.16948571191729087
+SUC009,Tijuana,Refrescos,Bebidas,Caducidad,3.45,660.09,0.07187500000000001
+SUC005,Puebla,Aguacate,Verduras,Daño en almacenamiento,7.77,651.0799999999999,0.20656363636363634
+SUC009,Tijuana,Tortillas de Maíz,Básicos,Caducidad,26.32,647.13,0.18060982463469707
+SUC009,Tijuana,Refrescos,Bebidas,Exceso de pedido,3.95,644.44,0.14107142857142857
+SUC003,Guadalajara,Tortillas de Maíz,Básicos,Caducidad,24.67,641.14,0.10452840199363979
+SUC010,León,Chile Jalapeño,Verduras,Exceso de pedido,19.66,640.21,0.19124299719887952
+SUC004,Monterrey,Tequila,Bebidas,Error de preparación,1.83,638.98,0.038125
+SUC006,Querétaro,Queso Oaxaca,Lácteos,Daño en almacenamiento,4.18,637.95,0.09578571428571428
+SUC006,Querétaro,Mole,Salsas,Exceso de pedido,5.279999999999999,637.85,0.06689731682146542
+SUC005,Puebla,Refrescos,Bebidas,Exceso de pedido,3.25,632.48,0.17105263157894737
+SUC001,Ciudad de México Centro,Frijoles,Básicos,Exceso de pedido,17.43,630.67,0.07344079144987964
+SUC010,León,Carne de Cerdo,Carnes,Daño en almacenamiento,4.71,625.82,0.24789473684210525
+SUC009,Tijuana,Salsa Roja,Salsas,Caducidad,10.48,625.61,0.1619055944055944
+SUC003,Guadalajara,Carne de Res,Carnes,Devolución cliente,3.59,625.3199999999999,0.08258928571428571
+SUC007,Cancún,Tomate,Verduras,Caducidad,22.8,620.52,0.16918088260945405
+SUC004,Monterrey,Cerveza,Bebidas,Devolución cliente,2.05,619.4200000000001,0.0640625
+SUC004,Monterrey,Aguacate,Verduras,Caducidad,7.76,617.62,0.11771958717610892
+SUC007,Cancún,Chile Poblano,Verduras,Error de preparación,13.610000000000001,617.27,0.19968892421833598
+SUC004,Monterrey,Salsa Verde,Salsas,Daño en almacenamiento,10.67,616.78,0.10635644149132521
+SUC010,León,Salsa Verde,Salsas,Devolución cliente,11.79,615.08,0.2875609756097561
+SUC003,Guadalajara,Pollo,Carnes,Exceso de pedido,7.73,611.13,0.0822340425531915
+SUC007,Cancún,Queso Oaxaca,Lácteos,Exceso de pedido,3.68,609.33,0.08363636363636363
+SUC008,Mérida,Carne de Cerdo,Carnes,Exceso de pedido,4.74,602.5,0.1975
+SUC008,Mérida,Queso Fresco,Lácteos,Caducidad,6.62,597.92,0.20060606060606062
+SUC009,Tijuana,Salsa Verde,Salsas,Exceso de pedido,11.49,597.77,0.18184430512016717
+SUC002,Ciudad de México Sur,Limón,Verduras,Exceso de pedido,19.509999999999998,594.9399999999999,0.1065811845369305
+SUC005,Puebla,Tortillas de Harina,Básicos,Devolución cliente,16.45,594.03,0.2896739130434782
+SUC002,Ciudad de México Sur,Pollo,Carnes,Exceso de pedido,6.15,593.72,0.18416666666666665
+SUC009,Tijuana,Chile Jalapeño,Verduras,Error de preparación,16.13,593.07,0.14007407407407407
+SUC007,Cancún,Aceite,Básicos,Daño en almacenamiento,13.73,591.52,0.12284560723514212
+SUC006,Querétaro,Tortillas de Harina,Básicos,Daño en almacenamiento,17.12,586.77,0.14252934752934754
+SUC009,Tijuana,Chile Poblano,Verduras,Exceso de pedido,13.0,585.05,0.18421472937000885
+SUC006,Querétaro,Aguacate,Verduras,Daño en almacenamiento,6.78,584.57,0.1695
+SUC010,León,Pollo,Carnes,Devolución cliente,6.08,580.88,0.22518518518518518
+SUC008,Mérida,Aceite,Básicos,Caducidad,13.93,579.24,0.11212152369761065
+SUC002,Ciudad de México Sur,Aguacate,Verduras,Devolución cliente,6.75,577.12,0.1377551020408163
+SUC008,Mérida,Salsa Roja,Salsas,Devolución cliente,9.93,576.14,0.2613157894736842
+SUC001,Ciudad de México Centro,Aceite,Básicos,Exceso de pedido,13.399999999999999,573.8,0.07868840836582772
+SUC007,Cancún,Mole,Salsas,Caducidad,5.16,572.35,0.15176470588235294
+SUC001,Ciudad de México Centro,Queso Fresco,Lácteos,Daño en almacenamiento,5.88,568.58,0.06784194528875379
+SUC005,Puebla,Aguacate,Verduras,Error de preparación,8.4,567.76,0.3
+SUC009,Tijuana,Crema,Lácteos,Caducidad,12.41,561.09,0.09101102941176471
+SUC007,Cancún,Queso Fresco,Lácteos,Error de preparación,5.15,560.53,0.11444444444444445
+SUC007,Cancún,Frijoles,Básicos,Exceso de pedido,15.66,560.05,0.11901377765064836
+SUC003,Guadalajara,Carne de Cerdo,Carnes,Devolución cliente,4.96,558.95,0.10702201783723524
+SUC010,León,Queso Fresco,Lácteos,Error de preparación,6.16,557.64,0.16605042016806723
+SUC007,Cancún,Mole,Salsas,Devolución cliente,4.57,553.88,0.1757692307692308
+SUC007,Cancún,Limón,Verduras,Devolución cliente,17.87,553.2,0.16127936964898867
+SUC002,Ciudad de México Sur,Refrescos,Bebidas,Error de preparación,3.08,552.21,0.08555555555555555
+SUC003,Guadalajara,Refrescos,Bebidas,Caducidad,2.96,551.51,0.09866666666666667
+SUC008,Mérida,Carne de Cerdo,Carnes,Daño en almacenamiento,4.54,545.8,0.1816
+SUC005,Puebla,Queso Fresco,Lácteos,Exceso de pedido,5.41,542.08,0.15911764705882353
+SUC002,Ciudad de México Sur,Refrescos,Bebidas,Exceso de pedido,3.31,542.08,0.08487179487179487
+SUC005,Puebla,Tortillas de Maíz,Básicos,Caducidad,19.740000000000002,539.63,0.17468130282415995
+SUC001,Ciudad de México Centro,Chile Poblano,Verduras,Caducidad,12.010000000000002,538.4,0.12707635467980297
+SUC002,Ciudad de México Sur,Pollo,Carnes,Error de preparación,6.13,537.25,0.17276515151515154
+SUC009,Tijuana,Aguacate,Verduras,Daño en almacenamiento,6.5,526.63,0.1511627906976744
+SUC002,Ciudad de México Sur,Cerveza,Bebidas,Daño en almacenamiento,2.04,526.01,0.12
+SUC005,Puebla,Pollo,Carnes,Exceso de pedido,5.38,522.45,0.14157894736842105
+SUC004,Monterrey,Queso Fresco,Lácteos,Devolución cliente,5.17,519.75,0.049208222419402536
+SUC005,Puebla,Frijoles,Básicos,Devolución cliente,14.98,519.07,0.18806060606060607
+SUC002,Ciudad de México Sur,Chile Poblano,Verduras,Daño en almacenamiento,11.049999999999999,518.6500000000001,0.14839430894308944
+SUC010,León,Cilantro,Verduras,Caducidad,62.3,517.8,0.24347963328941588
+SUC007,Cancún,Tortillas de Maíz,Básicos,Daño en almacenamiento,20.3,517.3,0.19258335541423777
+SUC007,Cancún,Crema,Lácteos,Daño en almacenamiento,11.239999999999998,517.1500000000001,0.1285609857978279
+SUC010,León,Aguacate,Verduras,Exceso de pedido,6.45,516.13,0.17432432432432432
+SUC003,Guadalajara,Carne de Res,Carnes,Daño en almacenamiento,2.74,515.28,0.137
+SUC004,Monterrey,Salsa Roja,Salsas,Exceso de pedido,9.04,514.6700000000001,0.08201388888888889
+SUC008,Mérida,Aguacate,Verduras,Error de preparación,6.87,513.05,0.17615384615384616
+SUC005,Puebla,Salsa Verde,Salsas,Daño en almacenamiento,9.870000000000001,512.99,0.160480631276901
+SUC002,Ciudad de México Sur,Refrescos,Bebidas,Devolución cliente,3.13,512.73,0.06387755102040817
+SUC001,Ciudad de México Centro,Queso Fresco,Lácteos,Caducidad,5.050000000000001,512.21,0.07528454415954416
+SUC010,León,Tortillas de Harina,Básicos,Caducidad,14.780000000000001,511.33000000000004,0.21903439153439153
+SUC006,Querétaro,Carne de Cerdo,Carnes,Exceso de pedido,3.86,509.75,0.14296296296296296
+SUC002,Ciudad de México Sur,Aguacate,Verduras,Caducidad,6.4399999999999995,509.56,0.1481111111111111
+SUC001,Ciudad de México Centro,Crema,Lácteos,Caducidad,11.120000000000001,502.09000000000003,0.0960296052631579
+SUC010,León,Limón,Verduras,Caducidad,16.0,500.31,0.15616479260369814
+SUC004,Monterrey,Carne de Cerdo,Carnes,Daño en almacenamiento,3.6900000000000004,499.39,0.06343125
+SUC005,Puebla,Chile Poblano,Verduras,Error de preparación,9.77,498.76,0.23829268292682926
+SUC004,Monterrey,Queso Oaxaca,Lácteos,Caducidad,3.1399999999999997,498.04999999999995,0.05644705882352941
+SUC009,Tijuana,Tortillas de Harina,Básicos,Exceso de pedido,14.21,496.96000000000004,0.14040985838779957
+SUC009,Tijuana,Salsa Roja,Salsas,Exceso de pedido,8.48,494.81,0.18042553191489363
+SUC006,Querétaro,Tequila,Bebidas,Devolución cliente,1.36,489.37,0.09714285714285716
+SUC009,Tijuana,Chile Poblano,Verduras,Caducidad,11.25,486.9,0.12612318840579712
+SUC008,Mérida,Crema,Lácteos,Caducidad,10.44,485.01,0.16864253393665157
+SUC008,Mérida,Tortillas de Maíz,Básicos,Caducidad,17.82,482.94,0.26763457556935816
+SUC010,León,Tortillas de Maíz,Básicos,Daño en almacenamiento,19.64,481.61,0.2604761904761905
+SUC001,Ciudad de México Centro,Salsa Verde,Salsas,Error de preparación,8.58,481.53,0.14786666666666667
+SUC003,Guadalajara,Pollo,Carnes,Daño en almacenamiento,5.41,479.78999999999996,0.12283333333333334
+SUC005,Puebla,Carne de Res,Carnes,Exceso de pedido,2.75,478.14,0.275
+SUC001,Ciudad de México Centro,Pollo,Carnes,Exceso de pedido,5.41,477.78000000000003,0.11365641025641027
+SUC008,Mérida,Chile Poblano,Verduras,Caducidad,10.8,473.73,0.16472213141549527
+SUC010,León,Aguacate,Verduras,Daño en almacenamiento,6.34,470.41999999999996,0.261
+SUC006,Querétaro,Tortillas de Harina,Básicos,Exceso de pedido,13.58,468.54,0.14302380952380953
+SUC001,Ciudad de México Centro,Queso Fresco,Lácteos,Exceso de pedido,5.07,467.86,0.08031798245614036
+SUC009,Tijuana,Frijoles,Básicos,Caducidad,12.280000000000001,466.49,0.12638599033816425
+SUC010,León,Aguacate,Verduras,Error de preparación,5.38,462.73,0.29888888888888887
+SUC008,Mérida,Salsa Roja,Salsas,Exceso de pedido,9.12,462.48,0.19404255319148936
+SUC009,Tijuana,Crema,Lácteos,Daño en almacenamiento,9.23,457.08,0.09404698242933536
+SUC009,Tijuana,Mole,Salsas,Devolución cliente,4.08,457.04,0.10736842105263159
+SUC001,Ciudad de México Centro,Cerveza,Bebidas,Caducidad,1.79,456.18,0.04261904761904762
+SUC008,Mérida,Frijoles,Básicos,Daño en almacenamiento,11.899999999999999,455.62,0.13677094379639448
+SUC010,León,Crema,Lácteos,Error de preparación,10.03,454.69,0.1518218085106383
+SUC005,Puebla,Limón,Verduras,Daño en almacenamiento,14.02,450.44,0.15032520431513566
+SUC004,Monterrey,Refrescos,Bebidas,Devolución cliente,2.5,450.12,0.05
+SUC006,Querétaro,Crema,Lácteos,Exceso de pedido,9.41,449.01,0.0983563660925363
+SUC004,Monterrey,Carne de Cerdo,Carnes,Exceso de pedido,3.55,448.29,0.1109375
+SUC004,Monterrey,Chile Poblano,Verduras,Caducidad,9.5,445.07,0.08419978320566555
+SUC010,León,Aceite,Básicos,Caducidad,10.3,444.37,0.20576797385620915
+SUC006,Querétaro,Carne de Cerdo,Carnes,Error de preparación,3.54,444.13,0.08232558139534883
+SUC003,Guadalajara,Aguacate,Verduras,Error de preparación,5.18,441.28,0.13999999999999999
+SUC009,Tijuana,Tortillas de Harina,Básicos,Caducidad,11.73,438.47,0.23938775510204083
+SUC001,Ciudad de México Centro,Cebolla,Verduras,Exceso de pedido,19.22,437.5,0.09464104308390024
+SUC002,Ciudad de México Sur,Queso Fresco,Lácteos,Caducidad,4.74,435.78,0.08724533715925395
+SUC004,Monterrey,Salsa Roja,Salsas,Daño en almacenamiento,7.2,434.49,0.09066987179487179
+SUC001,Ciudad de México Centro,Salsa Roja,Salsas,Daño en almacenamiento,8.15,434.46000000000004,0.08534255368814192
+SUC004,Monterrey,Pollo,Carnes,Error de preparación,5.33,432.69,0.12395348837209302
+SUC003,Guadalajara,Mole,Salsas,Exceso de pedido,3.37,432.05999999999995,0.06666666666666667
+SUC010,León,Chile Poblano,Verduras,Caducidad,9.59,431.86,0.1903921568627451
+SUC004,Monterrey,Cerveza,Bebidas,Error de preparación,1.69,431.05,0.03755555555555556
+SUC009,Tijuana,Chile Jalapeño,Verduras,Daño en almacenamiento,11.94,430.17,0.09906181318681319
+SUC005,Puebla,Aceite,Básicos,Caducidad,9.729999999999999,430.03000000000003,0.1363425925925926
+SUC007,Cancún,Pollo,Carnes,Daño en almacenamiento,5.32,427.03999999999996,0.24821428571428572
+SUC002,Ciudad de México Sur,Tortillas de Maíz,Básicos,Exceso de pedido,15.8,424.87,0.16276030335895883
+SUC010,León,Frijoles,Básicos,Daño en almacenamiento,12.370000000000001,424.63,0.16905193236714977
+SUC005,Puebla,Cebolla,Verduras,Exceso de pedido,18.13,423.65,0.1287349268975883
+SUC001,Ciudad de México Centro,Queso Fresco,Lácteos,Devolución cliente,4.1,420.40000000000003,0.082125
+SUC003,Guadalajara,Refrescos,Bebidas,Devolución cliente,2.37,420.22,0.08172413793103449
+SUC008,Mérida,Chile Poblano,Verduras,Devolución cliente,9.21,419.88,0.18420000000000003
+SUC004,Monterrey,Tequila,Bebidas,Daño en almacenamiento,1.13,418.11,0.0353125
+SUC002,Ciudad de México Sur,Aceite,Básicos,Exceso de pedido,9.74,417.86,0.10587670727205611
+SUC004,Monterrey,Salsa Verde,Salsas,Caducidad,7.029999999999999,416.16999999999996,0.08152979066022543
+SUC001,Ciudad de México Centro,Queso Oaxaca,Lácteos,Devolución cliente,3.03,416.02,0.09181818181818181
+SUC005,Puebla,Queso Fresco,Lácteos,Caducidad,3.89,414.75,0.16208333333333333
+SUC002,Ciudad de México Sur,Aguacate,Verduras,Exceso de pedido,5.39,413.41,0.19962962962962963
+SUC006,Querétaro,Crema,Lácteos,Daño en almacenamiento,8.379999999999999,411.48,0.08455113636363636
+SUC009,Tijuana,Refrescos,Bebidas,Daño en almacenamiento,2.2,411.36,0.07096774193548387
+SUC006,Querétaro,Aceite,Básicos,Exceso de pedido,9.379999999999999,410.51,0.0714252839796318
+SUC008,Mérida,Aceite,Básicos,Devolución cliente,8.899999999999999,408.29999999999995,0.12420689655172412
+SUC007,Cancún,Crema,Lácteos,Exceso de pedido,9.52,407.9,0.10557291666666666
+SUC002,Ciudad de México Sur,Frijoles,Básicos,Exceso de pedido,11.11,407.09000000000003,0.0891093023255814
+SUC009,Tijuana,Pollo,Carnes,Devolución cliente,4.57,401.89,0.1305714285714286
+SUC009,Tijuana,Limón,Verduras,Daño en almacenamiento,13.120000000000001,399.54,0.11074473143489372
+SUC008,Mérida,Crema,Lácteos,Exceso de pedido,8.99,398.08,0.1513045112781955
+SUC008,Mérida,Crema,Lácteos,Daño en almacenamiento,7.99,396.94,0.1948780487804878
+SUC006,Querétaro,Queso Fresco,Lácteos,Daño en almacenamiento,3.9400000000000004,396.78,0.10407142857142858
+SUC003,Guadalajara,Pollo,Carnes,Devolución cliente,4.99,396.06,0.13486486486486488
+SUC007,Cancún,Salsa Roja,Salsas,Devolución cliente,7.42,395.93,0.18097560975609756
+SUC004,Monterrey,Aguacate,Verduras,Exceso de pedido,4.67,395.44,0.09734146341463415
+SUC008,Mérida,Tomate,Verduras,Daño en almacenamiento,13.67,395.33,0.20500769230769228
+SUC010,León,Aceite,Básicos,Exceso de pedido,9.41,387.86,0.16191929824561402
+SUC008,Mérida,Salsa Roja,Salsas,Daño en almacenamiento,7.01,386.65,0.21643812709030102
+SUC008,Mérida,Cebolla,Verduras,Exceso de pedido,16.72,384.65999999999997,0.15164893617021277
+SUC001,Ciudad de México Centro,Tortillas de Harina,Básicos,Error de preparación,9.58,382.99,0.12566308243727597
+SUC003,Guadalajara,Carne de Cerdo,Carnes,Exceso de pedido,3.38,382.72,0.059261904761904766
+SUC007,Cancún,Aceite,Básicos,Caducidad,8.95,381.62,0.10961201501877346
+SUC005,Puebla,Aceite,Básicos,Error de preparación,9.58,377.81,0.13119369369369369
+SUC001,Ciudad de México Centro,Chile Jalapeño,Verduras,Daño en almacenamiento,10.68,376.03,0.07414060189293109
+SUC009,Tijuana,Carne de Res,Carnes,Error de preparación,2.2,373.21,0.1375
+SUC008,Mérida,Carne de Res,Carnes,Exceso de pedido,1.8,371.57,0.3
+SUC002,Ciudad de México Sur,Chile Jalapeño,Verduras,Error de preparación,10.26,368.0,0.08532375776397515
+SUC008,Mérida,Tortillas de Maíz,Básicos,Exceso de pedido,13.520000000000001,366.40999999999997,0.16937962962962963
+SUC007,Cancún,Limón,Verduras,Daño en almacenamiento,12.96,366.07,0.11746488595438175
+SUC004,Monterrey,Salsa Roja,Salsas,Caducidad,6.35,363.3,0.061814814814814815
+SUC006,Querétaro,Queso Fresco,Lácteos,Caducidad,4.07,362.03,0.06922988505747127
+SUC007,Cancún,Arroz,Básicos,Exceso de pedido,13.31,360.02,0.11195868945868946
+SUC009,Tijuana,Frijoles,Básicos,Error de preparación,9.38,359.15999999999997,0.15148958333333334
+SUC008,Mérida,Cebolla,Verduras,Devolución cliente,15.45,358.20000000000005,0.14280467845594988
+SUC001,Ciudad de México Centro,Tomate,Verduras,Caducidad,12.52,356.22,0.13853425659308014
+SUC010,León,Cebolla,Verduras,Exceso de pedido,15.879999999999999,355.89000000000004,0.19000084260195482
+SUC003,Guadalajara,Queso Fresco,Lácteos,Caducidad,3.4299999999999997,355.19,0.06533496732026144
+SUC006,Querétaro,Chile Jalapeño,Verduras,Daño en almacenamiento,10.06,352.27,0.11309027777777779
+SUC009,Tijuana,Limón,Verduras,Caducidad,11.2,349.13,0.12337755102040816
+SUC007,Cancún,Carne de Res,Carnes,Daño en almacenamiento,2.11,349.04,0.1918181818181818
+SUC010,León,Carne de Res,Carnes,Error de preparación,1.98,348.62,0.132
+SUC010,León,Arroz,Básicos,Error de preparación,12.27,345.36,0.19580357142857144
+SUC001,Ciudad de México Centro,Tomate,Verduras,Exceso de pedido,11.32,342.07,0.11392030423280423
+SUC010,León,Tortillas de Maíz,Básicos,Exceso de pedido,13.32,341.2,0.15363160648874935
+SUC004,Monterrey,Queso Fresco,Lácteos,Daño en almacenamiento,3.75,340.28,0.052405017921146956
+SUC001,Ciudad de México Centro,Tequila,Bebidas,Exceso de pedido,0.95,337.18,0.07916666666666666
+SUC003,Guadalajara,Aguacate,Verduras,Daño en almacenamiento,4.34,337.17,0.14965517241379309
+SUC003,Guadalajara,Queso Oaxaca,Lácteos,Daño en almacenamiento,2.48,335.12,0.08857142857142856
+SUC010,León,Limón,Verduras,Daño en almacenamiento,10.15,334.46000000000004,0.1765307499518026
+SUC005,Puebla,Frijoles,Básicos,Exceso de pedido,9.95,333.23,0.20729166666666665
+SUC009,Tijuana,Arroz,Básicos,Exceso de pedido,11.84,331.98,0.09451566071867029
+SUC006,Querétaro,Limón,Verduras,Caducidad,9.76,330.14,0.10608695652173913
+SUC001,Ciudad de México Centro,Aguacate,Verduras,Exceso de pedido,4.1,329.27,0.08723404255319148
+SUC008,Mérida,Frijoles,Básicos,Error de preparación,9.68,328.09000000000003,0.1458684158219042
+SUC006,Querétaro,Mole,Salsas,Daño en almacenamiento,2.53,327.61,0.11499999999999999
+SUC004,Monterrey,Frijoles,Básicos,Exceso de pedido,9.51,327.37,0.07606782106782106
+SUC008,Mérida,Aceite,Básicos,Error de preparación,7.5,326.1,0.13559294871794872
+SUC010,León,Aceite,Básicos,Daño en almacenamiento,7.97,325.1,0.18976190476190474
+SUC003,Guadalajara,Salsa Verde,Salsas,Caducidad,5.8999999999999995,322.55,0.07327153110047846
+SUC007,Cancún,Tortillas de Harina,Básicos,Caducidad,9.01,322.3,0.20656798245614033
+SUC001,Ciudad de México Centro,Frijoles,Básicos,Error de preparación,9.08,321.74,0.08781523307610264
+SUC005,Puebla,Tortillas de Maíz,Básicos,Exceso de pedido,11.4,320.34,0.3
+SUC001,Ciudad de México Centro,Mole,Salsas,Daño en almacenamiento,2.66,320.12,0.09386206896551724
+SUC008,Mérida,Tomate,Verduras,Devolución cliente,10.24,319.39,0.2694736842105263
+SUC008,Mérida,Tortillas de Harina,Básicos,Devolución cliente,9.39,318.79,0.14602083333333332
+SUC010,León,Tortillas de Maíz,Básicos,Error de preparación,14.1,318.52,0.3
+SUC002,Ciudad de México Sur,Arroz,Básicos,Exceso de pedido,10.89,318.32,0.07538145448795354
+SUC003,Guadalajara,Mole,Salsas,Daño en almacenamiento,2.55,316.2,0.06375
+SUC010,León,Chile Jalapeño,Verduras,Daño en almacenamiento,9.04,314.72,0.13166666666666665
+SUC002,Ciudad de México Sur,Mole,Salsas,Daño en almacenamiento,2.59,314.43,0.0681578947368421
+SUC010,León,Arroz,Básicos,Caducidad,10.39,314.26,0.14503571428571427
+SUC009,Tijuana,Cebolla,Verduras,Exceso de pedido,13.43,314.01,0.11569092365967365
+SUC004,Monterrey,Limón,Verduras,Daño en almacenamiento,10.35,313.89,0.0704709083187344
+SUC004,Monterrey,Queso Fresco,Lácteos,Caducidad,3.18,313.83,0.06625
+SUC002,Ciudad de México Sur,Aceite,Básicos,Daño en almacenamiento,6.93,312.38,0.10900000000000001
+SUC003,Guadalajara,Aguacate,Verduras,Exceso de pedido,4.19,310.73,0.10743589743589745
+SUC001,Ciudad de México Centro,Arroz,Básicos,Daño en almacenamiento,10.71,309.69,0.07896290256507216
+SUC005,Puebla,Chile Jalapeño,Verduras,Error de preparación,9.33,309.35,0.15723389355742298
+SUC001,Ciudad de México Centro,Pollo,Carnes,Daño en almacenamiento,3.49,307.4,0.09432432432432433
+SUC003,Guadalajara,Queso Oaxaca,Lácteos,Error de preparación,2.15,307.15,0.086
+SUC003,Guadalajara,Salsa Verde,Salsas,Daño en almacenamiento,5.18,307.02,0.148
+SUC001,Ciudad de México Centro,Chile Jalapeño,Verduras,Caducidad,7.91,306.08,0.09886828644501278
+SUC006,Querétaro,Arroz,Básicos,Exceso de pedido,10.89,305.25,0.08372410852713179
+SUC009,Tijuana,Salsa Roja,Salsas,Devolución cliente,5.69,305.15,0.21074074074074076
+SUC009,Tijuana,Aceite,Básicos,Error de preparación,7.26,305.08,0.09849531116794545
+SUC010,León,Queso Fresco,Lácteos,Daño en almacenamiento,3.1,304.85,0.14761904761904762
+SUC005,Puebla,Tomate,Verduras,Daño en almacenamiento,9.82,304.16999999999996,0.1736770186335404
+SUC002,Ciudad de México Sur,Tomate,Verduras,Daño en almacenamiento,10.29,302.05,0.15046955624355005
+SUC002,Ciudad de México Sur,Tomate,Verduras,Error de preparación,10.04,300.98,0.1525
+SUC006,Querétaro,Salsa Verde,Salsas,Error de preparación,5.16,300.40999999999997,0.11848739495798319
+SUC007,Cancún,Tomate,Verduras,Exceso de pedido,10.84,299.4,0.15055357142857143
+SUC006,Querétaro,Pollo,Carnes,Error de preparación,3.87,299.0,0.12483870967741936
+SUC004,Monterrey,Salsa Roja,Salsas,Devolución cliente,5.12,298.95,0.06666666666666667
+SUC008,Mérida,Frijoles,Básicos,Caducidad,7.9,298.67,0.15209795321637426
+SUC006,Querétaro,Aguacate,Verduras,Exceso de pedido,3.57,298.31,0.09394736842105263
+SUC004,Monterrey,Mole,Salsas,Devolución cliente,2.5300000000000002,297.81,0.06218750000000001
+SUC006,Querétaro,Crema,Lácteos,Caducidad,7.02,295.23,0.09443449048152296
+SUC004,Monterrey,Aguacate,Verduras,Error de preparación,4.0,293.32,0.11428571428571428
+SUC003,Guadalajara,Pollo,Carnes,Caducidad,3.4,293.32,0.09042016806722689
+SUC008,Mérida,Arroz,Básicos,Daño en almacenamiento,10.620000000000001,292.49,0.12057499999999999
+SUC009,Tijuana,Tomate,Verduras,Error de preparación,10.0,291.2,0.12453208556149734
+SUC006,Querétaro,Tortillas de Maíz,Básicos,Devolución cliente,11.44,291.19,0.17434782608695654
+SUC008,Mérida,Cilantro,Verduras,Caducidad,35.81,289.46000000000004,0.19570454263053083
+SUC005,Puebla,Pollo,Carnes,Error de preparación,3.5,289.28,0.1590909090909091
+SUC003,Guadalajara,Tomate,Verduras,Exceso de pedido,10.08,289.06,0.1306547619047619
+SUC004,Monterrey,Salsa Verde,Salsas,Exceso de pedido,4.6899999999999995,287.77,0.09999999999999999
+SUC008,Mérida,Chile Poblano,Verduras,Error de preparación,5.58,287.76,0.29368421052631577
+SUC010,León,Cebolla,Verduras,Daño en almacenamiento,12.18,286.47,0.20273809523809522
+SUC004,Monterrey,Mole,Salsas,Exceso de pedido,2.52,286.02,0.04930735930735931
+SUC001,Ciudad de México Centro,Limón,Verduras,Daño en almacenamiento,9.540000000000001,285.83,0.08393122759856632
+SUC006,Querétaro,Tortillas de Maíz,Básicos,Caducidad,11.52,285.11,0.13112261904761904
+SUC002,Ciudad de México Sur,Frijoles,Básicos,Caducidad,7.73,283.8,0.07166666666666667
+SUC006,Querétaro,Aguacate,Verduras,Caducidad,3.48,283.69,0.11478260869565217
+SUC001,Ciudad de México Centro,Salsa Verde,Salsas,Caducidad,4.92,282.46,0.15052631578947367
+SUC009,Tijuana,Limón,Verduras,Exceso de pedido,8.67,282.28,0.11185714285714285
+SUC002,Ciudad de México Sur,Aguacate,Verduras,Error de preparación,3.65,281.45,0.1738095238095238
+SUC010,León,Tomate,Verduras,Caducidad,9.77,280.61,0.23912660256410256
+SUC009,Tijuana,Tequila,Bebidas,Exceso de pedido,0.81,280.07,0.135
+SUC002,Ciudad de México Sur,Limón,Verduras,Caducidad,9.46,279.79999999999995,0.11480158730158731
+SUC005,Puebla,Tomate,Verduras,Exceso de pedido,9.92,279.26,0.2068087121212121
+SUC008,Mérida,Carne de Cerdo,Carnes,Devolución cliente,2.29,278.42,0.16357142857142856
+SUC005,Puebla,Tortillas de Maíz,Básicos,Error de preparación,9.9,276.51,0.3
+SUC006,Querétaro,Cebolla,Verduras,Caducidad,12.120000000000001,276.09,0.08323315018315018
+SUC002,Ciudad de México Sur,Aceite,Básicos,Devolución cliente,6.43,274.75,0.13978260869565218
+SUC008,Mérida,Aceite,Básicos,Daño en almacenamiento,5.85,274.19,0.1227611111111111
+SUC002,Ciudad de México Sur,Salsa Roja,Salsas,Error de preparación,4.73,274.09000000000003,0.09966783216783218
+SUC005,Puebla,Chile Jalapeño,Verduras,Devolución cliente,7.32,272.3,0.14184397163120568
+SUC008,Mérida,Arroz,Básicos,Error de preparación,9.42,271.27000000000004,0.13975378787878787
+SUC007,Cancún,Tomate,Verduras,Error de preparación,9.76,268.89,0.21217391304347827
+SUC007,Cancún,Aguacate,Verduras,Devolución cliente,3.41,268.16,0.09216216216216216
+SUC002,Ciudad de México Sur,Salsa Verde,Salsas,Error de preparación,4.72,268.07,0.13626373626373625
+SUC005,Puebla,Frijoles,Básicos,Caducidad,6.71,267.13,0.22366666666666665
+SUC010,León,Tortillas de Harina,Básicos,Exceso de pedido,8.4,267.12,0.21000000000000002
+SUC006,Querétaro,Frijoles,Básicos,Exceso de pedido,7.01,264.25,0.09286923076923077
+SUC008,Mérida,Pollo,Carnes,Error de preparación,3.08,263.49,0.25666666666666665
+SUC009,Tijuana,Arroz,Básicos,Daño en almacenamiento,8.36,262.87,0.1276981981981982
+SUC009,Tijuana,Tomate,Verduras,Caducidad,9.17,262.26,0.21616666666666665
+SUC003,Guadalajara,Carne de Cerdo,Carnes,Daño en almacenamiento,2.13,262.03,0.1065
+SUC001,Ciudad de México Centro,Tortillas de Maíz,Básicos,Caducidad,9.790000000000001,261.94,0.12078696741854637
+SUC005,Puebla,Arroz,Básicos,Exceso de pedido,9.79,260.22,0.20829787234042552
+SUC002,Ciudad de México Sur,Cerveza,Bebidas,Exceso de pedido,0.87,259.93,0.12428571428571429
+SUC004,Monterrey,Chile Jalapeño,Verduras,Error de preparación,7.28,259.22,0.06686049870029845
+SUC010,León,Arroz,Básicos,Exceso de pedido,8.36,256.53,0.20281481481481484
+SUC005,Puebla,Limón,Verduras,Devolución cliente,8.510000000000002,256.41999999999996,0.14792906178489704
+SUC003,Guadalajara,Frijoles,Básicos,Exceso de pedido,7.290000000000001,254.92,0.07222170008354219
+SUC006,Querétaro,Chile Poblano,Verduras,Devolución cliente,6.18,254.92,0.1545
+SUC009,Tijuana,Aceite,Básicos,Exceso de pedido,5.85,254.47,0.15
+SUC006,Querétaro,Refrescos,Bebidas,Daño en almacenamiento,1.3,254.1,0.10833333333333334
+SUC009,Tijuana,Frijoles,Básicos,Daño en almacenamiento,6.88,253.36,0.1349153069153069
+SUC001,Ciudad de México Centro,Frijoles,Básicos,Devolución cliente,7.49,252.89,0.08321801891488304
+SUC004,Monterrey,Tortillas de Harina,Básicos,Devolución cliente,7.05,251.16,0.09214424951267057
+SUC007,Cancún,Tomate,Verduras,Daño en almacenamiento,7.99,248.47,0.16444444444444445
+SUC005,Puebla,Chile Jalapeño,Verduras,Caducidad,6.77,247.88,0.14934343434343433
+SUC002,Ciudad de México Sur,Queso Fresco,Lácteos,Error de preparación,2.49,247.70999999999998,0.0975
+SUC007,Cancún,Limón,Verduras,Exceso de pedido,8.15,247.66,0.09944662956091527
+SUC008,Mérida,Tomate,Verduras,Exceso de pedido,9.16,247.21999999999997,0.214
+SUC002,Ciudad de México Sur,Crema,Lácteos,Exceso de pedido,5.51,247.16,0.11505847953216375
+SUC008,Mérida,Arroz,Básicos,Caducidad,8.790000000000001,245.05,0.11137962962962962
+SUC009,Tijuana,Limón,Verduras,Devolución cliente,7.77,243.62,0.13210526315789473
+SUC004,Monterrey,Queso Fresco,Lácteos,Exceso de pedido,2.5,242.55,0.033037166085946576
+SUC001,Ciudad de México Centro,Queso Fresco,Lácteos,Error de preparación,2.82,241.9,0.1175
+SUC004,Monterrey,Queso Oaxaca,Lácteos,Daño en almacenamiento,1.5699999999999998,240.64000000000001,0.055984848484848485
+SUC008,Mérida,Limón,Verduras,Error de preparación,7.79,240.4,0.16574468085106384
+SUC003,Guadalajara,Chile Jalapeño,Verduras,Error de preparación,7.25,240.26,0.08712797619047619
+SUC003,Guadalajara,Frijoles,Básicos,Devolución cliente,6.9399999999999995,239.60000000000002,0.07955338266384777
+SUC007,Cancún,Queso Fresco,Lácteos,Devolución cliente,2.23,239.26,0.09291666666666666
+SUC009,Tijuana,Cilantro,Verduras,Caducidad,29.74,238.22,0.13383701836282483
+SUC004,Monterrey,Limón,Verduras,Exceso de pedido,7.41,238.07,0.05840017975508369
+SUC003,Guadalajara,Queso Fresco,Lácteos,Daño en almacenamiento,2.58,237.98,0.046625
+SUC004,Monterrey,Tomate,Verduras,Daño en almacenamiento,9.05,237.76,0.09521790587580063
+SUC002,Ciudad de México Sur,Carne de Cerdo,Carnes,Exceso de pedido,1.86,237.0,0.11625
+SUC008,Mérida,Chile Poblano,Verduras,Daño en almacenamiento,5.25,236.56,0.11170212765957446
+SUC008,Mérida,Limón,Verduras,Caducidad,7.309999999999999,236.36,0.14742857142857144
+SUC007,Cancún,Salsa Roja,Salsas,Daño en almacenamiento,4.06,236.09,0.09227272727272727
+SUC005,Puebla,Crema,Lácteos,Error de preparación,5.25,235.76,0.14323426573426573
+SUC001,Ciudad de México Centro,Tomate,Verduras,Daño en almacenamiento,7.77,235.71,0.09697402597402598
+SUC007,Cancún,Arroz,Básicos,Caducidad,7.390000000000001,235.26,0.13781976744186047
+SUC001,Ciudad de México Centro,Salsa Verde,Salsas,Daño en almacenamiento,4.21,234.16,0.13580645161290322
+SUC004,Monterrey,Queso Oaxaca,Lácteos,Error de preparación,1.47,233.92000000000002,0.05021428571428571
+SUC007,Cancún,Arroz,Básicos,Daño en almacenamiento,7.81,232.6,0.13191309041835356
+SUC004,Monterrey,Chile Poblano,Verduras,Exceso de pedido,4.91,231.51,0.07034965034965035
+SUC001,Ciudad de México Centro,Crema,Lácteos,Devolución cliente,4.54,231.45,0.11641025641025642
+SUC005,Puebla,Crema,Lácteos,Devolución cliente,4.77,230.34,0.17666666666666664
+SUC005,Puebla,Cerveza,Bebidas,Error de preparación,0.78,230.22,0.08666666666666667
+SUC001,Ciudad de México Centro,Carne de Cerdo,Carnes,Daño en almacenamiento,1.94,227.27,0.09238095238095238
+SUC004,Monterrey,Refrescos,Bebidas,Error de preparación,1.28,227.18,0.04069444444444444
+SUC003,Guadalajara,Frijoles,Básicos,Caducidad,6.24,226.31,0.08079657669519422
+SUC008,Mérida,Crema,Lácteos,Error de preparación,4.78,225.19,0.1912
+SUC002,Ciudad de México Sur,Queso Oaxaca,Lácteos,Exceso de pedido,1.57,223.87,0.10466666666666667
+SUC003,Guadalajara,Salsa Roja,Salsas,Daño en almacenamiento,3.98,222.92,0.1474074074074074
+SUC001,Ciudad de México Centro,Arroz,Básicos,Exceso de pedido,7.640000000000001,221.12,0.08691724941724942
+SUC010,León,Chile Jalapeño,Verduras,Caducidad,6.45,220.65,0.14021739130434782
+SUC002,Ciudad de México Sur,Salsa Verde,Salsas,Caducidad,4.04,217.51,0.12625
+SUC005,Puebla,Queso Fresco,Lácteos,Daño en almacenamiento,2.42,216.88,0.17285714285714285
+SUC001,Ciudad de México Centro,Aceite,Básicos,Daño en almacenamiento,5.569999999999999,216.47,0.08217592592592592
+SUC004,Monterrey,Aceite,Básicos,Daño en almacenamiento,5.24,215.92000000000002,0.04758522727272727
+SUC007,Cancún,Frijoles,Básicos,Devolución cliente,6.01,215.88,0.1581578947368421
+SUC009,Tijuana,Arroz,Básicos,Devolución cliente,8.02,215.57999999999998,0.14395299145299145
+SUC003,Guadalajara,Tortillas de Harina,Básicos,Exceso de pedido,5.79,215.24,0.0980952380952381
+SUC002,Ciudad de México Sur,Crema,Lácteos,Devolución cliente,4.36,214.64,0.0990909090909091
+SUC002,Ciudad de México Sur,Limón,Verduras,Daño en almacenamiento,6.75,213.94,0.10517857142857143
+SUC002,Ciudad de México Sur,Cilantro,Verduras,Caducidad,25.03,213.67000000000002,0.1416123824052886
+SUC008,Mérida,Chile Jalapeño,Verduras,Exceso de pedido,5.83,213.44,0.1166
+SUC008,Mérida,Queso Oaxaca,Lácteos,Exceso de pedido,1.56,212.36,0.156
+SUC003,Guadalajara,Crema,Lácteos,Caducidad,4.84,211.6,0.10083333333333333
+SUC006,Querétaro,Cilantro,Verduras,Caducidad,24.58,209.01,0.12229537261713194
+SUC007,Cancún,Arroz,Básicos,Error de preparación,7.640000000000001,207.32,0.11906468531468532
+SUC001,Ciudad de México Centro,Limón,Verduras,Exceso de pedido,6.67,206.74,0.0803913043478261
+SUC004,Monterrey,Mole,Salsas,Daño en almacenamiento,1.73,202.19,0.07863636363636363
+SUC007,Cancún,Limón,Verduras,Caducidad,6.76,201.68,0.12125744047619047
+SUC007,Cancún,Pollo,Carnes,Devolución cliente,2.59,200.85,0.14388888888888887
+SUC006,Querétaro,Tomate,Verduras,Exceso de pedido,6.93,199.45,0.144375
+SUC003,Guadalajara,Cilantro,Verduras,Caducidad,24.59,198.12,0.10495089492025766
+SUC007,Cancún,Chile Poblano,Verduras,Daño en almacenamiento,4.06,197.07,0.17652173913043476
+SUC003,Guadalajara,Chile Poblano,Verduras,Daño en almacenamiento,4.45,195.84,0.14833333333333334
+SUC004,Monterrey,Carne de Res,Carnes,Exceso de pedido,1.0,195.01,0.125
+SUC004,Monterrey,Mole,Salsas,Error de preparación,1.64,194.19,0.03644444444444444
+SUC003,Guadalajara,Salsa Roja,Salsas,Devolución cliente,3.36,190.92,0.1527272727272727
+SUC010,León,Frijoles,Básicos,Caducidad,4.87,190.45,0.1563888888888889
+SUC001,Ciudad de México Centro,Crema,Lácteos,Exceso de pedido,3.96,190.01999999999998,0.05834740259740259
+SUC001,Ciudad de México Centro,Frijoles,Básicos,Caducidad,5.38,187.53,0.07586894586894587
+SUC008,Mérida,Cebolla,Verduras,Daño en almacenamiento,7.47,186.97,0.1821951219512195
+SUC003,Guadalajara,Frijoles,Básicos,Daño en almacenamiento,5.11,186.79999999999998,0.06596031746031746
+SUC005,Puebla,Tortillas de Harina,Básicos,Exceso de pedido,5.59,186.73000000000002,0.1383838383838384
+SUC003,Guadalajara,Tortillas de Maíz,Básicos,Error de preparación,6.8,186.59,0.14166666666666666
+SUC001,Ciudad de México Centro,Aguacate,Verduras,Error de preparación,2.63,186.26999999999998,0.06922969187675071
+SUC005,Puebla,Salsa Roja,Salsas,Error de preparación,3.35,186.06,0.2392857142857143
+SUC004,Monterrey,Tomate,Verduras,Caducidad,6.51,185.54000000000002,0.09393529893529894
+SUC004,Monterrey,Salsa Verde,Salsas,Error de preparación,3.27,185.38,0.0654
+SUC002,Ciudad de México Sur,Limón,Verduras,Error de preparación,5.640000000000001,184.22,0.08713068181818182
+SUC003,Guadalajara,Aceite,Básicos,Daño en almacenamiento,4.59,183.5,0.043842759071592026
+SUC001,Ciudad de México Centro,Carne de Cerdo,Carnes,Exceso de pedido,1.43,183.34,0.13
+SUC005,Puebla,Aceite,Básicos,Daño en almacenamiento,3.85,182.57,0.17500000000000002
+SUC001,Ciudad de México Centro,Crema,Lácteos,Error de preparación,3.75,181.32999999999998,0.09925
+SUC003,Guadalajara,Chile Jalapeño,Verduras,Devolución cliente,5.52,181.07,0.07003039513677811
+SUC005,Puebla,Limón,Verduras,Exceso de pedido,5.68,179.11,0.13765
+SUC003,Guadalajara,Queso Oaxaca,Lácteos,Devolución cliente,1.12,177.43,0.06222222222222223
+SUC007,Cancún,Chile Jalapeño,Verduras,Error de preparación,4.58,177.02,0.14774193548387096
+SUC007,Cancún,Crema,Lácteos,Caducidad,3.57,176.64,0.09916666666666667
+SUC003,Guadalajara,Cebolla,Verduras,Exceso de pedido,7.81,174.26999999999998,0.06796323529411764
+SUC005,Puebla,Crema,Lácteos,Caducidad,3.45,173.29,0.08214285714285714
+SUC003,Guadalajara,Tortillas de Harina,Básicos,Devolución cliente,4.91,172.88,0.1534375
+SUC009,Tijuana,Mole,Salsas,Error de preparación,1.55,172.76,0.062
+SUC008,Mérida,Cilantro,Verduras,Devolución cliente,19.54,171.62,0.2361577380952381
+SUC004,Monterrey,Aceite,Básicos,Caducidad,3.59,168.92000000000002,0.0535
+SUC004,Monterrey,Pollo,Carnes,Exceso de pedido,2.17,168.44,0.057105263157894735
+SUC005,Puebla,Cebolla,Verduras,Daño en almacenamiento,8.120000000000001,167.82999999999998,0.20413636363636364
+SUC001,Ciudad de México Centro,Cebolla,Verduras,Devolución cliente,7.65,167.56,0.07124324641766502
+SUC004,Monterrey,Pollo,Carnes,Daño en almacenamiento,2.18,167.38,0.04954545454545455
+SUC004,Monterrey,Tortillas de Harina,Básicos,Caducidad,4.640000000000001,166.63,0.1082962962962963
+SUC009,Tijuana,Arroz,Básicos,Error de preparación,6.21,165.56,0.15923076923076923
+SUC003,Guadalajara,Tomate,Verduras,Caducidad,6.28,165.36,0.097569573283859
+SUC001,Ciudad de México Centro,Cebolla,Verduras,Daño en almacenamiento,7.609999999999999,162.82999999999998,0.06575120082920416
+SUC005,Puebla,Tortillas de Harina,Básicos,Daño en almacenamiento,4.2,161.91,0.3
+SUC001,Ciudad de México Centro,Salsa Verde,Salsas,Exceso de pedido,2.69,161.27,0.15823529411764706
+SUC002,Ciudad de México Sur,Chile Jalapeño,Verduras,Exceso de pedido,4.87,161.25,0.12175
+SUC006,Querétaro,Arroz,Básicos,Caducidad,5.66,161.24,0.07185185185185185
+SUC004,Monterrey,Tomate,Verduras,Exceso de pedido,5.09,160.64,0.1018
+SUC004,Monterrey,Crema,Lácteos,Daño en almacenamiento,3.54,160.26,0.049074279379157426
+SUC003,Guadalajara,Crema,Lácteos,Error de preparación,3.5,159.7,0.08676785714285715
+SUC001,Ciudad de México Centro,Pollo,Carnes,Caducidad,1.83,156.88,0.14
+SUC007,Cancún,Carne de Cerdo,Carnes,Daño en almacenamiento,1.38,156.77,0.11499999999999999
+SUC010,León,Tomate,Verduras,Devolución cliente,5.63,156.29,0.13093023255813954
+SUC001,Ciudad de México Centro,Limón,Verduras,Error de preparación,4.779999999999999,154.97,0.06830434782608696
+SUC004,Monterrey,Chile Poblano,Verduras,Error de preparación,3.01,154.95,0.0940625
+SUC002,Ciudad de México Sur,Cebolla,Verduras,Error de preparación,6.84,153.63,0.1425
+SUC009,Tijuana,Cebolla,Verduras,Error de preparación,7.08,153.28,0.16090909090909092
+SUC006,Querétaro,Cebolla,Verduras,Daño en almacenamiento,7.02,153.13,0.0792866847826087
+SUC008,Mérida,Chile Jalapeño,Verduras,Daño en almacenamiento,4.41,152.56,0.1278219696969697
+SUC006,Querétaro,Arroz,Básicos,Daño en almacenamiento,5.44,150.4,0.09210228919153869
+SUC006,Querétaro,Crema,Lácteos,Error de preparación,3.39,150.14,0.08921052631578948
+SUC003,Guadalajara,Limón,Verduras,Daño en almacenamiento,5.029999999999999,150.03,0.07605380116959064
+SUC003,Guadalajara,Limón,Verduras,Exceso de pedido,4.92,149.07999999999998,0.068
+SUC005,Puebla,Arroz,Básicos,Error de preparación,5.07,148.86,0.1877777777777778
+SUC009,Tijuana,Aceite,Básicos,Daño en almacenamiento,3.22,147.25,0.11925925925925927
+SUC003,Guadalajara,Arroz,Básicos,Exceso de pedido,5.0600000000000005,146.47,0.09406015037593984
+SUC001,Ciudad de México Centro,Aguacate,Verduras,Devolución cliente,1.84,146.3,0.07076923076923078
+SUC008,Mérida,Limón,Verduras,Daño en almacenamiento,5.279999999999999,145.95,0.19881818181818184
+SUC007,Cancún,Queso Fresco,Lácteos,Caducidad,1.55,145.61,0.0775
+SUC004,Monterrey,Salsa Verde,Salsas,Devolución cliente,2.58,144.22,0.06789473684210527
+SUC002,Ciudad de México Sur,Salsa Verde,Salsas,Exceso de pedido,2.38,143.37,0.19833333333333333
+SUC004,Monterrey,Pollo,Carnes,Caducidad,1.7,143.36,0.09444444444444444
+SUC009,Tijuana,Chile Jalapeño,Verduras,Caducidad,3.84,142.35,0.12
+SUC001,Ciudad de México Centro,Salsa Roja,Salsas,Error de preparación,2.43,142.33,0.060750000000000005
+SUC005,Puebla,Chile Jalapeño,Verduras,Exceso de pedido,3.8,142.05,0.17272727272727273
+SUC010,León,Cebolla,Verduras,Caducidad,5.890000000000001,141.66,0.10271804062126644
+SUC004,Monterrey,Queso Fresco,Lácteos,Error de preparación,1.58,139.81,0.05642857142857143
+SUC006,Querétaro,Chile Jalapeño,Verduras,Exceso de pedido,3.89,139.69,0.10225000000000001
+SUC005,Puebla,Arroz,Básicos,Caducidad,4.9399999999999995,137.92000000000002,0.13090579710144928
+SUC009,Tijuana,Salsa Roja,Salsas,Error de preparación,2.62,137.58,0.21833333333333335
+SUC004,Monterrey,Limón,Verduras,Error de preparación,4.33,137.26,0.057678030303030314
+SUC005,Puebla,Mole,Salsas,Daño en almacenamiento,0.98,135.22,0.0890909090909091
+SUC008,Mérida,Cebolla,Verduras,Caducidad,6.22,135.04,0.15948717948717947
+SUC009,Tijuana,Frijoles,Básicos,Devolución cliente,4.02,134.83,0.12181818181818181
+SUC002,Ciudad de México Sur,Frijoles,Básicos,Daño en almacenamiento,3.95,134.64000000000001,0.07300307219662058
+SUC004,Monterrey,Tortillas de Maíz,Básicos,Caducidad,5.34,134.37,0.0613784907902555
+SUC003,Guadalajara,Chile Jalapeño,Verduras,Daño en almacenamiento,3.49,130.49,0.07755555555555556
+SUC006,Querétaro,Salsa Roja,Salsas,Daño en almacenamiento,2.55,130.08,0.159375
+SUC006,Querétaro,Salsa Roja,Salsas,Exceso de pedido,2.31,129.87,0.12157894736842105
+SUC002,Ciudad de México Sur,Aceite,Básicos,Caducidad,2.88,129.8,0.07384615384615384
+SUC009,Tijuana,Cerveza,Bebidas,Error de preparación,0.42,129.45,0.08399999999999999
+SUC004,Monterrey,Cebolla,Verduras,Daño en almacenamiento,6.37,129.07,0.052388888888888895
+SUC004,Monterrey,Chile Jalapeño,Verduras,Exceso de pedido,3.19,127.19,0.07595238095238095
+SUC002,Ciudad de México Sur,Carne de Cerdo,Carnes,Error de preparación,0.95,126.83,0.095
+SUC008,Mérida,Aceite,Básicos,Exceso de pedido,2.85,126.4,0.13571428571428573
+SUC001,Ciudad de México Centro,Cebolla,Verduras,Caducidad,5.38,125.67,0.08433659665857808
+SUC004,Monterrey,Arroz,Básicos,Caducidad,4.13,124.71,0.06234090909090909
+SUC001,Ciudad de México Centro,Chile Jalapeño,Verduras,Exceso de pedido,3.28,124.21,0.10933333333333332
+SUC007,Cancún,Aceite,Básicos,Exceso de pedido,2.86,123.27,0.09862068965517241
+SUC005,Puebla,Crema,Lácteos,Exceso de pedido,2.76,122.85,0.11499999999999999
+SUC001,Ciudad de México Centro,Cerveza,Bebidas,Error de preparación,0.44,122.06,0.055
+SUC003,Guadalajara,Salsa Roja,Salsas,Exceso de pedido,2.35,121.35,0.15666666666666668
+SUC006,Querétaro,Chile Jalapeño,Verduras,Error de preparación,3.5,121.24,0.12962962962962962
+SUC005,Puebla,Cilantro,Verduras,Caducidad,14.22,121.06,0.1716111111111111
+SUC002,Ciudad de México Sur,Queso Fresco,Lácteos,Devolución cliente,1.33,120.98,0.07388888888888889
+SUC001,Ciudad de México Centro,Limón,Verduras,Caducidad,4.09,120.58000000000001,0.07665625000000001
+SUC010,León,Limón,Verduras,Exceso de pedido,4.2,120.19,0.09052380952380953
+SUC002,Ciudad de México Sur,Aceite,Básicos,Error de preparación,2.59,119.45,0.06317073170731707
+SUC004,Monterrey,Chile Jalapeño,Verduras,Devolución cliente,3.09,119.37,0.08351351351351351
+SUC010,León,Cilantro,Verduras,Exceso de pedido,15.629999999999999,118.89,0.2586701509872241
+SUC003,Guadalajara,Chile Jalapeño,Verduras,Exceso de pedido,3.42,117.25999999999999,0.06339285714285714
+SUC005,Puebla,Limón,Verduras,Error de preparación,3.5,117.25,0.15515384615384614
+SUC007,Cancún,Chile Jalapeño,Verduras,Daño en almacenamiento,3.46,117.05,0.16476190476190475
+SUC002,Ciudad de México Sur,Tomate,Verduras,Caducidad,4.19,116.69,0.1309375
+SUC005,Puebla,Arroz,Básicos,Daño en almacenamiento,3.9,116.02,0.18571428571428572
+SUC007,Cancún,Chile Jalapeño,Verduras,Exceso de pedido,3.24,115.83,0.07902439024390244
+SUC007,Cancún,Salsa Roja,Salsas,Error de preparación,1.85,114.81,0.12333333333333334
+SUC004,Monterrey,Chile Jalapeño,Verduras,Daño en almacenamiento,3.42,114.37,0.04540280857354028
+SUC003,Guadalajara,Crema,Lácteos,Exceso de pedido,2.67,113.86,0.06994444444444445
+SUC007,Cancún,Queso Fresco,Lácteos,Exceso de pedido,1.25,113.54,0.1388888888888889
+SUC006,Querétaro,Chile Jalapeño,Verduras,Caducidad,3.41,113.53999999999999,0.10411111111111111
+SUC010,León,Frijoles,Básicos,Devolución cliente,3.29,113.14,0.21933333333333332
+SUC005,Puebla,Chile Poblano,Verduras,Exceso de pedido,2.52,112.82,0.11454545454545455
+SUC003,Guadalajara,Tomate,Verduras,Daño en almacenamiento,3.76,111.33000000000001,0.08684523809523809
+SUC002,Ciudad de México Sur,Cilantro,Verduras,Exceso de pedido,12.470000000000002,111.32,0.16944444444444443
+SUC002,Ciudad de México Sur,Cebolla,Verduras,Exceso de pedido,4.93,110.97,0.11649321266968324
+SUC006,Querétaro,Limón,Verduras,Exceso de pedido,3.14,108.24,0.08486486486486487
+SUC001,Ciudad de México Centro,Salsa Roja,Salsas,Devolución cliente,2.18,108.22,0.0990909090909091
+SUC009,Tijuana,Cilantro,Verduras,Daño en almacenamiento,13.59,107.6,0.17848571428571428
+SUC004,Monterrey,Tortillas de Harina,Básicos,Exceso de pedido,2.89,107.58,0.0702
+SUC003,Guadalajara,Arroz,Básicos,Caducidad,3.9,106.96,0.06571809523809524
+SUC005,Puebla,Queso Oaxaca,Lácteos,Exceso de pedido,0.72,106.81,0.10285714285714286
+SUC008,Mérida,Arroz,Básicos,Exceso de pedido,3.67,105.35000000000001,0.13563157894736844
+SUC010,León,Salsa Roja,Salsas,Exceso de pedido,1.82,104.49,0.20222222222222222
+SUC003,Guadalajara,Salsa Verde,Salsas,Exceso de pedido,1.64,103.22,0.060740740740740734
+SUC002,Ciudad de México Sur,Tomate,Verduras,Exceso de pedido,3.63,103.06,0.17285714285714285
+SUC004,Monterrey,Cebolla,Verduras,Caducidad,4.76,102.28,0.0751227495908347
+SUC009,Tijuana,Frijoles,Básicos,Exceso de pedido,3.22,101.85,0.0805
+SUC004,Monterrey,Cilantro,Verduras,Caducidad,12.92,101.83,0.08758111015824264
+SUC010,León,Salsa Roja,Salsas,Daño en almacenamiento,1.8,101.32,0.3
+SUC005,Puebla,Cilantro,Verduras,Exceso de pedido,13.2,100.45,0.3
+SUC004,Monterrey,Aceite,Básicos,Error de preparación,2.35,99.19,0.06714285714285714
+SUC008,Mérida,Tortillas de Maíz,Básicos,Daño en almacenamiento,4.15,98.9,0.19683333333333336
+SUC005,Puebla,Cilantro,Verduras,Devolución cliente,12.0,98.64,0.3
+SUC002,Ciudad de México Sur,Arroz,Básicos,Caducidad,3.64,98.64,0.091
+SUC008,Mérida,Cilantro,Verduras,Daño en almacenamiento,11.21,98.12,0.1661388888888889
+SUC009,Tijuana,Tortillas de Maíz,Básicos,Error de preparación,4.0,97.42,0.2276923076923077
+SUC007,Cancún,Chile Jalapeño,Verduras,Caducidad,2.65,97.18,0.15588235294117647
+SUC004,Monterrey,Cebolla,Verduras,Exceso de pedido,4.4,95.93,0.05410251117991056
+SUC002,Ciudad de México Sur,Cebolla,Verduras,Daño en almacenamiento,4.0,95.16,0.08
+SUC006,Querétaro,Arroz,Básicos,Error de preparación,3.22,94.7,0.10733333333333334
+SUC003,Guadalajara,Cebolla,Verduras,Daño en almacenamiento,4.06,94.67,0.0750916554206028
+SUC001,Ciudad de México Centro,Arroz,Básicos,Error de preparación,3.55,94.21000000000001,0.08736607142857143
+SUC009,Tijuana,Tomate,Verduras,Daño en almacenamiento,3.48,94.06,0.15130434782608695
+SUC009,Tijuana,Pollo,Carnes,Exceso de pedido,1.16,93.01,0.145
+SUC001,Ciudad de México Centro,Aceite,Básicos,Caducidad,2.22,92.84,0.053431818181818184
+SUC003,Guadalajara,Tortillas de Maíz,Básicos,Exceso de pedido,3.63,92.78,0.12964285714285714
+SUC002,Ciudad de México Sur,Tortillas de Maíz,Básicos,Daño en almacenamiento,3.74,92.42,0.22
+SUC007,Cancún,Cebolla,Verduras,Exceso de pedido,3.91,92.26,0.07773255813953489
+SUC006,Querétaro,Arroz,Básicos,Devolución cliente,3.31,92.08,0.08073170731707317
+SUC004,Monterrey,Tortillas de Harina,Básicos,Daño en almacenamiento,2.74,91.46,0.0685
+SUC008,Mérida,Arroz,Básicos,Devolución cliente,3.32,91.43,0.12296296296296295
+SUC002,Ciudad de México Sur,Chile Poblano,Verduras,Devolución cliente,1.84,91.36,0.10823529411764707
+SUC004,Monterrey,Chile Jalapeño,Verduras,Caducidad,2.6,90.69,0.06190476190476191
+SUC002,Ciudad de México Sur,Cebolla,Verduras,Caducidad,4.18,88.66,0.09720930232558139
+SUC004,Monterrey,Cilantro,Verduras,Error de preparación,10.73,88.6,0.11353947639661925
+SUC002,Ciudad de México Sur,Chile Jalapeño,Verduras,Daño en almacenamiento,2.31,88.2,0.06757692307692308
+SUC009,Tijuana,Aceite,Básicos,Devolución cliente,1.94,87.22,0.14923076923076922
+SUC004,Monterrey,Tomate,Verduras,Error de preparación,2.9,87.03,0.06304347826086956
+SUC004,Monterrey,Tortillas de Maíz,Básicos,Exceso de pedido,3.26,86.68,0.07951219512195122
+SUC001,Ciudad de México Centro,Crema,Lácteos,Daño en almacenamiento,1.7999999999999998,86.44999999999999,0.07848484848484849
+SUC003,Guadalajara,Cebolla,Verduras,Devolución cliente,4.1,84.79,0.0976190476190476
+SUC006,Querétaro,Cebolla,Verduras,Exceso de pedido,4.08,83.78999999999999,0.10348348348348349
+SUC008,Mérida,Chile Poblano,Verduras,Exceso de pedido,1.71,83.16,0.24428571428571427
+SUC006,Querétaro,Tomate,Verduras,Error de preparación,2.57,81.06,0.06763157894736842
+SUC001,Ciudad de México Centro,Mole,Salsas,Caducidad,0.69,81.01,0.07666666666666666
+SUC008,Mérida,Chile Jalapeño,Verduras,Error de preparación,2.42,80.78,0.08642857142857142
+SUC010,León,Limón,Verduras,Error de preparación,2.96,80.25,0.19733333333333333
+SUC008,Mérida,Limón,Verduras,Exceso de pedido,2.48,80.0,0.07294117647058823
+SUC006,Querétaro,Tortillas de Harina,Básicos,Devolución cliente,1.99,79.82,0.07653846153846154
+SUC007,Cancún,Salsa Verde,Salsas,Error de preparación,1.39,78.42,0.13899999999999998
+SUC007,Cancún,Cebolla,Verduras,Caducidad,3.56,77.41,0.11050420168067226
+SUC006,Querétaro,Tomate,Verduras,Daño en almacenamiento,3.0,76.86,0.11538461538461539
+SUC007,Cancún,Chile Jalapeño,Verduras,Devolución cliente,1.91,74.57,0.06821428571428571
+SUC010,León,Frijoles,Básicos,Exceso de pedido,1.91,73.57,0.12733333333333333
+SUC010,León,Frijoles,Básicos,Error de preparación,2.15,72.05,0.19545454545454544
+SUC004,Monterrey,Aceite,Básicos,Exceso de pedido,1.55,72.01,0.08157894736842106
+SUC007,Cancún,Frijoles,Básicos,Caducidad,2.26,71.66,0.10761904761904761
+SUC003,Guadalajara,Aceite,Básicos,Devolución cliente,1.81,71.62,0.07541666666666667
+SUC006,Querétaro,Limón,Verduras,Error de preparación,2.22,70.33,0.0482608695652174
+SUC006,Querétaro,Chile Poblano,Verduras,Daño en almacenamiento,1.39,70.11,0.09266666666666666
+SUC008,Mérida,Cilantro,Verduras,Exceso de pedido,8.7,69.43,0.15328591749644382
+SUC006,Querétaro,Frijoles,Básicos,Error de preparación,2.1399999999999997,69.02,0.08541666666666667
+SUC009,Tijuana,Arroz,Básicos,Caducidad,2.45,68.33,0.10184615384615385
+SUC005,Puebla,Limón,Verduras,Caducidad,2.3,68.31,0.12777777777777777
+SUC001,Ciudad de México Centro,Tomate,Verduras,Devolución cliente,2.33,67.29,0.07766666666666668
+SUC009,Tijuana,Cebolla,Verduras,Caducidad,3.29,66.72,0.14304347826086958
+SUC001,Ciudad de México Centro,Chile Poblano,Verduras,Error de preparación,1.45,65.09,0.1611111111111111
+SUC009,Tijuana,Cilantro,Verduras,Exceso de pedido,7.75,63.94,0.20945945945945946
+SUC006,Querétaro,Tortillas de Harina,Básicos,Error de preparación,2.02,63.67,0.1442857142857143
+SUC007,Cancún,Tortillas de Maíz,Básicos,Caducidad,2.39,63.29,0.17071428571428574
+SUC008,Mérida,Limón,Verduras,Devolución cliente,2.01,62.79,0.20099999999999998
+SUC007,Cancún,Tortillas de Maíz,Básicos,Error de preparación,2.22,62.03,0.2466666666666667
+SUC006,Querétaro,Tortillas de Harina,Básicos,Caducidad,1.66,60.86,0.13833333333333334
+SUC006,Querétaro,Queso Fresco,Lácteos,Devolución cliente,0.58,60.51,0.06444444444444444
+SUC001,Ciudad de México Centro,Cilantro,Verduras,Caducidad,7.539999999999999,60.36,0.11123029556650246
+SUC001,Ciudad de México Centro,Tortillas de Maíz,Básicos,Error de preparación,2.12,60.21,0.06838709677419355
+SUC006,Querétaro,Aceite,Básicos,Error de preparación,1.27,58.25,0.10583333333333333
+SUC006,Querétaro,Tortillas de Maíz,Básicos,Exceso de pedido,2.2,58.06,0.12222222222222223
+SUC001,Ciudad de México Centro,Arroz,Básicos,Caducidad,2.27,58.04,0.0908
+SUC010,León,Arroz,Básicos,Devolución cliente,2.07,57.9,0.22999999999999998
+SUC006,Querétaro,Limón,Verduras,Daño en almacenamiento,1.7,57.67,0.10125
+SUC006,Querétaro,Cebolla,Verduras,Devolución cliente,2.81,57.13,0.10807692307692308
+SUC006,Querétaro,Frijoles,Básicos,Devolución cliente,1.71,57.03,0.046216216216216216
+SUC004,Monterrey,Arroz,Básicos,Daño en almacenamiento,2.05,56.89,0.0462719298245614
+SUC009,Tijuana,Cilantro,Verduras,Devolución cliente,6.36,55.59,0.1272
+SUC006,Querétaro,Cilantro,Verduras,Daño en almacenamiento,6.92,55.45,0.13018711018711018
+SUC005,Puebla,Cilantro,Verduras,Daño en almacenamiento,6.57,55.230000000000004,0.1883228840125392
+SUC009,Tijuana,Cebolla,Verduras,Devolución cliente,2.28,54.58,0.09119999999999999
+SUC002,Ciudad de México Sur,Arroz,Básicos,Daño en almacenamiento,1.85,54.08,0.06166666666666667
+SUC001,Ciudad de México Centro,Tomate,Verduras,Error de preparación,2.0,54.04,0.07407407407407407
+SUC007,Cancún,Cilantro,Verduras,Daño en almacenamiento,6.569999999999999,52.19,0.1107937806873977
+SUC004,Monterrey,Arroz,Básicos,Exceso de pedido,2.06,51.99,0.04790697674418605
+SUC002,Ciudad de México Sur,Frijoles,Básicos,Devolución cliente,1.33,50.82,0.07
+SUC003,Guadalajara,Cilantro,Verduras,Exceso de pedido,6.16,50.38,0.0751219512195122
+SUC002,Ciudad de México Sur,Frijoles,Básicos,Error de preparación,1.37,50.24,0.137
+SUC002,Ciudad de México Sur,Chile Poblano,Verduras,Exceso de pedido,1.07,49.4,0.21400000000000002
+SUC004,Monterrey,Tortillas de Maíz,Básicos,Devolución cliente,1.71,48.65,0.05896551724137931
+SUC008,Mérida,Chile Jalapeño,Verduras,Caducidad,1.47,48.6,0.1225
+SUC003,Guadalajara,Aceite,Básicos,Caducidad,1.21,47.31,0.10083333333333333
+SUC003,Guadalajara,Aceite,Básicos,Exceso de pedido,1.09,45.17,0.06411764705882353
+SUC003,Guadalajara,Cilantro,Verduras,Error de preparación,5.34,44.86,0.15257142857142858
+SUC007,Cancún,Cilantro,Verduras,Error de preparación,6.12,44.25,0.26608695652173914
+SUC006,Querétaro,Cilantro,Verduras,Exceso de pedido,5.55,42.510000000000005,0.139375
+SUC004,Monterrey,Frijoles,Básicos,Devolución cliente,1.32,42.49,0.08800000000000001
+SUC005,Puebla,Tortillas de Harina,Básicos,Error de preparación,1.19,42.27,0.238
+SUC004,Monterrey,Cilantro,Verduras,Daño en almacenamiento,5.200000000000001,41.86,0.06991852218373744
+SUC003,Guadalajara,Crema,Lácteos,Daño en almacenamiento,0.96,39.85,0.041739130434782605
+SUC003,Guadalajara,Cilantro,Verduras,Devolución cliente,4.59,37.32,0.0936734693877551
+SUC006,Querétaro,Tortillas de Maíz,Básicos,Error de preparación,1.45,36.53,0.11153846153846153
+SUC005,Puebla,Cebolla,Verduras,Devolución cliente,1.42,35.36,0.08875
+SUC009,Tijuana,Tortillas de Harina,Básicos,Devolución cliente,0.9,34.66,0.1125
+SUC009,Tijuana,Queso Fresco,Lácteos,Daño en almacenamiento,0.34,34.38,0.068
+SUC009,Tijuana,Chile Jalapeño,Verduras,Exceso de pedido,0.84,33.52,0.07636363636363636
+SUC006,Querétaro,Aceite,Básicos,Caducidad,0.77,33.09,0.045294117647058825
+SUC003,Guadalajara,Cilantro,Verduras,Daño en almacenamiento,4.15,32.75,0.09384057971014492
+SUC001,Ciudad de México Centro,Aceite,Básicos,Devolución cliente,0.67,31.91,0.05583333333333334
+SUC004,Monterrey,Cilantro,Verduras,Exceso de pedido,3.81,30.71,0.09525
+SUC007,Cancún,Cilantro,Verduras,Caducidad,3.81,29.62,0.22233333333333336
+SUC006,Querétaro,Tortillas de Maíz,Básicos,Daño en almacenamiento,1.02,29.16,0.17
+SUC009,Tijuana,Cebolla,Verduras,Daño en almacenamiento,1.43,28.34,0.089375
+SUC001,Ciudad de México Centro,Arroz,Básicos,Devolución cliente,0.86,26.4,0.05058823529411765
+SUC007,Cancún,Cilantro,Verduras,Devolución cliente,3.49,26.24,0.1090625
+SUC002,Ciudad de México Sur,Arroz,Básicos,Devolución cliente,0.8,25.34,0.1
+SUC004,Monterrey,Cilantro,Verduras,Devolución cliente,2.79,25.03,0.062
+SUC003,Guadalajara,Tortillas de Maíz,Básicos,Devolución cliente,0.92,24.55,0.15333333333333335
+SUC004,Monterrey,Aceite,Básicos,Devolución cliente,0.62,23.89,0.034444444444444444
+SUC004,Monterrey,Limón,Verduras,Caducidad,0.69,22.65,0.046
+SUC005,Puebla,Cilantro,Verduras,Error de preparación,2.71,22.57,0.271
+SUC010,León,Cebolla,Verduras,Error de preparación,1.05,21.64,0.08750000000000001
+SUC006,Querétaro,Cilantro,Verduras,Error de preparación,1.99,17.97,0.1809090909090909
+SUC006,Querétaro,Crema,Lácteos,Devolución cliente,0.37,17.72,0.06166666666666667
+SUC007,Cancún,Tortillas de Maíz,Básicos,Exceso de pedido,0.57,16.25,0.09499999999999999
+SUC009,Tijuana,Limón,Verduras,Error de preparación,0.5,15.04,0.07142857142857142
+SUC007,Cancún,Limón,Verduras,Error de preparación,0.52,14.84,0.08666666666666667
+SUC003,Guadalajara,Aceite,Básicos,Error de preparación,0.35,13.75,0.05833333333333333
+SUC001,Ciudad de México Centro,Limón,Verduras,Devolución cliente,0.35,10.17,0.05833333333333333

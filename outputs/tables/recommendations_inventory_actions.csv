@@ -1,0 +1,241 @@
+branch_id,ingredient,current_stock,reorder_point,recommended_qty,peak_month,peak_forecast_qty,priority,action,waste_prevention
+SUC001,Aceite,5.3,476.38069756603363,471.08,2026-01,7.47,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Aguacate,7.9,45.5119281508962,37.61,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Arroz,24.2,487.0714043405429,462.87,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Carne de Cerdo,5.3,44.92791192527723,39.63,2026-07,65.11,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Carne de Res,22.7,52.96343186805917,30.26,2026-07,42.25,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Cebolla,15.4,264.2585577832271,248.86,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Cerveza,16.2,437.42703016389044,421.23,2026-05,46.51,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Chile Jalapeño,28.6,330.35334383288966,301.75,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Chile Poblano,4.6,230.09416074659475,225.49,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Cilantro,17.6,28.404663367649334,10.8,2026-05,18.13,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Crema,3.3,204.08715155145978,200.79,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Frijoles,15.6,590.1115270945174,574.51,2026-07,45.12,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Limón,27.1,278.04768438514867,250.95,2026-01,17.89,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Mole,15.5,369.90065406700387,354.4,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Pollo,3.0,36.68501579308475,33.69,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Queso Fresco,5.1,273.47304955153925,268.37,2026-07,28.18,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Queso Oaxaca,2.9,270.9028969954272,268.0,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Refrescos,14.6,604.4323318341453,589.83,2026-03,51.91,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Salsa Roja,7.7,266.6233194901062,258.92,2026-02,18.36,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Salsa Verde,6.8,231.42939703632484,224.63,2026-01,0.6,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Tequila,9.8,602.6947789340059,592.89,2026-02,25.93,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Tomate,7.9,44.65768465392843,36.76,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Tortillas de Harina,14.1,57.264290129434656,43.16,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC001,Tortillas de Maíz,21.2,41.551448085489774,20.35,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Aceite,4.8,588.9175543002394,584.12,2026-07,40.14,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Aguacate,13.9,58.78215207965307,44.88,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Arroz,3.9,554.0919596103276,550.19,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Carne de Cerdo,35.4,50.14926962279776,14.75,2026-07,28.37,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Carne de Res,26.4,55.8180188331323,29.42,2026-02,4.9,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Cebolla,17.2,321.1174995572086,303.92,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Cerveza,15.1,507.2737172356508,492.17,2026-07,32.15,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Chile Jalapeño,15.4,251.7834030136367,236.38,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Chile Poblano,11.5,236.10591626126208,224.61,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Cilantro,13.7,49.215308995711965,35.52,2026-01,21.93,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Crema,15.0,265.73484098838,250.73,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Frijoles,5.1,508.2243215413271,503.12,2026-07,145.83,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Limón,13.4,263.3821914581903,249.98,2026-06,98.21,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Mole,11.7,572.2105211542736,560.51,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Pollo,8.6,57.221002910380136,48.62,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Queso Fresco,24.8,209.4932967723542,184.69,2026-02,18.97,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Queso Oaxaca,16.9,266.1859544286295,249.29,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Refrescos,4.1,623.2354158160258,619.14,2026-06,46.28,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Salsa Roja,11.9,238.16119393276142,226.26,2026-07,57.72,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Salsa Verde,14.0,176.90535236821972,162.91,2026-07,19.8,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Tequila,11.5,569.5060154194018,558.01,2026-02,23.08,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Tomate,12.7,44.12398440508206,31.42,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Tortillas de Harina,10.7,69.50702377693075,58.81,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC002,Tortillas de Maíz,21.9,56.68243663517343,34.78,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Aceite,2.3,363.89691971167315,361.6,2025-12,6.58,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Aguacate,4.0,53.21765173461809,49.22,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Arroz,3.1,307.16375396710316,304.06,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Carne de Cerdo,16.3,42.0297630532657,25.73,2026-07,81.09,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Carne de Res,2.8,40.61717911585166,37.82,2026-02,3.36,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Cebolla,11.8,240.22485059741194,228.42,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Cerveza,11.8,560.1725378602428,548.37,2026-02,8.14,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Chile Jalapeño,10.5,299.0204215753184,288.52,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Chile Poblano,9.9,294.6562533734499,284.76,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Cilantro,3.4,49.539853234226655,46.14,2026-02,21.47,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Crema,14.1,264.26009796745103,250.16,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Frijoles,12.1,601.3920808855848,589.29,2026-02,29.25,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Limón,34.5,226.28289188413618,191.78,2026-07,16.36,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Mole,24.2,584.6202901408474,560.42,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Pollo,7.7,51.85438196499821,44.15,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Queso Fresco,14.1,292.24687040293543,278.15,2026-04,107.39,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Queso Oaxaca,8.4,280.99790014020317,272.6,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Refrescos,19.6,489.6801676348296,470.08,2025-12,18.14,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Salsa Roja,5.7,247.56112637194704,241.86,2025-11,11.28,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Salsa Verde,8.7,221.75977941091284,213.06,2026-02,44.46,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Tequila,24.8,462.6450852406946,437.85,2026-04,50.11,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Tomate,27.3,53.073271365181505,25.77,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Tortillas de Harina,26.9,57.85181450240165,30.95,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC003,Tortillas de Maíz,6.4,58.854891048882735,52.45,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Aceite,25.7,674.9274433775909,649.23,2026-02,5.89,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Aguacate,5.0,54.16348744577712,49.16,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Arroz,18.2,446.49486393928174,428.29,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Carne de Cerdo,24.1,52.07838188835153,27.98,2026-07,59.01,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Carne de Res,17.8,68.7428204222167,50.94,2026-07,73.72,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Cebolla,21.3,296.7755367678156,275.48,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Cerveza,7.5,556.1615667373044,548.66,2026-02,20.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Chile Jalapeño,18.5,298.38853850778906,279.89,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Chile Poblano,3.1,242.95982325350045,239.86,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Cilantro,15.8,52.931114632760526,37.13,2026-07,97.37,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Crema,4.5,208.69066267495674,204.19,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Frijoles,11.4,609.4421693239832,598.04,2026-01,2.33,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Limón,29.4,299.7188894898311,270.32,2026-06,73.95,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Mole,18.7,455.1748216784847,436.47,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Pollo,26.5,55.74951561913438,29.25,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Queso Fresco,15.5,287.6225871182656,272.12,2026-07,95.99,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Queso Oaxaca,9.5,231.4546693180678,221.95,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Refrescos,34.1,580.6855004815664,546.59,2026-04,86.67,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Salsa Roja,8.0,307.07257407092175,299.07,2026-07,34.36,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Salsa Verde,6.7,260.19855665718933,253.5,2026-07,41.6,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Tequila,9.0,665.911315878353,656.91,2026-07,376.73,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Tomate,23.2,58.103376617463226,34.9,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Tortillas de Harina,12.6,43.57462427897906,30.97,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC004,Tortillas de Maíz,11.3,44.9520159833624,33.65,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Aceite,6.4,525.984444941103,519.58,2026-06,24.78,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Aguacate,17.2,40.752675670829206,23.55,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Arroz,12.0,472.8293426268735,460.83,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Carne de Cerdo,13.7,42.392552625360594,28.69,2026-02,21.13,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Carne de Res,12.5,50.777964736905,38.28,2026-03,394.56,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Cebolla,10.4,253.43308759932654,243.03,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Cerveza,6.4,442.30833148461386,435.91,2026-02,8.36,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Chile Jalapeño,15.9,255.3372772810357,239.44,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Chile Poblano,25.9,240.6020798737103,214.7,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Cilantro,29.9,55.65816294860588,25.76,2026-02,16.19,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Crema,14.6,225.25539870634063,210.66,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Frijoles,20.6,641.4386835424074,620.84,2026-01,0.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Limón,5.7,202.65773575921628,196.96,2025-12,24.27,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Mole,17.3,581.4776926162671,564.18,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Pollo,4.6,46.29987234007879,41.7,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Queso Fresco,11.6,214.04612656845745,202.45,2026-06,66.6,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Queso Oaxaca,33.3,272.67924236673014,239.38,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Refrescos,13.1,530.8409599703888,517.74,2025-12,1.14,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Salsa Roja,6.1,233.63260102088543,227.53,2025-12,6.44,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Salsa Verde,29.7,255.77969960991834,226.08,2026-04,69.22,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Tequila,9.2,578.7518571209595,569.55,2026-07,56.27,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Tomate,23.9,44.485721051435384,20.59,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Tortillas de Harina,11.0,43.81737634634908,32.82,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC005,Tortillas de Maíz,25.3,48.98049877832069,23.68,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Aceite,5.7,475.4563742183223,469.76,2026-06,34.37,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Aguacate,22.9,51.8482850011947,28.95,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Arroz,3.2,428.21867630736654,425.02,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Carne de Cerdo,8.9,50.45467864673765,41.55,2026-01,13.93,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Carne de Res,29.0,49.902263202141484,20.9,2026-07,37.55,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Cebolla,8.3,219.87982534073473,211.58,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Cerveza,10.8,532.4424038624084,521.64,2026-07,35.09,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Chile Jalapeño,5.9,239.00899940007997,233.11,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Chile Poblano,13.4,337.7953731921841,324.4,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Cilantro,1.6,57.26669477910218,55.67,2026-07,60.94,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Crema,23.4,308.4318274221014,285.03,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Frijoles,15.4,486.87803068520645,471.48,2026-04,259.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Limón,34.3,304.92068338811777,270.62,2026-07,26.33,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Mole,29.8,527.0839089154653,497.28,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Pollo,7.9,44.452789602808565,36.55,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Queso Fresco,4.5,223.71563423079118,219.22,2026-02,9.15,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Queso Oaxaca,8.5,323.8860996934857,315.39,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Refrescos,32.3,470.1360113151696,437.84,2026-05,78.82,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Salsa Roja,12.0,233.24377284197217,221.24,2026-01,3.43,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Salsa Verde,19.6,263.91162450282866,244.31,2026-02,25.23,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Tequila,8.4,470.9773777933425,462.58,2026-05,178.77,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Tomate,18.9,55.92642366140754,37.03,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Tortillas de Harina,9.6,46.65973300813582,37.06,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC006,Tortillas de Maíz,14.5,46.00988554551979,31.51,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Aceite,18.3,583.1289491749052,564.83,2026-02,22.45,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Aguacate,17.7,55.97069251013255,38.27,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Arroz,12.5,468.45810445180064,455.96,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Carne de Cerdo,17.2,47.31225267809828,30.11,2026-02,18.22,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Carne de Res,2.6,48.914463900932375,46.31,2026-02,19.3,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Cebolla,10.1,209.93872317965204,199.84,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Cerveza,15.4,618.418669333203,603.02,2026-02,0.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Chile Jalapeño,6.0,233.87174695043234,227.87,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Chile Poblano,4.6,197.41169197347645,192.81,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Cilantro,3.7,45.28168502103718,41.58,2026-02,38.14,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Crema,5.9,227.0923426749927,221.19,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Frijoles,24.9,542.7124129705513,517.81,2026-02,0.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Limón,34.9,262.2624965868113,227.36,2026-07,75.34,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Mole,13.7,516.5012499681138,502.8,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Pollo,5.7,55.491529366787844,49.79,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Queso Fresco,24.3,253.5541633049333,229.25,2026-02,12.49,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Queso Oaxaca,15.4,261.7038818939058,246.3,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Refrescos,6.7,404.4793383917555,397.78,2026-01,8.47,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Salsa Roja,16.7,374.23697862903384,357.54,2026-07,69.89,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Salsa Verde,4.2,259.14724501030724,254.95,2026-02,21.54,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Tequila,17.3,575.1007310946184,557.8,2026-07,90.22,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Tomate,23.8,46.68829037605138,22.89,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Tortillas de Harina,18.4,27.333630944789018,8.93,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC007,Tortillas de Maíz,17.5,49.588994917954224,32.09,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Aceite,16.6,521.4304984715653,504.83,2026-01,21.33,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Aguacate,26.7,48.516035173565875,21.82,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Arroz,9.1,591.9998620688999,582.9,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Carne de Cerdo,2.8,34.09677817516257,31.3,2026-02,7.73,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Carne de Res,3.3,56.26401610603871,52.96,2025-12,0.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Cebolla,18.3,388.60100981976126,370.3,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Cerveza,8.0,483.6097624418438,475.61,2026-02,53.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Chile Jalapeño,3.9,257.56759051493395,253.67,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Chile Poblano,21.0,278.83667157038144,257.84,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Cilantro,5.8,58.04020865128747,52.24,2026-02,12.19,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Crema,3.9,242.01676195134303,238.12,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Frijoles,4.4,590.1725378602428,585.77,2026-02,28.29,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Limón,1.4,223.19225110782182,221.79,2026-07,38.21,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Mole,10.1,506.59580978074064,496.5,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Pollo,30.9,41.0836758690334,10.18,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Queso Fresco,6.8,282.0171020620103,275.22,2026-02,35.13,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Queso Oaxaca,5.7,247.04056975784817,241.34,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Refrescos,31.6,737.2258064442959,705.63,2025-12,18.89,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Salsa Roja,18.8,271.6172756077559,252.82,2026-06,40.84,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Salsa Verde,25.3,281.4576234039636,256.16,2026-06,26.83,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Tequila,11.0,481.4855294029486,470.49,2026-07,44.11,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Tomate,8.2,58.30590365671235,50.11,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Tortillas de Harina,5.3,58.5083690525845,53.21,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC008,Tortillas de Maíz,7.3,39.603944372412684,32.3,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Aceite,16.5,545.7449649801295,529.24,2026-06,58.83,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Aguacate,8.7,94.82420020646464,86.12,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Arroz,7.9,492.6532876978648,484.75,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Carne de Cerdo,13.8,47.938984292191364,34.14,2026-04,38.28,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Carne de Res,2.3,46.2769225124527,43.98,2026-07,0.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Cebolla,17.2,261.6833061384192,244.48,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Cerveza,6.0,378.49198989106276,372.49,2026-07,24.3,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Chile Jalapeño,20.7,265.1941468155774,244.49,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Chile Poblano,20.5,302.7304341190211,282.23,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Cilantro,25.5,53.19146281842818,27.69,2026-03,0.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Crema,30.8,299.96266952230803,269.16,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Frijoles,24.7,518.6533322312227,493.95,2026-07,113.4,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Limón,10.8,251.99679177222708,241.2,2025-12,29.86,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Mole,14.9,578.618761520526,563.72,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Pollo,6.5,48.386565595594064,41.89,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Queso Fresco,29.6,310.1047942338161,280.5,2026-05,103.43,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Queso Oaxaca,15.1,333.49794891403553,318.4,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Refrescos,23.2,547.9663850002838,524.77,2026-07,50.11,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Salsa Roja,35.3,272.5012603624584,237.2,2026-07,15.98,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Salsa Verde,17.4,203.93585828567808,186.54,2026-07,24.64,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Tequila,4.0,473.3286978218668,469.33,2026-07,167.59,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Tomate,7.1,45.025826107898574,37.93,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Tortillas de Harina,19.8,56.340110024203234,36.54,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC009,Tortillas de Maíz,29.0,48.596664448544516,19.6,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Aceite,10.7,449.970970369552,439.27,2026-02,17.5,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Aguacate,20.3,48.724720716102674,28.42,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Arroz,17.0,565.6837499461965,548.68,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Carne de Cerdo,4.6,43.84266729244888,39.24,2026-06,21.79,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Carne de Res,7.2,41.074194463443156,33.87,2026-06,20.09,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Cebolla,19.7,237.4838612865005,217.78,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Cerveza,6.7,456.9231423096925,450.22,2026-07,47.55,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Chile Jalapeño,16.3,272.31650301703894,256.02,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Chile Poblano,20.8,230.15047953768152,209.35,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Cilantro,23.7,54.049352067975164,30.35,2026-06,258.33,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Crema,17.6,290.92689207772804,273.33,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Frijoles,11.0,341.5338734865765,330.53,2026-04,0.0,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Limón,3.2,230.46165901139966,227.26,2026-07,35.3,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Mole,14.7,623.9590083524356,609.26,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Pollo,3.1,42.11363751291111,39.01,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Queso Fresco,9.1,205.98988063460007,196.89,2026-04,64.74,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Queso Oaxaca,19.1,259.55702689128725,240.46,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Refrescos,9.2,473.05811558663095,463.86,2026-07,62.09,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Salsa Roja,8.6,237.74589496070047,229.15,2026-07,37.23,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Salsa Verde,28.2,275.41255331286555,247.21,2026-02,23.8,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Tequila,16.3,585.406690006212,569.11,2026-02,11.18,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Tomate,4.0,51.90415545780402,47.9,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Tortillas de Harina,20.2,54.906485127669285,34.71,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
+SUC010,Tortillas de Maíz,5.9,68.54751280356768,62.65,,,Alta,Reordenar de inmediato y validar proveedor alterno.,Ajustar tamaño de lote y rotación FEFO para reducir merma.
