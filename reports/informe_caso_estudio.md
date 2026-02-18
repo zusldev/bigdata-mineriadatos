@@ -4,6 +4,7 @@
 
 # Informe Integral — Caso de Estudio: "Sabor Mexicano"
 
+**Autor:** Liborio Zúñiga  
 **Materia:** Big Data y Minería de Datos  
 **Fecha:** 17 de febrero de 2026  
 **Cadena analizada:** Sabor Mexicano — 10 sucursales en México  
