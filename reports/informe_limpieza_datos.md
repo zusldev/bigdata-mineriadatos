@@ -6,7 +6,7 @@
 
 ## Proyecto: Sabor Mexicano — Caso de Estudio Big Data & Minería de Datos
 
-**Autor:** Liborio Zúñiga  
+**Autor:** Liborio Zuñiga  
 **Fecha de generación:** Febrero 2026  
 **Pipeline:** `src/pipeline/run_all.py` → `src/data/load.py` → `src/data/clean.py` → `src/data/validate.py` → `src/features/build_features.py`
 

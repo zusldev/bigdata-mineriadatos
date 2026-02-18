@@ -1007,7 +1007,7 @@ def main() -> None:
         "Filtros globales y análisis integrado de ventas, clientes, inventario, digital y pronósticos."
     )
     st.sidebar.markdown(
-        "---\n\n**Desarrollado por Liborio Zúñiga**  \n"
+        "---\n\n**Desarrollado por Liborio Zuñiga**  \n"
         "Big Data y Minería de Datos",
     )
     _inject_global_study_shortcut(_load_study_dictionary())
