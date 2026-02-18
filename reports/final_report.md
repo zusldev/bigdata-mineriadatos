@@ -1,5 +1,9 @@
 # Reporte Final - Sabor Mexicano
 
+**Autor:** Liborio Zúñiga  
+**Materia:** Big Data y Minería de Datos  
+**Fecha:** Febrero 2026  
+
 ## 1. Executive Summary
 Este estudio integra datos de ventas, clientes, sucursales, inventarios y canales digitales para identificar oportunidades de crecimiento y eficiencia operativa.
 

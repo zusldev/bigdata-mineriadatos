@@ -8,6 +8,8 @@
 
 Proyecto integral de **Big Data y Minería de Datos** que analiza una cadena de **10 sucursales** de comida mexicana en México. Cubre ventas, rentabilidad, inventario, pronóstico de demanda, segmentación de clientes y marketing digital mediante un pipeline end-to-end reproducible.
 
+**Autor:** Liborio Zúñiga
+
 ---
 
 ## Tecnologías

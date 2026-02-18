@@ -1,5 +1,8 @@
 # RESULTS_SUMMARY
 
+**Autor:** Liborio Zúñiga  
+**Materia:** Big Data y Minería de Datos  
+
 ## Decisiones clave para directores
 - Sucursal líder en desempeño: **León** con utilidad proxy acumulada de $-1,671,770.00.
 - Sucursal con mayor oportunidad de mejora: **Cancún** (utilidad proxy acumulada de $-4,501,497.00).
