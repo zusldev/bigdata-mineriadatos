@@ -454,9 +454,28 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   const addBtn = hostDoc.getElementById(ADD_BTN_ID);
   const pendingBox = hostDoc.getElementById(PENDING_ID);
 
+  function getPageTerms() {
+    let pageText = "";
+    try {
+      const main = hostDoc.querySelector("section.main") || hostDoc.body;
+      pageText = (main.innerText || "").toLowerCase();
+    } catch (err) { return []; }
+    if (!pageText) return [];
+    const norm = normalize(pageText);
+    return DATA.filter(item => {
+      const t = normalize(item.term);
+      return t.length >= 3 && norm.includes(t);
+    });
+  }
+
   function filter(query) {
     const q = normalize(query);
-    if (!q) return DATA.slice(0, 12);
+    if (!q) {
+      const onPage = getPageTerms();
+      const onPageKeys = new Set(onPage.map(i => normalize(i.term)));
+      const rest = DATA.filter(i => !onPageKeys.has(normalize(i.term)));
+      return onPage.concat(rest).slice(0, 20);
+    }
     const exact = [];
     const starts = [];
     const contains = [];
@@ -571,19 +590,7 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   };
 
   function countPageTerms() {
-    let pageText = "";
-    try {
-      const main = hostDoc.querySelector("section.main") || hostDoc.body;
-      pageText = (main.innerText || "").toLowerCase();
-    } catch (err) { return 0; }
-    if (!pageText) return 0;
-    const norm = normalize(pageText);
-    let count = 0;
-    DATA.forEach(item => {
-      const t = normalize(item.term);
-      if (t.length >= 3 && norm.includes(t)) count++;
-    });
-    return count;
+    return getPageTerms().length;
   }
 
   function updateHint() {
