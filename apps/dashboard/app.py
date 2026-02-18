@@ -20,6 +20,7 @@ from apps.dashboard.components import (
     branch_ranking_chart,
     filter_sales,
     forecast_chart,
+    friendly_df,
     hourly_heatmap,
     load_csv_if_exists,
     sales_trend_chart,
@@ -27,7 +28,7 @@ from apps.dashboard.components import (
 )
 from src.utils.io import read_table
 from src.utils.logger import get_logger
-from src.utils.paths import OUTPUTS_LOGS_DIR, OUTPUTS_TABLES_DIR, PROCESSED_DIR
+from src.utils.paths import OUTPUTS_LOGS_DIR, OUTPUTS_TABLES_DIR, PROCESSED_DIR, REPORTS_DIR
 
 
 st.set_page_config(page_title="Sabor Mexicano Dashboard", layout="wide")
@@ -1076,12 +1077,21 @@ def main() -> None:
             "Digital",
             "Pronósticos",
             "Recomendaciones",
+            "📄 Informe Final",
             "Aprender / Study Mode",
         ]
     )
 
+    # ── Tab 0: Ventas ──────────────────────────────────────────────
     with tabs[0]:
         st.subheader("Ventas")
+        st.info(
+            "Esta sección muestra el comportamiento general de ventas. "
+            "Los tres indicadores superiores resumen ingresos, tickets y ticket "
+            "promedio del periodo filtrado. La gráfica de tendencia revela patrones "
+            "diarios, y el mapa de calor identifica las horas y días con mayor "
+            "actividad — útil para planificar turnos y promociones."
+        )
         col1, col2, col3 = st.columns(3)
         col1.metric("Ingresos", f"${filtered_sales['total_sale'].sum():,.0f}")
         col2.metric(
@@ -1099,34 +1109,86 @@ def main() -> None:
         heatmap_fig = hourly_heatmap(filtered_sales)
         if heatmap_fig:
             st.plotly_chart(heatmap_fig, use_container_width=True)
-        st.dataframe(filtered_sales.head(50), use_container_width=True)
+        st.dataframe(
+            friendly_df(filtered_sales.head(50), "sales"),
+            use_container_width=True,
+        )
 
+    # ── Tab 1: Rendimiento Sucursales ──────────────────────────────
     with tabs[1]:
         st.subheader("Rendimiento de sucursales")
+        st.info(
+            "Ranking de las 10 sucursales ordenadas por utilidad proxy "
+            "(ingresos − costos operativos mensuales × meses). León lidera en "
+            "eficiencia pese a ser 7ª en ingresos: tiene el menor costo operativo "
+            "($143,500/mes) y el ticket promedio más alto ($185.95). Cancún, aunque "
+            "genera los mayores ingresos ($118,067), ocupa la última posición por "
+            "costos de $382,000/mes."
+        )
         branch_rank = data["branch_ranking"]
         fig = branch_ranking_chart(branch_rank)
         if fig:
             st.plotly_chart(fig, use_container_width=True)
-        st.dataframe(branch_rank, use_container_width=True)
+        st.dataframe(
+            friendly_df(branch_rank, "branch_ranking"),
+            use_container_width=True,
+        )
 
+    # ── Tab 2: Clientes ────────────────────────────────────────────
     with tabs[2]:
         st.subheader("Clientes y segmentación (RFM proxy)")
+        st.info(
+            "Los clientes se segmentaron usando el método RFM (Recencia, Frecuencia, "
+            "Valor Monetario) + clustering KMeans. Se identificaron 2 grandes perfiles: "
+            "Leales Premium (21.3 %, visitan 17 veces/año, gastan ~$4,400) y Ocasionales "
+            "(78.7 %, ~6 visitas/año, ~$1,500). El 78.7 % de clientes son Ocasionales "
+            "con alta aceptación de promociones → oportunidad de conversión a lealtad."
+        )
         personas = data["personas"]
         seg_fig = segment_chart(personas)
         if seg_fig:
             st.plotly_chart(seg_fig, use_container_width=True)
-        st.dataframe(personas, use_container_width=True)
-        st.dataframe(data["segments"].head(100), use_container_width=True)
+        st.dataframe(
+            friendly_df(personas, "personas"),
+            use_container_width=True,
+        )
+        st.dataframe(
+            friendly_df(data["segments"].head(100), "segments"),
+            use_container_width=True,
+        )
 
+    # ── Tab 3: Inventario ──────────────────────────────────────────
     with tabs[3]:
         st.subheader("Inventario")
-        st.dataframe(data["inventory_kpis"], use_container_width=True)
+        st.info(
+            "KPIs de inventario por sucursal. La merma total de la cadena es $627,550. "
+            "Puebla tiene el mayor costo de merma ($91,963), mientras que Monterrey "
+            "presenta la peor tasa de quiebre (9.5 %). Las acciones sugeridas incluyen "
+            "reorden automático, rotación FEFO y validación de proveedores alternos."
+        )
+        st.dataframe(
+            friendly_df(data["inventory_kpis"], "inventory_kpis"),
+            use_container_width=True,
+        )
         st.markdown("### Acciones sugeridas")
-        st.dataframe(data["inventory_actions"], use_container_width=True)
+        st.dataframe(
+            friendly_df(data["inventory_actions"], "inventory_actions"),
+            use_container_width=True,
+        )
 
+    # ── Tab 4: Digital ─────────────────────────────────────────────
     with tabs[4]:
         st.subheader("Canales digitales")
-        st.dataframe(data["digital_branch"], use_container_width=True)
+        st.info(
+            "Resumen del marketing digital por sucursal y plataforma. TikTok genera "
+            "6-12× más engagement por peso invertido que otras plataformas. El "
+            "sentimiento promedio es positivo en la mayoría de sucursales. La gráfica "
+            "inferior muestra la distribución de sentimientos por plataforma."
+        )
+        st.dataframe(
+            friendly_df(data["digital_branch"], "digital_branch"),
+            use_container_width=True,
+        )
         if not data["digital"].empty:
             sentiment_counts = (
                 data["digital"]
@@ -1145,24 +1207,76 @@ def main() -> None:
                 )
             )
 
+    # ── Tab 5: Pronósticos ─────────────────────────────────────────
     with tabs[5]:
         st.subheader("Pronósticos")
+        st.info(
+            "Pronóstico de demanda mensual por ingrediente y sucursal usando el modelo "
+            "Holt-Winters (suavización exponencial). Cada línea representa un ingrediente; "
+            "los paneles separan por sucursal. La tabla inferior muestra los picos "
+            "pronosticados más importantes — los meses donde se espera mayor demanda, "
+            "útil para planificar compras anticipadas. Julio 2026 es el mes pico más "
+            "frecuente (temporada vacacional)."
+        )
         forecast = data["forecast"]
         fig_forecast = forecast_chart(forecast)
         if fig_forecast:
             st.plotly_chart(fig_forecast, use_container_width=True)
-        st.dataframe(data["forecast_peak"], use_container_width=True)
+        st.dataframe(
+            friendly_df(data["forecast_peak"], "forecast_peak"),
+            use_container_width=True,
+        )
 
+    # ── Tab 6: Recomendaciones ─────────────────────────────────────
     with tabs[6]:
         st.subheader("Recomendaciones accionables")
+        st.info(
+            "Acciones concretas generadas por el motor de recomendaciones. Las campañas "
+            "por sucursal sugieren mensajes y canales por segmento de clientes. Las "
+            "promociones por platillo usan un score compuesto (volumen + margen + señal "
+            "digital) para priorizar qué promover en cada franja horaria. Las acciones "
+            "de inventario indican cantidades de reorden y medidas de prevención de merma."
+        )
         st.markdown("### Campañas por sucursal y segmento")
-        st.dataframe(data["reco_campaigns"], use_container_width=True)
+        st.dataframe(
+            friendly_df(data["reco_campaigns"], "reco_campaigns"),
+            use_container_width=True,
+        )
         st.markdown("### Promociones sugeridas por platillo/franja")
-        st.dataframe(data["reco_dishes"], use_container_width=True)
+        st.dataframe(
+            friendly_df(data["reco_dishes"], "reco_dishes"),
+            use_container_width=True,
+        )
         st.markdown("### Acciones de inventario")
-        st.dataframe(data["inventory_actions"], use_container_width=True)
+        st.dataframe(
+            friendly_df(data["inventory_actions"], "inventory_actions"),
+            use_container_width=True,
+        )
 
+    # ── Tab 7: Informe Final ───────────────────────────────────────
     with tabs[7]:
+        st.subheader("📄 Informe del Caso de Estudio")
+        st.info(
+            "Documento completo del caso de estudio *Sabor Mexicano* generado "
+            "a partir del análisis de datos. Incluye resumen ejecutivo, metodología, "
+            "hallazgos clave, visualizaciones y recomendaciones estratégicas."
+        )
+        report_path = REPORTS_DIR / "informe_caso_estudio.md"
+        report_md = _read_markdown(report_path)
+        toc_items, anchored_md = _build_toc_and_anchored_markdown(report_md)
+        col_toc, col_body = st.columns([1, 3])
+        with col_toc:
+            _render_toc(
+                toc_items,
+                title="Índice del informe",
+                key_prefix="report_toc",
+                height=600,
+            )
+        with col_body:
+            st.markdown(anchored_md, unsafe_allow_html=True)
+
+    # ── Tab 8: Study Mode ──────────────────────────────────────────
+    with tabs[8]:
         _render_study_tab()
 
 
