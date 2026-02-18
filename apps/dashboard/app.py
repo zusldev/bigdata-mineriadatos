@@ -100,6 +100,7 @@ def _normalize_term_key(text: str) -> str:
     return ascii_text
 
 
+@st.cache_data
 def _load_study_dictionary() -> dict[str, dict[str, str]]:
     entries: dict[str, dict[str, str]] = {}
 
@@ -202,17 +203,17 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
     hostDoc = document;
   }
 
-  const ROOT_ID = "study-shortcut-root";
-  const STYLE_ID = "study-shortcut-style";
-  const HINT_ID = "study-shortcut-hint";
-  const BACKDROP_ID = "study-shortcut-backdrop";
-  const PANEL_ID = "study-shortcut-panel";
-  const INPUT_ID = "study-shortcut-input";
-  const RESULTS_ID = "study-shortcut-results";
-  const DEF_ID = "study-shortcut-definition";
-  const EMPTY_ID = "study-shortcut-empty";
-  const ADD_BTN_ID = "study-shortcut-add";
-  const PENDING_ID = "study-shortcut-pending";
+  var ROOT_ID = "study-shortcut-root";
+  var STYLE_ID = "study-shortcut-style";
+  var HINT_ID = "study-shortcut-hint";
+  var BACKDROP_ID = "study-shortcut-backdrop";
+  var PANEL_ID = "study-shortcut-panel";
+  var INPUT_ID = "study-shortcut-input";
+  var RESULTS_ID = "study-shortcut-results";
+  var DEF_ID = "study-shortcut-definition";
+  var EMPTY_ID = "study-shortcut-empty";
+  var ADD_BTN_ID = "study-shortcut-add";
+  var PENDING_ID = "study-shortcut-pending";
 
   if (hostWindow.__studyShortcutCleanup) {
     hostWindow.__studyShortcutCleanup();
@@ -226,16 +227,20 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
       .trim();
   }
 
+  function escRegex(s) {
+    return s.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&");
+  }
+
   function isEditableTarget(target) {
     if (!target) return false;
-    const tag = (target.tagName || "").toUpperCase();
-    if (["INPUT", "TEXTAREA", "SELECT"].includes(tag)) return true;
+    var tag = (target.tagName || "").toUpperCase();
+    if (["INPUT", "TEXTAREA", "SELECT"].indexOf(tag) !== -1) return true;
     if (target.isContentEditable) return true;
     return false;
   }
 
   function getSelectedText() {
-    let text = "";
+    var text = "";
     try {
       text = (hostWindow.getSelection && hostWindow.getSelection().toString()) || "";
     } catch (err) {
@@ -253,8 +258,8 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
 
   function loadPending() {
     try {
-      const raw = hostWindow.localStorage.getItem(PENDING_KEY);
-      const list = raw ? JSON.parse(raw) : [];
+      var raw = hostWindow.localStorage.getItem(PENDING_KEY);
+      var list = raw ? JSON.parse(raw) : [];
       return Array.isArray(list) ? list : [];
     } catch (err) {
       return [];
@@ -268,179 +273,112 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   }
 
   function addPending(term) {
-    const clean = term.trim();
+    var clean = term.trim();
     if (!clean) return;
-    const list = loadPending();
-    if (!list.some(x => normalize(x) === normalize(clean))) {
+    var list = loadPending();
+    if (!list.some(function(x) { return normalize(x) === normalize(clean); })) {
       list.unshift(clean);
       savePending(list.slice(0, 50));
     }
   }
 
-  const oldRoot = hostDoc.getElementById(ROOT_ID);
+  var oldRoot = hostDoc.getElementById(ROOT_ID);
   if (oldRoot) oldRoot.remove();
-  const oldStyle = hostDoc.getElementById(STYLE_ID);
+  var oldStyle = hostDoc.getElementById(STYLE_ID);
   if (oldStyle) oldStyle.remove();
 
-  const style = hostDoc.createElement("style");
+  var style = hostDoc.createElement("style");
   style.id = STYLE_ID;
-  style.textContent = `
-    #${HINT_ID} {
-      position: fixed;
-      right: 1rem;
-      bottom: 1rem;
-      z-index: 9999;
-      background: #0f172a;
-      color: #f8fafc;
-      border: 1px solid #334155;
-      border-radius: 999px;
-      padding: .42rem .72rem;
-      font-size: .78rem;
-      box-shadow: 0 6px 18px rgba(15, 23, 42, .35);
-      cursor: pointer;
-      user-select: none;
-    }
-    #${BACKDROP_ID} {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(15, 23, 42, .35);
-      z-index: 10000;
-    }
-    #${PANEL_ID} {
-      display: none;
-      position: fixed;
-      right: 1rem;
-      top: 4.3rem;
-      width: min(520px, 95vw);
-      max-height: calc(100vh - 6.2rem);
-      z-index: 10001;
-      background: #ffffff;
-      border: 1px solid #cbd5e1;
-      border-radius: .85rem;
-      box-shadow: 0 16px 40px rgba(15, 23, 42, .25);
-      overflow: hidden;
-      font-family: "Segoe UI", Arial, sans-serif;
-    }
-    .study-shortcut-header {
-      padding: .72rem .9rem .58rem .9rem;
-      border-bottom: 1px solid #e2e8f0;
-      background: linear-gradient(180deg, #f8fafc, #ffffff);
-    }
-    .study-shortcut-title {
-      font-size: .95rem;
-      font-weight: 700;
-      color: #0f172a;
-      margin-bottom: .15rem;
-    }
-    .study-shortcut-sub {
-      font-size: .78rem;
-      color: #475569;
-    }
-    #${INPUT_ID} {
-      width: 100%;
-      border: 1px solid #cbd5e1;
-      border-radius: .55rem;
-      padding: .55rem .65rem;
-      margin-top: .5rem;
-      font-size: .9rem;
-      outline: none;
-      box-sizing: border-box;
-    }
-    #${INPUT_ID}:focus {
-      border-color: #0ea5e9;
-      box-shadow: 0 0 0 3px rgba(14, 165, 233, .15);
-    }
-    #${RESULTS_ID} {
-      max-height: 180px;
-      overflow: auto;
-      border-bottom: 1px solid #e2e8f0;
-      padding: .35rem .45rem;
-      background: #f8fafc;
-    }
-    .study-shortcut-item {
-      border: 1px solid #dbeafe;
-      background: #eff6ff;
-      border-radius: .55rem;
-      padding: .4rem .5rem;
-      margin-bottom: .35rem;
-      cursor: pointer;
-      color: #0f172a;
-      font-size: .86rem;
-    }
-    .study-shortcut-item:hover {
-      background: #dbeafe;
-    }
-    #${DEF_ID} {
-      padding: .75rem .9rem .8rem .9rem;
-      font-size: .9rem;
-      color: #1e293b;
-      line-height: 1.45;
-      overflow: auto;
-      max-height: 220px;
-    }
-    #${EMPTY_ID} {
-      padding: .8rem .9rem;
-      font-size: .84rem;
-      color: #64748b;
-      display: none;
-    }
-    #${ADD_BTN_ID} {
-      display: none;
-      margin: .2rem .9rem .75rem .9rem;
-      border: 1px solid #93c5fd;
-      background: #eff6ff;
-      color: #1d4ed8;
-      border-radius: .5rem;
-      padding: .35rem .55rem;
-      font-size: .82rem;
-      cursor: pointer;
-    }
-    #${PENDING_ID} {
-      border-top: 1px solid #e2e8f0;
-      background: #f8fafc;
-      padding: .5rem .9rem .7rem .9rem;
-      max-height: 120px;
-      overflow: auto;
-      font-size: .8rem;
-      color: #334155;
-    }
-    .study-shortcut-chip {
-      display: inline-block;
-      margin: .16rem .2rem .16rem 0;
-      padding: .2rem .45rem;
-      border-radius: 999px;
-      border: 1px solid #cbd5e1;
-      background: #ffffff;
-      cursor: pointer;
-    }
-  `;
+  style.textContent = ""
+    + "#" + HINT_ID + " {"
+    + "  position:fixed; right:1rem; bottom:1rem; z-index:9999;"
+    + "  background:#0f172a; color:#f8fafc; border:1px solid #334155;"
+    + "  border-radius:999px; padding:.42rem .72rem; font-size:.78rem;"
+    + "  box-shadow:0 6px 18px rgba(15,23,42,.35); cursor:pointer; user-select:none;"
+    + "}"
+    + "#" + BACKDROP_ID + " {"
+    + "  display:none; position:fixed; inset:0;"
+    + "  background:rgba(15,23,42,.35); z-index:10000;"
+    + "}"
+    + "#" + PANEL_ID + " {"
+    + "  display:none; position:fixed; right:1rem; top:4.3rem;"
+    + "  width:min(520px,95vw); max-height:calc(100vh - 6.2rem);"
+    + "  z-index:10001; background:#fff; border:1px solid #cbd5e1;"
+    + "  border-radius:.85rem; box-shadow:0 16px 40px rgba(15,23,42,.25);"
+    + "  overflow:hidden; font-family:'Segoe UI',Arial,sans-serif;"
+    + "}"
+    + ".study-shortcut-header {"
+    + "  padding:.72rem .9rem .58rem .9rem;"
+    + "  border-bottom:1px solid #e2e8f0;"
+    + "  background:linear-gradient(180deg,#f8fafc,#fff);"
+    + "}"
+    + ".study-shortcut-title { font-size:.95rem; font-weight:700; color:#0f172a; margin-bottom:.15rem; }"
+    + ".study-shortcut-sub { font-size:.78rem; color:#475569; }"
+    + "#" + INPUT_ID + " {"
+    + "  width:100%; border:1px solid #cbd5e1; border-radius:.55rem;"
+    + "  padding:.55rem .65rem; margin-top:.5rem; font-size:.9rem;"
+    + "  outline:none; box-sizing:border-box;"
+    + "}"
+    + "#" + INPUT_ID + ":focus { border-color:#0ea5e9; box-shadow:0 0 0 3px rgba(14,165,233,.15); }"
+    + "#" + RESULTS_ID + " {"
+    + "  max-height:180px; overflow:auto; border-bottom:1px solid #e2e8f0;"
+    + "  padding:.35rem .45rem; background:#f8fafc;"
+    + "}"
+    + ".study-shortcut-item {"
+    + "  border:1px solid #dbeafe; background:#eff6ff;"
+    + "  border-radius:.55rem; padding:.4rem .5rem; margin-bottom:.35rem;"
+    + "  cursor:pointer; color:#0f172a; font-size:.86rem;"
+    + "}"
+    + ".study-shortcut-item:hover { background:#dbeafe; }"
+    + ".study-shortcut-item.on-page {"
+    + "  background:#dcfce7; border-color:#86efac;"
+    + "}"
+    + ".study-shortcut-item.on-page:hover { background:#bbf7d0; }"
+    + "#" + DEF_ID + " {"
+    + "  padding:.75rem .9rem .8rem .9rem; font-size:.9rem;"
+    + "  color:#1e293b; line-height:1.45; overflow:auto; max-height:220px;"
+    + "}"
+    + "#" + EMPTY_ID + " { padding:.8rem .9rem; font-size:.84rem; color:#64748b; display:none; }"
+    + "#" + ADD_BTN_ID + " {"
+    + "  display:none; margin:.2rem .9rem .75rem .9rem;"
+    + "  border:1px solid #93c5fd; background:#eff6ff; color:#1d4ed8;"
+    + "  border-radius:.5rem; padding:.35rem .55rem; font-size:.82rem; cursor:pointer;"
+    + "}"
+    + "#" + PENDING_ID + " {"
+    + "  border-top:1px solid #e2e8f0; background:#f8fafc;"
+    + "  padding:.5rem .9rem .7rem .9rem; max-height:120px;"
+    + "  overflow:auto; font-size:.8rem; color:#334155;"
+    + "}"
+    + ".study-shortcut-chip {"
+    + "  display:inline-block; margin:.16rem .2rem .16rem 0;"
+    + "  padding:.2rem .45rem; border-radius:999px;"
+    + "  border:1px solid #cbd5e1; background:#fff; cursor:pointer;"
+    + "}";
   hostDoc.head.appendChild(style);
 
-  const root = hostDoc.createElement("div");
+  var root = hostDoc.createElement("div");
   root.id = ROOT_ID;
 
-  const hint = hostDoc.createElement("div");
+  var hint = hostDoc.createElement("div");
   hint.id = HINT_ID;
   hint.textContent = "/ Buscar concepto";
 
-  const backdrop = hostDoc.createElement("div");
+  var backdrop = hostDoc.createElement("div");
   backdrop.id = BACKDROP_ID;
 
-  const panel = hostDoc.createElement("div");
+  var panel = hostDoc.createElement("div");
   panel.id = PANEL_ID;
-  panel.innerHTML = `
-    <div class="study-shortcut-header">
-      <div class="study-shortcut-title">Diccionario rápido de Study</div>
-      <div class="study-shortcut-sub">Atajos: /, Ctrl/Cmd+K. Tip: selecciona una palabra y presiona /</div>
-      <input id="${INPUT_ID}" type="text" placeholder="Ej: raw/lake, seed, logger, tracker" />
-    </div>
-    <div id="${RESULTS_ID}"></div>
-    <div id="${EMPTY_ID}">Sin resultados. Puedes agregar el término a pendientes.</div>
-    <div id="${DEF_ID}"></div>
-    <button id="${ADD_BTN_ID}" type="button">Agregar a diccionario pendiente</button>
-    <div id="${PENDING_ID}"></div>
-  `;
+  panel.innerHTML = ""
+    + '<div class="study-shortcut-header">'
+    + '  <div class="study-shortcut-title">Diccionario r\u00e1pido</div>'
+    + '  <div class="study-shortcut-sub">Atajos: /, Ctrl/Cmd+K. Tip: selecciona una palabra y presiona /</div>'
+    + '  <input id="' + INPUT_ID + '" type="text" placeholder="Ej: clustering, forecast, merma" />'
+    + '</div>'
+    + '<div id="' + RESULTS_ID + '"></div>'
+    + '<div id="' + EMPTY_ID + '">Sin resultados. Puedes agregar el t\u00e9rmino a pendientes.</div>'
+    + '<div id="' + DEF_ID + '"></div>'
+    + '<button id="' + ADD_BTN_ID + '" type="button">Agregar a diccionario pendiente</button>'
+    + '<div id="' + PENDING_ID + '"></div>';
 
   root.appendChild(hint);
   root.appendChild(backdrop);
@@ -455,61 +393,90 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   var pendingBox = hostDoc.getElementById(PENDING_ID);
 
   if (!input || !results || !definition || !empty || !addBtn || !pendingBox) {
-    throw new Error("Panel elements not found in DOM (input=" + !!input + " results=" + !!results + ")");
+    throw new Error("Panel elements not found in DOM");
   }
 
   function escHtml(s) {
     return (s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\\n/g,"<br/>");
   }
 
-  function getPageTerms() {
-    let pageText = "";
+  /* ---- Page-term detection with word-boundary matching + TTL cache ---- */
+  var _ptCache = [];
+  var _ptKeys = new Set();
+  var _ptTime = 0;
+  var PT_TTL = 2000;
+
+  function _refreshPageTerms() {
+    var now = Date.now();
+    if (now - _ptTime < PT_TTL) return;
+    _ptTime = now;
+    var pageText = "";
     try {
-      const main = hostDoc.querySelector("section.main") || hostDoc.body;
-      pageText = (main.innerText || "").toLowerCase();
-    } catch (err) { return []; }
-    if (!pageText) return [];
-    const norm = normalize(pageText);
-    return DATA.filter(item => {
-      const t = normalize(item.term);
-      return t.length >= 3 && norm.includes(t);
+      var main = hostDoc.querySelector("section.main") || hostDoc.body;
+      pageText = (main.innerText || "");
+    } catch (err) { _ptCache = []; _ptKeys = new Set(); return; }
+    if (!pageText) { _ptCache = []; _ptKeys = new Set(); return; }
+    var norm = normalize(pageText);
+    _ptCache = DATA.filter(function(item) {
+      var t = normalize(item.term);
+      if (t.length < 3) return false;
+      try {
+        var re = new RegExp("(?:^|\\\\W)" + escRegex(t) + "(?:\\\\W|$)");
+        return re.test(norm);
+      } catch (e) {
+        return norm.indexOf(t) !== -1;
+      }
     });
+    _ptKeys = new Set(_ptCache.map(function(i) { return normalize(i.term); }));
   }
 
+  function getPageTerms() {
+    _refreshPageTerms();
+    return _ptCache;
+  }
+
+  function isOnPage(item) {
+    return _ptKeys.has(normalize(item.term));
+  }
+
+  function invalidatePageCache() {
+    _ptTime = 0;
+  }
+
+  /* ---- Filter ---- */
   function filter(query) {
-    const q = normalize(query);
+    var q = normalize(query);
     if (!q) {
-      const onPage = getPageTerms();
-      const onPageKeys = new Set(onPage.map(i => normalize(i.term)));
-      const rest = DATA.filter(i => !onPageKeys.has(normalize(i.term)));
+      var onPage = getPageTerms();
+      var rest = DATA.filter(function(i) { return !isOnPage(i); });
       return onPage.concat(rest).slice(0, 20);
     }
-    const exact = [];
-    const starts = [];
-    const contains = [];
-    DATA.forEach(item => {
-      const term = normalize(item.term);
-      const desc = normalize(item.definition);
+    var exact = [];
+    var starts = [];
+    var contains = [];
+    DATA.forEach(function(item) {
+      var term = normalize(item.term);
+      var desc = normalize(item.definition);
       if (term === q) exact.push(item);
-      else if (term.startsWith(q)) starts.push(item);
-      else if (term.includes(q) || desc.includes(q)) contains.push(item);
+      else if (term.indexOf(q) === 0) starts.push(item);
+      else if (term.indexOf(q) !== -1 || desc.indexOf(q) !== -1) contains.push(item);
     });
     return exact.concat(starts, contains).slice(0, 20);
   }
 
   function renderPending() {
-    const pending = loadPending();
+    var pending = loadPending();
     if (!pending.length) {
-      pendingBox.innerHTML = "<b>Pendientes:</b> (vacío)";
+      pendingBox.innerHTML = "<b>Pendientes:</b> (vac\u00edo)";
       return;
     }
-    const chips = pending
-      .map(term => '<span class="study-shortcut-chip" data-term="' + term.replaceAll('"', "&quot;") + '">' + term + "</span>")
+    var chips = pending
+      .map(function(term) { return '<span class="study-shortcut-chip" data-term="' + term.replace(/"/g, "&quot;") + '">' + term + "</span>"; })
       .join("");
     pendingBox.innerHTML = "<b>Pendientes:</b><br/>" + chips;
-    pendingBox.querySelectorAll(".study-shortcut-chip").forEach(node => {
-      node.addEventListener("click", () => {
-        const term = node.getAttribute("data-term") || "";
+    pendingBox.querySelectorAll(".study-shortcut-chip").forEach(function(node) {
+      node.addEventListener("click", function() {
+        var term = node.getAttribute("data-term") || "";
         input.value = term;
         render(filter(term));
       });
@@ -528,27 +495,30 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
       return;
     }
     empty.style.display = "none";
-    list.forEach(item => {
-      const button = hostDoc.createElement("div");
-      button.className = "study-shortcut-item";
-      button.textContent = item.term;
-      button.addEventListener("click", () => {
+    list.forEach(function(item) {
+      var btn = hostDoc.createElement("div");
+      var onPage = isOnPage(item);
+      btn.className = "study-shortcut-item" + (onPage ? " on-page" : "");
+      btn.textContent = (onPage ? "\ud83d\udccd " : "") + item.term;
+      btn.addEventListener("click", function() {
         definition.innerHTML = "<b>" + escHtml(item.term) + "</b><br/><br/>" + escHtml(item.definition);
       });
-      results.appendChild(button);
+      results.appendChild(btn);
     });
-    const first = list[0];
+    var first = list[0];
     definition.innerHTML = "<b>" + escHtml(first.term) + "</b><br/><br/>" + escHtml(first.definition);
   }
 
   function openPanel(prefill) {
     backdrop.style.display = "block";
     panel.style.display = "block";
-    const value = (prefill || "").trim();
+    var value = (prefill || "").trim();
     if (value) {
       input.value = value;
     }
-    setTimeout(() => {
+    invalidatePageCache();
+    updateHint();
+    setTimeout(function() {
       input.focus();
       input.select();
     }, 0);
@@ -562,9 +532,9 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   }
 
   function onKeyDown(e) {
-    const key = (e.key || "").toLowerCase();
-    const isSlash = (e.key === "/" || e.code === "Slash") && !e.ctrlKey && !e.metaKey && !e.altKey;
-    const isCmdK = key === "k" && (e.ctrlKey || e.metaKey);
+    var key = (e.key || "").toLowerCase();
+    var isSlash = (e.key === "/" || e.code === "Slash") && !e.ctrlKey && !e.metaKey && !e.altKey;
+    var isCmdK = key === "k" && (e.ctrlKey || e.metaKey);
     if ((isSlash || isCmdK) && !isEditableTarget(e.target)) {
       e.preventDefault();
       openPanel(getSelectedText());
@@ -576,42 +546,42 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
     }
   }
 
-  hint.addEventListener("click", () => openPanel(""));
+  hint.addEventListener("click", function() { openPanel(""); });
   backdrop.addEventListener("click", closePanel);
-  input.addEventListener("input", () => render(filter(input.value)));
-  addBtn.addEventListener("click", () => {
+  input.addEventListener("input", function() { render(filter(input.value)); });
+  addBtn.addEventListener("click", function() {
     addPending(input.value);
     renderPending();
     addBtn.style.display = "none";
-    definition.innerHTML = "<b>Término agregado a pendientes:</b><br/><br/>" + input.value;
+    definition.innerHTML = "<b>T\u00e9rmino agregado a pendientes:</b><br/><br/>" + input.value;
   });
 
   hostDoc.addEventListener("keydown", onKeyDown, true);
   document.addEventListener("keydown", onKeyDown, true);
+
+  var hintInterval = setInterval(updateHint, 4000);
+
   hostWindow.__studyShortcutCleanup = function() {
+    try { clearInterval(hintInterval); } catch (err) {}
     try { hostDoc.removeEventListener("keydown", onKeyDown, true); } catch (err) {}
     try { document.removeEventListener("keydown", onKeyDown, true); } catch (err) {}
-    const currentRoot = hostDoc.getElementById(ROOT_ID);
+    var currentRoot = hostDoc.getElementById(ROOT_ID);
     if (currentRoot) currentRoot.remove();
-    const currentStyle = hostDoc.getElementById(STYLE_ID);
+    var currentStyle = hostDoc.getElementById(STYLE_ID);
     if (currentStyle) currentStyle.remove();
   };
 
-  function countPageTerms() {
-    return getPageTerms().length;
-  }
-
   function updateHint() {
-    const n = countPageTerms();
+    invalidatePageCache();
+    var n = getPageTerms().length;
     hint.textContent = n > 0
-      ? "/ Buscar concepto (" + n + " en esta página)"
+      ? "/ Buscar concepto (" + n + " en esta p\u00e1gina)"
       : "/ Buscar concepto";
   }
 
   render(filter(""));
   renderPending();
   updateHint();
-  setInterval(updateHint, 4000);
   } catch(e) {
     console.error("study-shortcut error:", e);
     try {
@@ -625,7 +595,7 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
 </script>
 """
     html = html_template.replace("__PAYLOAD__", payload)
-    components.html(html, height=1, width=0)
+    components.html(html, height=0, width=0)
 
 
 def _build_toc_and_anchored_markdown(
