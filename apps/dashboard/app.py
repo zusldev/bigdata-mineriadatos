@@ -100,7 +100,6 @@ def _normalize_term_key(text: str) -> str:
     return ascii_text
 
 
-@st.cache_data
 def _load_study_dictionary() -> dict[str, dict[str, str]]:
     entries: dict[str, dict[str, str]] = {}
 
@@ -183,15 +182,16 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
         ],
         key=lambda item: item["term"].lower(),
     )
-    payload = json.dumps(entries, ensure_ascii=False)
+    payload = json.dumps(entries, ensure_ascii=True)
     html_template = """
 <script>
 (function() {
-  const DATA = __PAYLOAD__;
-  const PENDING_KEY = "study_pending_terms_v1";
+  try {
+  var DATA = __PAYLOAD__;
+  var PENDING_KEY = "study_pending_terms_v1";
 
-  let hostWindow = window;
-  let hostDoc = document;
+  var hostWindow = window;
+  var hostDoc = document;
   try {
     if (window.parent && window.parent.document) {
       hostWindow = window.parent;
@@ -447,12 +447,20 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   root.appendChild(panel);
   hostDoc.body.appendChild(root);
 
-  const input = hostDoc.getElementById(INPUT_ID);
-  const results = hostDoc.getElementById(RESULTS_ID);
-  const definition = hostDoc.getElementById(DEF_ID);
-  const empty = hostDoc.getElementById(EMPTY_ID);
-  const addBtn = hostDoc.getElementById(ADD_BTN_ID);
-  const pendingBox = hostDoc.getElementById(PENDING_ID);
+  var input = hostDoc.getElementById(INPUT_ID);
+  var results = hostDoc.getElementById(RESULTS_ID);
+  var definition = hostDoc.getElementById(DEF_ID);
+  var empty = hostDoc.getElementById(EMPTY_ID);
+  var addBtn = hostDoc.getElementById(ADD_BTN_ID);
+  var pendingBox = hostDoc.getElementById(PENDING_ID);
+
+  if (!input || !results || !definition || !empty || !addBtn || !pendingBox) {
+    throw new Error("Panel elements not found in DOM (input=" + !!input + " results=" + !!results + ")");
+  }
+
+  function escHtml(s) {
+    return (s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\\n/g,"<br/>");
+  }
 
   function getPageTerms() {
     let pageText = "";
@@ -525,12 +533,12 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
       button.className = "study-shortcut-item";
       button.textContent = item.term;
       button.addEventListener("click", () => {
-        definition.innerHTML = "<b>" + item.term + "</b><br/><br/>" + item.definition;
+        definition.innerHTML = "<b>" + escHtml(item.term) + "</b><br/><br/>" + escHtml(item.definition);
       });
       results.appendChild(button);
     });
     const first = list[0];
-    definition.innerHTML = "<b>" + first.term + "</b><br/><br/>" + first.definition;
+    definition.innerHTML = "<b>" + escHtml(first.term) + "</b><br/><br/>" + escHtml(first.definition);
   }
 
   function openPanel(prefill) {
@@ -604,11 +612,20 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   renderPending();
   updateHint();
   setInterval(updateHint, 4000);
+  } catch(e) {
+    console.error("study-shortcut error:", e);
+    try {
+      var errBox = (hostDoc || document).createElement("div");
+      errBox.style.cssText = "position:fixed;left:1rem;bottom:1rem;z-index:99999;background:#fee2e2;color:#991b1b;padding:8px 14px;border-radius:8px;font-size:12px;max-width:400px;box-shadow:0 4px 12px rgba(0,0,0,.2);";
+      errBox.textContent = "Glossary error: " + e.message;
+      (hostDoc || document).body.appendChild(errBox);
+    } catch(e2) {}
+  }
 })();
 </script>
 """
     html = html_template.replace("__PAYLOAD__", payload)
-    components.html(html, height=0, width=0)
+    components.html(html, height=1, width=0)
 
 
 def _build_toc_and_anchored_markdown(
