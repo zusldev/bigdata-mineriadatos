@@ -499,7 +499,7 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
       var btn = hostDoc.createElement("div");
       var onPage = isOnPage(item);
       btn.className = "study-shortcut-item" + (onPage ? " on-page" : "");
-      btn.textContent = (onPage ? "\ud83d\udccd " : "") + item.term;
+      btn.textContent = (onPage ? "\U0001F4CD " : "") + item.term;
       btn.addEventListener("click", function() {
         definition.innerHTML = "<b>" + escHtml(item.term) + "</b><br/><br/>" + escHtml(item.definition);
       });
