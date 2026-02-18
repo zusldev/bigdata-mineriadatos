@@ -1,6 +1,6 @@
 # Reporte Final - Sabor Mexicano
 
-**Autor:** Liborio Zúñiga  
+**Autor:** Liborio Zuñiga  
 **Materia:** Big Data y Minería de Datos  
 **Fecha:** Febrero 2026  
 

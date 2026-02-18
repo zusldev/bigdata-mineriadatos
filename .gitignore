@@ -22,8 +22,9 @@ build/
 dist/
 *.egg-info/
 
-# Streamlit cache
-.streamlit/
+# Streamlit cache (keep config.toml for deploy)
+.streamlit/*
+!.streamlit/config.toml
 
 # Local env
 .env

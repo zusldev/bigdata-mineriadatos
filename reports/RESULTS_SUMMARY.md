@@ -1,6 +1,6 @@
 # RESULTS_SUMMARY
 
-**Autor:** Liborio Zúñiga  
+**Autor:** Liborio Zuñiga  
 **Materia:** Big Data y Minería de Datos  
 
 ## Decisiones clave para directores
