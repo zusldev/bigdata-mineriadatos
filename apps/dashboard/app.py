@@ -1121,9 +1121,9 @@ def main() -> None:
             "Ranking de las 10 sucursales ordenadas por utilidad proxy "
             "(ingresos − costos operativos mensuales × meses). León lidera en "
             "eficiencia pese a ser 7ª en ingresos: tiene el menor costo operativo "
-            "($143,500/mes) y el ticket promedio más alto ($185.95). Cancún, aunque "
-            "genera los mayores ingresos ($118,067), ocupa la última posición por "
-            "costos de $382,000/mes."
+            "(\\$143,500/mes) y el ticket promedio más alto (\\$185.95). Cancún, aunque "
+            "genera los mayores ingresos (\\$118,067), ocupa la última posición por "
+            "costos de \\$382,000/mes."
         )
         branch_rank = data["branch_ranking"]
         fig = branch_ranking_chart(branch_rank)
@@ -1140,8 +1140,8 @@ def main() -> None:
         st.info(
             "Los clientes se segmentaron usando el método RFM (Recencia, Frecuencia, "
             "Valor Monetario) + clustering KMeans. Se identificaron 2 grandes perfiles: "
-            "Leales Premium (21.3 %, visitan 17 veces/año, gastan ~$4,400) y Ocasionales "
-            "(78.7 %, ~6 visitas/año, ~$1,500). El 78.7 % de clientes son Ocasionales "
+            "Leales Premium (21.3 %, visitan 17 veces/año, gastan ~\\$4,400) y Ocasionales "
+            "(78.7 %, ~6 visitas/año, ~\\$1,500). El 78.7 % de clientes son Ocasionales "
             "con alta aceptación de promociones → oportunidad de conversión a lealtad."
         )
         personas = data["personas"]
@@ -1161,8 +1161,8 @@ def main() -> None:
     with tabs[3]:
         st.subheader("Inventario")
         st.info(
-            "KPIs de inventario por sucursal. La merma total de la cadena es $627,550. "
-            "Puebla tiene el mayor costo de merma ($91,963), mientras que Monterrey "
+            "KPIs de inventario por sucursal. La merma total de la cadena es \\$627,550. "
+            "Puebla tiene el mayor costo de merma (\\$91,963), mientras que Monterrey "
             "presenta la peor tasa de quiebre (9.5 %). Las acciones sugeridas incluyen "
             "reorden automático, rotación FEFO y validación de proveedores alternos."
         )
