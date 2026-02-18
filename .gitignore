@@ -42,3 +42,8 @@ outputs/logs/*
 !outputs/manifests/.gitkeep
 !outputs/logs/.gitkeep
 data/raw/xlsx/~$*
+
+# Temp test dirs
+outputs/test_tmp/
+outputs/pytest_tmp_local/
+outputs/tmp_local/

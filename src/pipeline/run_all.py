@@ -124,7 +124,7 @@ def main() -> None:
     run_id = args.run_id or datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     study_paths = ensure_study_docs_exist()
-    ensure_study_log_updated_for_run(study_paths["study_log"], run_id)
+    ensure_study_log_updated_for_run(Path("docs/GLOSSARY.md"), run_id)
 
     step_timer = StepTimer()
     run_started = datetime.now(timezone.utc)
@@ -291,8 +291,8 @@ def main() -> None:
         finished_at_utc=run_finished,
     )
     write_run_summary(RUN_SUMMARY_PATH, summary_md)
-    append_run_summary_to_study_log(study_paths["study_log"], run_id, summary_md)
-    mark_checkpoint_complete(study_paths["checkpoints"], run_id)
+    append_run_summary_to_study_log(Path("."), run_id, summary_md)
+    mark_checkpoint_complete(Path("."), run_id)
 
     tracker.save_manifest(MANIFEST_PATH)
     logger.info(

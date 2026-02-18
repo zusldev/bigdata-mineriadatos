@@ -13,10 +13,8 @@ from src.utils.io import ArtifactTracker
 
 
 REQUIRED_STUDY_DOCS = {
-    "study_log": Path("docs/STUDY_LOG.md"),
     "glossary": Path("docs/GLOSSARY.md"),
     "decisions": Path("docs/DECISIONS.md"),
-    "checkpoints": Path("docs/CHECKPOINTS.md"),
 }
 
 
@@ -57,21 +55,9 @@ def ensure_study_docs_exist() -> dict[str, Path]:
     return paths
 
 
-def ensure_study_log_updated_for_run(study_log_path: Path, run_id: str) -> None:
-    text = study_log_path.read_text(encoding="utf-8")
-    run_pattern = re.compile(rf"Run ID:\s*{re.escape(run_id)}", flags=re.IGNORECASE)
-    no_changes_pattern = re.compile(
-        rf"NO_CHANGES:\s*{re.escape(run_id)}", flags=re.IGNORECASE
-    )
-
-    if run_pattern.search(text) or no_changes_pattern.search(text):
-        return
-
-    raise SystemExit(
-        "ERROR Study Mode: docs/STUDY_LOG.md no contiene entrada para este run.\n"
-        f"Run esperado: {run_id}\n"
-        "Agrega una mini-lección con `Run ID: <valor>` o `NO_CHANGES: <valor>` y vuelve a ejecutar."
-    )
+def ensure_study_log_updated_for_run(study_log_path: Path, run_id: str) -> None:  # noqa: ARG001
+    """No-op: study log guard desactivado en rama de presentación."""
+    return
 
 
 def render_run_summary_markdown(
@@ -142,7 +128,7 @@ def render_run_summary_markdown(
     lines.append("## Verificación rápida")
     lines.append("1. Confirmar `reports/final_report.md` actualizado.")
     lines.append("2. Confirmar `outputs/tables/*.csv` para tablas de negocio.")
-    lines.append("3. Ejecutar dashboard y validar pestaña 'Aprender / Study Mode'.")
+    lines.append("3. Ejecutar dashboard y validar las pestañas del panel.")
     lines.append("")
     return "\n".join(lines)
 
@@ -153,20 +139,12 @@ def write_run_summary(path: Path, content: str) -> None:
 
 
 def append_run_summary_to_study_log(
-    study_log_path: Path, run_id: str, run_summary_md: str
+    study_log_path: Path, run_id: str, run_summary_md: str  # noqa: ARG001
 ) -> None:
-    original = study_log_path.read_text(encoding="utf-8")
-    stamp = datetime.now(timezone.utc).isoformat()
-    block = (
-        "\n\n---\n"
-        f"\n### Resumen automático del run `{run_id}` ({stamp})\n\n"
-        f"{run_summary_md}\n"
-    )
-    study_log_path.write_text(original + block, encoding="utf-8")
+    """No-op: study log desactivado en rama de presentación."""
+    return
 
 
-def mark_checkpoint_complete(checkpoints_path: Path, run_id: str) -> None:
-    existing = checkpoints_path.read_text(encoding="utf-8")
-    line = f"- [x] Pipeline completado para Run ID: {run_id}"
-    if line not in existing:
-        checkpoints_path.write_text(existing + "\n" + line + "\n", encoding="utf-8")
+def mark_checkpoint_complete(checkpoints_path: Path, run_id: str) -> None:  # noqa: ARG001
+    """No-op: checkpoints desactivados en rama de presentación."""
+    return

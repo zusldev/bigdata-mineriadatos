@@ -1004,7 +1004,6 @@ def main() -> None:
             "No se encontraron tablas procesadas de ventas. Ejecuta primero:\n\n"
             "`python -m src.pipeline.run_all --seed 42 --forecast-horizon 6 --top-ingredients 12`"
         )
-        _render_study_tab()
         return
 
     sales["date"] = pd.to_datetime(sales.get("date"), errors="coerce")
@@ -1078,7 +1077,6 @@ def main() -> None:
             "Pronósticos",
             "Recomendaciones",
             "📄 Informe Final",
-            "Aprender / Study Mode",
         ]
     )
 
@@ -1301,10 +1299,6 @@ def main() -> None:
                 )
             with col_body_c:
                 st.markdown(anchored_clean, unsafe_allow_html=True)
-
-    # ── Tab 8: Study Mode ──────────────────────────────────────────
-    with tabs[8]:
-        _render_study_tab()
 
 
 if __name__ == "__main__":

@@ -46,8 +46,6 @@ pip install -r requirements.txt
 python -m src.pipeline.run_all --seed 42 --forecast-horizon 6 --top-ingredients 12 --run-id 2026-02-17-a
 ```
 
-> **Nota:** Antes de correr el pipeline, actualizar `docs/STUDY_LOG.md` con el Run ID. El pipeline valida trazabilidad en modo fail-fast.
-
 ---
 
 ## Estructura del Proyecto
@@ -172,4 +170,4 @@ docker run --rm -p 8501:8501 sabor-mexicano \
 | `outputs/models/` | Modelos serializados (.pkl) |
 | `outputs/logs/` | Resumen automático de cada ejecución |
 | `reports/` | Informe caso de estudio (.md + .docx), limpieza de datos, resumen ejecutivo |
-| `docs/` | Metodología, supuestos, diccionario de datos, glosario, study log |
+| `docs/` | Metodología, supuestos, diccionario de datos, glosario |

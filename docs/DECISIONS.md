@@ -140,23 +140,13 @@ Registro de decisiones arquitectónicas y de modelado.
   - Confiar solo en salida por defecto de `-q`: insuficiente para aprendizaje.
   - Script externo que parsea consola: más frágil y acoplado al formato de pytest.
 
-## D-017 Documento dedicado de flujo Big Data -> Minería de Datos
+## D-017 Documentación de flujo Big Data -> Minería de Datos
 - Decisión:
-  - Crear `docs/STUDY_FLOW_BIGDATA_MINING.md` como material de estudio profundo.
+  - Documentar el control de flujo real del pipeline y su relación con arquitectura de datos, modelado y BI.
 - Razón:
-  - Explicar con rigor el control de flujo real del pipeline y su relación con arquitectura de datos, modelado y BI.
+  - Contar con referencia clara del flujo técnico del proyecto.
 - Alternativas rechazadas:
-  - Repartir explicación en docs existentes: quedaba fragmentado y difícil de estudiar.
-  - Solo explicación en dashboard sin documento persistente: menor trazabilidad académica.
-
-## D-018 Extensión de Study Mode con sección de flujo y Mermaid copiable
-- Decisión:
-  - Agregar en dashboard la sección `🧠 Flujo: Big Data → Minería de Datos`, render del doc, diagramas Mermaid copiables y checklist de comprensión.
-- Razón:
-  - Facilitar estudio guiado directamente desde la app de presentación.
-- Alternativas rechazadas:
-  - Mostrar solo links a archivos: menos útil en clase.
-  - Ocultar diagramas dentro del markdown sin bloque copiable: peor reutilización en apuntes.
+  - Repartir explicación en docs existentes: quedaba fragmentado.
 
 ## D-019 Índice lateral derecho para navegación de estudio
 - Decisión:

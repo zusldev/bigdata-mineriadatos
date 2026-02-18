@@ -13,17 +13,18 @@ from src.pipeline.study_mode import (
 from src.utils.io import ArtifactTracker
 
 
-def test_study_log_guard_accepts_run_id(tmp_path: Path):
+def test_study_log_guard_is_noop(tmp_path: Path):
+    """Guard desactivado en rama de presentación — siempre pasa."""
     study_log = tmp_path / "STUDY_LOG.md"
-    study_log.write_text("# log\n\nRun ID: 2026-02-11\n", encoding="utf-8")
+    study_log.write_text("# log\n", encoding="utf-8")
     ensure_study_log_updated_for_run(study_log, "2026-02-11")
 
 
-def test_study_log_guard_rejects_missing_run_id(tmp_path: Path):
+def test_study_log_guard_noop_no_raise(tmp_path: Path):
+    """Guard desactivado — ya no lanza SystemExit."""
     study_log = tmp_path / "STUDY_LOG.md"
     study_log.write_text("# log\n\nRun ID: 2026-02-10\n", encoding="utf-8")
-    with pytest.raises(SystemExit):
-        ensure_study_log_updated_for_run(study_log, "2026-02-11")
+    ensure_study_log_updated_for_run(study_log, "2026-02-11")
 
 
 def test_run_summary_contains_diff_and_sections():
