@@ -570,8 +570,33 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
     if (currentStyle) currentStyle.remove();
   };
 
+  function countPageTerms() {
+    let pageText = "";
+    try {
+      const main = hostDoc.querySelector("section.main") || hostDoc.body;
+      pageText = (main.innerText || "").toLowerCase();
+    } catch (err) { return 0; }
+    if (!pageText) return 0;
+    const norm = normalize(pageText);
+    let count = 0;
+    DATA.forEach(item => {
+      const t = normalize(item.term);
+      if (t.length >= 3 && norm.includes(t)) count++;
+    });
+    return count;
+  }
+
+  function updateHint() {
+    const n = countPageTerms();
+    hint.textContent = n > 0
+      ? "/ Buscar concepto (" + n + " en esta página)"
+      : "/ Buscar concepto";
+  }
+
   render(filter(""));
   renderPending();
+  updateHint();
+  setInterval(updateHint, 4000);
 })();
 </script>
 """
