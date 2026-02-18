@@ -559,10 +559,7 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   hostDoc.addEventListener("keydown", onKeyDown, true);
   document.addEventListener("keydown", onKeyDown, true);
 
-  var hintInterval = setInterval(updateHint, 4000);
-
   hostWindow.__studyShortcutCleanup = function() {
-    try { clearInterval(hintInterval); } catch (err) {}
     try { hostDoc.removeEventListener("keydown", onKeyDown, true); } catch (err) {}
     try { document.removeEventListener("keydown", onKeyDown, true); } catch (err) {}
     var currentRoot = hostDoc.getElementById(ROOT_ID);
@@ -572,11 +569,7 @@ def _inject_global_study_shortcut(dictionary: dict[str, dict[str, str]]) -> None
   };
 
   function updateHint() {
-    invalidatePageCache();
-    var n = getPageTerms().length;
-    hint.textContent = n > 0
-      ? "/ Buscar concepto (" + n + " en esta p\u00e1gina)"
-      : "/ Buscar concepto";
+    hint.textContent = "/ Buscar concepto";
   }
 
   render(filter(""));
