@@ -1255,25 +1255,52 @@ def main() -> None:
 
     # ── Tab 7: Informe Final ───────────────────────────────────────
     with tabs[7]:
-        st.subheader("📄 Informe del Caso de Estudio")
-        st.info(
-            "Documento completo del caso de estudio *Sabor Mexicano* generado "
-            "a partir del análisis de datos. Incluye resumen ejecutivo, metodología, "
-            "hallazgos clave, visualizaciones y recomendaciones estratégicas."
+        sub_report, sub_clean = st.tabs(
+            ["📄 Caso de Estudio", "🧹 Limpieza de Datos"]
         )
-        report_path = REPORTS_DIR / "informe_caso_estudio.md"
-        report_md = _read_markdown(report_path)
-        toc_items, anchored_md = _build_toc_and_anchored_markdown(report_md)
-        col_toc, col_body = st.columns([1, 3])
-        with col_toc:
-            _render_toc(
-                toc_items,
-                title="Índice del informe",
-                key_prefix="report_toc",
-                height=600,
+
+        with sub_report:
+            st.subheader("📄 Informe del Caso de Estudio")
+            st.info(
+                "Documento completo del caso de estudio *Sabor Mexicano* generado "
+                "a partir del análisis de datos. Incluye resumen ejecutivo, metodología, "
+                "hallazgos clave, visualizaciones y recomendaciones estratégicas."
             )
-        with col_body:
-            st.markdown(anchored_md, unsafe_allow_html=True)
+            report_path = REPORTS_DIR / "informe_caso_estudio.md"
+            report_md = _read_markdown(report_path)
+            toc_items, anchored_md = _build_toc_and_anchored_markdown(report_md)
+            col_toc, col_body = st.columns([1, 3])
+            with col_toc:
+                _render_toc(
+                    toc_items,
+                    title="Índice del informe",
+                    key_prefix="report_toc",
+                    height=600,
+                )
+            with col_body:
+                st.markdown(anchored_md, unsafe_allow_html=True)
+
+        with sub_clean:
+            st.subheader("🧹 Informe de Limpieza de Datos")
+            st.info(
+                "Documento que detalla el flujo completo de limpieza y preparación "
+                "de datos: carga, normalización, eliminación de duplicados, imputación "
+                "de valores faltantes, validación de tipos y rangos, y resumen de "
+                "transformaciones aplicadas a cada tabla."
+            )
+            clean_path = REPORTS_DIR / "informe_limpieza_datos.md"
+            clean_md = _read_markdown(clean_path)
+            toc_clean, anchored_clean = _build_toc_and_anchored_markdown(clean_md)
+            col_toc_c, col_body_c = st.columns([1, 3])
+            with col_toc_c:
+                _render_toc(
+                    toc_clean,
+                    title="Índice de limpieza",
+                    key_prefix="clean_toc",
+                    height=600,
+                )
+            with col_body_c:
+                st.markdown(anchored_clean, unsafe_allow_html=True)
 
     # ── Tab 8: Study Mode ──────────────────────────────────────────
     with tabs[8]:
