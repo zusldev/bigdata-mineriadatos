@@ -248,7 +248,7 @@ def chart_waste_by_branch():
 def chart_forecast_peaks():
     pk = pd.read_csv(os.path.join(TABLES, "forecast_peak_months.csv"))
     pk = pk.sort_values("peak_forecast_qty", ascending=False).head(15)
-    pk["label"] = pk["branch_name"] + " — " + pk["ingredient"]
+    pk["label"] = pk["branch_name"].astype(str) + " — " + pk["ingredient"].astype(str)
 
     fig = go.Figure(go.Bar(
         y=pk["label"][::-1],

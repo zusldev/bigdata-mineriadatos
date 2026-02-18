@@ -116,7 +116,7 @@ def build():
 
     # ── Default font ──
     style = doc.styles["Normal"]
-    font = style.font
+    font = style.font  # type: ignore[union-attr]
     font.name = "Calibri"
     font.size = Pt(11)
 

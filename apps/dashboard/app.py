@@ -1002,7 +1002,7 @@ def _render_study_tab() -> None:
 
 
 def main() -> None:
-    st.title("Dashboard - Cadena Sabor Mexicano")
+    st.title("Dashboard Ejecutivo - Cadena Sabor Mexicano")
     st.caption(
         "Filtros globales y análisis integrado de ventas, clientes, inventario, digital y pronósticos."
     )
@@ -1022,9 +1022,9 @@ def main() -> None:
         )
         return
 
-    sales["date"] = pd.to_datetime(sales.get("date"), errors="coerce")
+    sales["date"] = pd.to_datetime(sales["date"], errors="coerce")
     for col in ["total_sale"]:
-        sales[col] = pd.to_numeric(sales.get(col), errors="coerce").fillna(0.0)
+        sales[col] = pd.to_numeric(sales[col], errors="coerce").fillna(0.0)
 
     min_date = sales["date"].min()
     max_date = sales["date"].max()
