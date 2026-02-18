@@ -1,3 +1,7 @@
+> **📋 [Proyecto](../README.md)** · **🧹 [Informe de Limpieza de Datos](informe_limpieza_datos.md)** · **📊 [Informe del Caso de Estudio](informe_caso_estudio.md)**
+
+---
+
 # Informe Integral — Caso de Estudio: "Sabor Mexicano"
 
 **Materia:** Big Data y Minería de Datos  

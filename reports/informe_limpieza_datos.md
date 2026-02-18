@@ -1,3 +1,7 @@
+> **📋 [Proyecto](../README.md)** · **🧹 [Informe de Limpieza de Datos](informe_limpieza_datos.md)** · **📊 [Informe del Caso de Estudio](informe_caso_estudio.md)**
+
+---
+
 # Informe de Limpieza y Preparación de Datos
 
 ## Proyecto: Sabor Mexicano — Caso de Estudio Big Data & Minería de Datos
