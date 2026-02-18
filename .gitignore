@@ -41,3 +41,4 @@ outputs/logs/*
 !outputs/models/.gitkeep
 !outputs/manifests/.gitkeep
 !outputs/logs/.gitkeep
+data/raw/xlsx/~$*
